@@ -41,8 +41,6 @@
 			<string>src/net/rezmason</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>tetris</string>
 			<key>regexFolderFilter</key>
@@ -628,13 +626,6 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
-				<key>display</key>
-				<dict>
-					<key>isExpanded</key>
-					<true/>
-					<key>subItems</key>
-					<dict/>
-				</dict>
 				<key>engram</key>
 				<dict>
 					<key>isExpanded</key>
@@ -643,13 +634,6 @@
 					<dict/>
 				</dict>
 			</dict>
-		</dict>
-		<key>tetris</key>
-		<dict>
-			<key>isExpanded</key>
-			<true/>
-			<key>subItems</key>
-			<dict/>
 		</dict>
 	</dict>
 	<key>windowFrame</key>
