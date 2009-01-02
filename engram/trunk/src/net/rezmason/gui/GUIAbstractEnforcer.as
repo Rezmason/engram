@@ -1,0 +1,1 @@
+﻿package net.rezmason.gui {		internal class GUIAbstractEnforcer {				internal static const INSTANCE:GUIAbstractEnforcer = new GUIAbstractEnforcer;	}	}

@@ -1,0 +1,92 @@
+Create prompt system
+	Engram element
+	Gets added to top of stage
+		Class is assigned the stage and is registered certain alerts from static functions
+	Appears nearby relevant mouse click
+		If there is none, it apears in the center of the stage
+	Maneuvers around to fit onscreen
+		rotated randomly each time from -30 to 30 degrees
+		Bright red WindowSurface with black /////// lines 
+			Lines = bitmap that repeats across a rectangular fill
+		A road triangle icon and white text
+		Clear buttons with white text- "AlertButton" with clear AlertButtonBack
+	Entirely code-based and automatic
+		Buttons created from list of button names
+		new Prompt(message:String, leftButtons:Array, rightButtons:Array);
+		only draw the leftButtons that don't cross the median to the right, and vice versa.
+	Work out dimension system in Test.as
+	
+	Alerts get generated during startup
+	Default negative and positive responses in Alert (like MenuBase)
+
+Gamepad Mode
+	(Selects current target GUIAbstract (based on a dictionary), tweens the GamepadOutline (scale9) around it)
+		Menus need a default Gamepad target and a last Gamepad target
+	(left/up and right/down progress up and down the display list to the next GUIAbstract)
+		Make sure GUIAbstracts are in proper order in menus
+	(A is a mouse click on the selected GUIAbstract, B is a mouse click on the default negative target)
+	(Speeds up hex slider and menu sliders)
+	Prompts user for a sequence of gamepad input
+		Never mind
+	Snipes the cursor (hides it)
+	"Guess you won't be needing that cursor anymore."
+	"Let's face it; he was just using you."
+	Gives a blurb about keypad use. Get it?
+		Got it
+
+More GUIAbstracts
+	GUISimpleButton (like the arrows in DebugMenu)
+	GUIGroup
+		Enables / disables children
+	GUITabSet & GUITab
+	GUIScrollBar
+		Arrows can be enabled or disabled
+		Thumb can be absolute or relative
+	GUIKnob
+	GUIRadioButtonSet & GUIRadioButton
+
+Overhaul settings menu
+
+	"Tabbed" system, skims through slides of options (display object slider)
+	
+	Slides:
+		Input (looks like an NES controller)
+		Audio (knob for music, knob for effects)
+			Makes feedback sounds as you use it
+		Video (screen size, Effects, Smoothing)
+			Window size setting (AIR-specific)
+					320 x 240
+					640 x 480
+					800 x 600
+					1024 x 768
+					1280 x 960
+			Allow GUIManager to rerez in non-fullscreen situations
+			Uses graphic from Windows 95 Display control panel
+		Modules (looks like System 7 prefs)
+			
+			List of modules, alphabetically, with their name, their icon and some toggles
+			Scroll bar
+			Clicking on a module shows its summary text and author text
+				Possibly also shows module-specific settings
+			Delete button
+				"Are you positive?" dialog, yes, no
+				Grayed out for built-ins, and when game is being played
+				
+				Complete implementing lastMix
+					When a module is deleted, lastMix must also be spliced, saved, etc.
+				
+			Drag&drop modules in
+				"Poke with a stick" dialog
+					If new module has the same name as an old module, bring up an overwrite alert
+					Successful drop, module list is redrawn and new module is selected
+					Unsuccessful drop, "That's not a module" dialog, retry, close
+						Remember to delete failures
+			
+			SettingsMenu grabs data from ModuleManager
+				The entire module list
+					Gets names, icons, versions and info blurbs (and reference to resetSettings())
+				The entire module settings list
+					Gets module settings
+	
+	Default button resets current slide
+	Return button

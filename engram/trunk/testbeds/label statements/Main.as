@@ -1,0 +1,1 @@
+﻿package {	import flash.display.*;	public class Main extends Sprite {		private var huh:*;		public function Main():void {			example:{				trace("!");				if (true) {					huh = example;					trace(huh);					break example;				}				trace("!!");			}		}	}};

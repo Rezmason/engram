@@ -1,0 +1,1 @@
+﻿package {		public class SharedClass {				public var string:String;				public function SharedClass():void {					}	}}

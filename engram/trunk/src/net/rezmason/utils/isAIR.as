@@ -1,0 +1,1 @@
+﻿package net.rezmason.utils {		import flash.system.Security;		public function isAIR():Boolean {				return (Security.sandboxType == "application");			}}

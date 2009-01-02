@@ -1,0 +1,1 @@
+﻿package net.rezmason.utils {		public function camelToCaps(str:String):String {		return str.replace(/([a-z])([A-Z])([A-Z])([a-z])/g, "$1$2 $3$4").replace(/([a-z])([A-Z])/g, "$1 $2").toUpperCase();	}}

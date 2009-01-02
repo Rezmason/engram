@@ -1,0 +1,1 @@
+﻿package net.rezmason.utils {		public function isFlexCompiled():Boolean {				return (FlexCheck.Clazz != null);			}}internal class FlexCheck {		[Embed(source="isFlexCompiled.as",mimeType="application/octet-stream")]	public static const Clazz:Class;}
