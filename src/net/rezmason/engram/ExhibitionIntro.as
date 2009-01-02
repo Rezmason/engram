@@ -1,0 +1,1 @@
+﻿package net.rezmason.engram {		// IMPORT STATEMENTS	import flash.events.MouseEvent;		public class ExhibitionIntro extends MenuBase {				// CONSTRUCTOR		public function ExhibitionIntro(__main:Main):void {			_defaultAffirmative = _defaultNegative = btnAlright;			btnAlright.addEventListener(MouseEvent.CLICK, __main.showMainMenu);		}	}}

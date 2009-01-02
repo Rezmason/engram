@@ -1,0 +1,19 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/1.0">
+	<id>com.adobe.example.file-download</id>
+	<version>1.0</version>
+	<filename>file download</filename>
+	<description></description>
+	<name>file download</name>
+	<copyright></copyright>
+	<initialWindow>
+		<content>file%20download.swf</content>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+	<x>200</x><y>200</y><maximizable>true</maximizable><minimizable>true</minimizable><resizable>true</resizable></initialWindow>
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<icon>
+	</icon>
+</application>

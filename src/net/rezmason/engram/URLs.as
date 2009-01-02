@@ -1,0 +1,1 @@
+﻿package net.rezmason.engram {		// IMPORT STATEMENTS	import flash.net.URLRequest;		internal class URLs {		// CLASS PROPERTIES		internal static const RM_URL:URLRequest = new URLRequest("http://www.rezmason.net/");		internal static const EGM_URL:URLRequest = new URLRequest("http://www.rezmason.net/engram");	}}

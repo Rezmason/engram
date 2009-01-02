@@ -1,0 +1,1 @@
+﻿package net.rezmason.utils {	public function isFlexCompiled():Boolean {		return (FlexCheck.Dud != null);	}}internal class FlexCheck {		[Embed(source='dud.swf')]	public static const Dud:Class;	}

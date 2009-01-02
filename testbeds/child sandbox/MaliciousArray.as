@@ -1,0 +1,1 @@
+﻿package {	public dynamic class MaliciousArray extends Array {;	public function MaliciousArray(...args):void {				super(args);	}	AS3 override function push(...args):uint {		for (var i:* in args) {			trace(args[i]);		}		return super.push.apply(this,args);	}}}
