@@ -1,36 +1,14 @@
 Create prompt system
 	Appears nearby relevant mouse click
-		If there is none, it apears in the center of the stage
+		If there is none, it appears in the center of the stage
 	Maneuvers around to fit onscreen
-		rotated randomly each time from -30 to 30 degrees
-	Clear buttons with white/back text- "AlertButton" with clear AlertButtonBack
 	
-	Resizes based on parameters handed to its show() function
-		Buttons created from list of button names
-	Work out dimension system in Test.as
-	
-	Alerts get generated during startup
 	Default negative and positive responses in Alert (like MenuBase)
 
 Get rid of the whiner once the prompt exists
 
 Allow user to zap the high scores
 	Can't undo once it's done.
-
-Gamepad Mode
-	(Selects current target GUIAbstract (based on a dictionary), tweens the GamepadOutline (scale9) around it)
-		Menus need a default Gamepad target and a last Gamepad target
-	(left/up and right/down progress up and down the display list to the next GUIAbstract)
-		Make sure GUIAbstracts are in proper order in menus
-	(A is a mouse click on the selected GUIAbstract, B is a mouse click on the default negative target)
-	(Speeds up hex slider and menu sliders)
-	Prompts user for a sequence of gamepad input
-		Never mind
-	Snipes the cursor (hides it)
-	"Guess you won't be needing that cursor anymore."
-	"Let's face it; he was just using you."
-	Gives a blurb about keypad use. Get it?
-		Got it
 
 More GUIAbstracts
 	GUISimpleButton (like the arrows in DebugMenu)
@@ -88,6 +66,22 @@ Overhaul settings menu
 	
 	Default button resets current slide
 	Return button
+
+
+Gamepad Mode
+	(Selects current target GUIAbstract (based on a dictionary), tweens the GamepadOutline (scale9) around it)
+		Menus need a default Gamepad target and a last Gamepad target
+	(left/up and right/down progress up and down the display list to the next GUIAbstract)
+		Make sure GUIAbstracts are in proper order in menus
+	(A is a mouse click on the selected GUIAbstract, B is a mouse click on the default negative target)
+	(Speeds up hex slider and menu sliders)
+	Prompts user for a sequence of gamepad input
+		Never mind
+	Snipes the cursor (hides it)
+	"Guess you won't be needing that cursor anymore."
+	"Let's face it; he was just using you."
+	Gives a blurb about keypad use. Get it?
+		Got it
 
 New module- Bodhi (organizer)
 
