@@ -1,4 +1,7 @@
 Create prompt system
+
+	Peels on, off
+
 	Appears nearby relevant mouse click
 		If there is none, it appears in the center of the stage
 	Maneuvers around to fit onscreen
@@ -69,12 +72,16 @@ Overhaul settings menu
 
 
 Gamepad Mode
-	(Selects current target GUIAbstract (based on a dictionary), tweens the GamepadOutline (scale9) around it)
-		Menus need a default Gamepad target and a last Gamepad target
-	(left/up and right/down progress up and down the display list to the next GUIAbstract)
-		Make sure GUIAbstracts are in proper order in menus
+	net.rezmason.gui.IGamepadTarget.compileGUITable(): 
+		compile an array of gpChildren {gamepad-accessible child, child.getBounds(target)}
+	(Selects current gpChild, tweens the GamepadOutline (scale9) around it)
+		Menus need a default gpChild and a previous gpChild
+	arrow keys direct focus / focal point to the next gpChild
+		If a ray drawn in the indicated direction from the current focal point hits another gpChild, it becomes the next focus
+		Otherwise, the gpChild closest to the current gpChild in the indicated direction gains focus; its center is the new focal point
 	(A is a mouse click on the selected GUIAbstract, B is a mouse click on the default negative target)
 	(Speeds up hex slider and menu sliders)
+	(ScoreInput uses three-letter dial system instead of text box)
 	Prompts user for a sequence of gamepad input
 		Never mind
 	Snipes the cursor (hides it)
