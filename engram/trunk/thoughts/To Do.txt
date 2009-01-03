@@ -3,10 +3,7 @@ Create prompt system
 		If there is none, it apears in the center of the stage
 	Maneuvers around to fit onscreen
 		rotated randomly each time from -30 to 30 degrees
-	Bright red WindowSurface with black /////// lines 
-		Lines = bitmap that repeats across a rectangular fill
-	A road triangle icon and white text
-	Clear buttons with white text- "AlertButton" with clear AlertButtonBack
+	Clear buttons with white/back text- "AlertButton" with clear AlertButtonBack
 	
 	Resizes based on parameters handed to its show() function
 		Buttons created from list of button names
@@ -16,6 +13,9 @@ Create prompt system
 	Default negative and positive responses in Alert (like MenuBase)
 
 Get rid of the whiner once the prompt exists
+
+Allow user to zap the high scores
+	Can't undo once it's done.
 
 Gamepad Mode
 	(Selects current target GUIAbstract (based on a dictionary), tweens the GamepadOutline (scale9) around it)
