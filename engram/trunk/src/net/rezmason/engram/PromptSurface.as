@@ -1,1 +1,1 @@
-﻿package net.rezmason.engram {		internal class PromptSurface extends WindowSurface {				// CONSTRUCTOR		public function PromptSurface(w:Number, h:Number):void {						bevelAmount ||= 10;			edgeAmount ||= 2;						super(w, h);		}	}	}
+﻿package net.rezmason.engram {		internal class PromptSurface extends WindowSurface {				// CONSTRUCTOR		public function PromptSurface(w:Number, h:Number):void {						bevelAmount ||= 10;			edgeAmount ||= 2;						super(w, h, 0.2);					}	}	}
