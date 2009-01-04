@@ -1,7 +1,9 @@
 Create prompt system
 
 	Peels on, off
-
+	
+	Clever updates- look at round worm class for general idea
+	
 	Appears nearby relevant mouse click
 		If there is none, it appears in the center of the stage
 	Maneuvers around to fit onscreen
