@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/net/rezmason/display/Peeler.as</string>
+	<string>src/net/rezmason/engram/Main.as</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -135,7 +135,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>39</integer>
+			<integer>223</integer>
 		</dict>
 		<key>src/net/rezmason/display/blix/Doppelganger.as</key>
 		<dict>
@@ -159,20 +159,6 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/AlertType.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>87</integer>
-				<key>line</key>
-				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -221,49 +207,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/HexSlider.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>65</integer>
-				<key>line</key>
-				<integer>191</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>152</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>51</integer>
-				<key>line</key>
-				<integer>191</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>65</integer>
-				<key>line</key>
-				<integer>191</integer>
-			</dict>
-		</dict>
 		<key>src/net/rezmason/engram/Main.as</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>40</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>559</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>530</integer>
 		</dict>
 		<key>src/net/rezmason/engram/MainMenu.as</key>
 		<dict>
@@ -348,20 +304,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>50</integer>
-		</dict>
-		<key>src/net/rezmason/engram/Prompt.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>25</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>src/net/rezmason/engram/ScoreInput.as</key>
 		<dict>
@@ -535,14 +477,28 @@
 				<integer>219</integer>
 			</dict>
 		</dict>
+		<key>thoughts/Diary.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>482</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>285</integer>
+			<key>firstVisibleLine</key>
+			<integer>27</integer>
+		</dict>
 		<key>thoughts/To Do.txt</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>49</integer>
+				<integer>34</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -553,10 +509,8 @@
 	<key>openDocuments</key>
 	<array>
 		<string>thoughts/To Do.txt</string>
+		<string>thoughts/Diary.txt</string>
 		<string>src/net/rezmason/engram/Main.as</string>
-		<string>src/net/rezmason/engram/Prompt.as</string>
-		<string>src/net/rezmason/display/Peeler.as</string>
-		<string>src/net/rezmason/engram/HexSlider.as</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -589,6 +543,13 @@
 					<dict/>
 				</dict>
 				<key>engram</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
+				<key>media</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
