@@ -1,14 +1,4 @@
-Create prompt system
-
-	Peels on, off
-	
-	Make sure it peels off before function is called
-	
-	Appears nearby relevant mouse click or randomly
-	Maneuvers around to fit onscreen
-	
-	Default negative and positive responses in Alert (like MenuBase)
-
+Create showPrompt function in Main
 Get rid of the whiner once the prompt exists
 
 Allow user to zap the high scores
@@ -86,6 +76,7 @@ Gamepad Mode
 	Prompts user for a sequence of gamepad input
 		Never mind
 	Snipes the cursor (hides it)
+		killMouse, reviveMouse
 	"Guess you won't be needing that cursor anymore."
 	"Let's face it; he was just using you."
 	Gives a blurb about keypad use. Get it?
