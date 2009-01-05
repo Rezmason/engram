@@ -2,10 +2,9 @@ Create prompt system
 
 	Peels on, off
 	
-	Clever updates- look at round worm class for general idea
+	Make sure it peels off before function is called
 	
-	Appears nearby relevant mouse click
-		If there is none, it appears in the center of the stage
+	Appears nearby relevant mouse click or randomly
 	Maneuvers around to fit onscreen
 	
 	Default negative and positive responses in Alert (like MenuBase)
