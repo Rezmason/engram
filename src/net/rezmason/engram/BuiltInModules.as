@@ -8,7 +8,7 @@ package net.rezmason.engram {
 		internal static const GAME_LIST:Array = 
 		[
 			// for now
-			"./modules/tetris.egm",
+			//"./modules/tetris.egm",
 			//"./modules/buddy.swf",
 			"./modules/tetris.egm.swf",
 		];

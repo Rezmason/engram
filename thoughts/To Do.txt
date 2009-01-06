@@ -1,18 +1,18 @@
-Get rid of the whiner once the prompt works
-
-Allow user to zap the high scores
-	Can't undo once it's done.
-
 More GUIAbstracts
-	GUISimpleButton (like the arrows in DebugMenu)
+	GUIRadioButton
+		up state
+		down state
 	GUIGroup
-		Enables / disables children
-	GUITabSet & GUITab
-	GUIScrollBar
-		Arrows can be enabled or disabled
-		Thumb can be absolute or relative
-	GUIKnob
-	GUIRadioButtonSet & GUIRadioButton
+		(no appearance)
+	
+		Enables / disables GUI children
+		Makes states of child GUIRadioButtons mutually exclusive
+	GUISlider
+		thumb - can be absolute or relative
+		track
+		arrows (if present)
+	GUIDial
+		knob
 
 Overhaul settings menu
 
