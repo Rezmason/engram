@@ -1,5 +1,4 @@
-Create showPrompt function in Main
-Get rid of the whiner once the prompt exists
+Get rid of the whiner once the prompt works
 
 Allow user to zap the high scores
 	Can't undo once it's done.
