@@ -11,7 +11,8 @@ More GUIAbstracts
 		thumb - can be absolute or relative
 		track
 		arrows (if present)
-	GUIDial
+	GUIDial	
+		minRotation, maxRotation
 		knob
 
 Overhaul settings menu

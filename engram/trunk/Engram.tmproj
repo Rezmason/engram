@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/net/rezmason/engram/Alerts.as</string>
+	<string>thoughts/To Do.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -179,34 +179,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/Alerts.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>8</integer>
-				<key>line</key>
-				<integer>18</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/BuiltInModules.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>src/net/rezmason/engram/Canvas.as</key>
 		<dict>
 			<key>caret</key>
@@ -249,20 +221,6 @@
 			<key>firstVisibleLine</key>
 			<integer>42</integer>
 		</dict>
-		<key>src/net/rezmason/engram/Main.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>426</integer>
-		</dict>
 		<key>src/net/rezmason/engram/MainMenu.as</key>
 		<dict>
 			<key>caret</key>
@@ -276,6 +234,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/MenuBase.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>105</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
 		</dict>
 		<key>src/net/rezmason/engram/MenuEvent.as</key>
 		<dict>
@@ -347,7 +319,7 @@
 			<key>firstVisibleLine</key>
 			<integer>50</integer>
 		</dict>
-		<key>src/net/rezmason/engram/ScoreInput.as</key>
+		<key>src/net/rezmason/engram/ScoreboardEntry.as</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -359,7 +331,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>18</integer>
+			<integer>0</integer>
 		</dict>
 		<key>src/net/rezmason/engram/Scribble.as</key>
 		<dict>
@@ -391,6 +363,20 @@
 				<integer>105</integer>
 			</dict>
 		</dict>
+		<key>src/net/rezmason/engram/SettingsManager.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>34</integer>
+				<key>line</key>
+				<integer>168</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>140</integer>
+		</dict>
 		<key>src/net/rezmason/engram/TraceLogo.as</key>
 		<dict>
 			<key>caret</key>
@@ -399,20 +385,6 @@
 				<integer>46</integer>
 				<key>line</key>
 				<integer>41</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/Whine.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -474,6 +446,50 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/gui/GUIAbstract.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>40</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/gui/GUIGroup.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
 		</dict>
 		<key>src/net/rezmason/gui/GUIMacWindowWidget.as</key>
 		<dict>
@@ -552,9 +568,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>26</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -565,9 +581,8 @@
 	<key>openDocuments</key>
 	<array>
 		<string>thoughts/To Do.txt</string>
-		<string>thoughts/Diary.txt</string>
-		<string>src/net/rezmason/engram/Main.as</string>
-		<string>src/net/rezmason/engram/Alerts.as</string>
+		<string>src/net/rezmason/gui/GUIAbstract.as</string>
+		<string>src/net/rezmason/gui/GUIGroup.as</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -600,6 +615,13 @@
 					<dict/>
 				</dict>
 				<key>engram</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
+				<key>gui</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
