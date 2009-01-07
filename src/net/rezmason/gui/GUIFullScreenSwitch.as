@@ -22,7 +22,7 @@
 			
 			uiManager = GUIManager.getInstance();
 			
-			addEventListener(MouseEvent.CLICK, toggle, false, 0, true);
+			addEventListener(MouseEvent.CLICK, toggle);
 		}
 		
 		// PRIVATE METHODS
