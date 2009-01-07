@@ -6,7 +6,7 @@
 	import flash.display.Sprite;
 	import flash.geom.Point;
 	
-	internal class PixelView extends Sprite {
+	internal final class PixelView extends Sprite {
 		
 		// INSTANCE PROPERTIES
 		private var ike:int, jen:int, hex:int;

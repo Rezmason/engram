@@ -4,7 +4,7 @@ package net.rezmason.engram.modules.tetris {
 	
 	import net.rezmason.engram.View;
 	
-	internal class TetrisSettingsView extends View {
+	internal final class TetrisSettingsView extends View {
 		
 		// INSTANCE PROPERTIES
 		

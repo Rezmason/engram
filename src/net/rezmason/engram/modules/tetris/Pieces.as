@@ -3,7 +3,7 @@
 	// IMPORT STATEMENTS
 	import flash.geom.Point;
 	
-	internal class Pieces {
+	internal final class Pieces {
 		
 		// CLASS PROPERTIES
 		private static const A:Point = new Point(0, 0);

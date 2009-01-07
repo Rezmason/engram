@@ -1,6 +1,6 @@
 package net.rezmason.engram.modules.tetris {
 
-	internal class Spins {
+	internal final class Spins {
 		
 		// CLASS PROPERTIES
 		internal static const CLOCKWISE:String = "clockwise";

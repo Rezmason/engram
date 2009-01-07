@@ -3,7 +3,7 @@
 	// IMPORT STATEMENTS
 	import flash.geom.Point;
 	
-	internal class WallKicks {
+	internal final class WallKicks {
 		
 		// CLASS PROPERTIES
 		
