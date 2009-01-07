@@ -4,7 +4,7 @@
 	import flash.display.Sprite;
 	import flash.text.TextField;
 	
-	public class TetrisScore extends Sprite {
+	public final class TetrisScore extends Sprite {
 		
 		// CONSTRUCTOR
 		public function TetrisScore():void {

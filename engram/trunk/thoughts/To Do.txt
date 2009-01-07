@@ -1,3 +1,32 @@
+Try to separate menus into a different package
+	They're already public
+	internal connections between the menus and other engram classes may need to be publicized
+		Quickly pour through engram package for any weirdness
+			Finalize things, look at what's exposed to what
+			
+	14 Potential net.rezmason.engram.menus classes:
+		AboutBox
+		MenuBase
+		*Menu (6)
+		ExhibitionIntro
+		GridMenuElement
+		ScoreInput
+		Scoreboard
+		ScoreboardEntry
+		TraceLogo
+		
+	If this works, create a display package (11 classes):
+		Alert* (4)
+		GamePalette?
+		HexSlider
+		Prompt
+		PromptSurface
+		Scribble
+		Startup
+		WindowSurface
+		
+	...leaving 19 other classes
+
 More GUIAbstracts
 	GUIRadioButton
 		up state
@@ -14,7 +43,6 @@ More GUIAbstracts
 	GUIDial	
 		minRotation, maxRotation
 		knob
-		adf
 
 Overhaul settings menu
 
@@ -39,6 +67,7 @@ Overhaul settings menu
 			Scroll bar
 			Clicking on a module shows its summary text and author text
 				Possibly also shows module-specific settings
+					Make TetrisSettingsView for Tetris module
 			Delete button
 				"Are you positive?" dialog, yes, no
 				Grayed out for built-ins, and when game is being played
@@ -144,7 +173,7 @@ Make sure everything has proper namespace
 	Internal classes SHOULD use internal namespace inside
 	Don't forget to check Tetris module code
 	net.rezmason.gui library is mostly public
-	Finalize methods and classes
+	Make methods and classes final
 	Make sure everything has just the right properties and import statements
 	Make sure "false, 0, true" only shows up where needed
 	

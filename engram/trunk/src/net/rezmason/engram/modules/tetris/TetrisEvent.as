@@ -5,7 +5,7 @@
 	
 	import net.rezmason.engram.ModuleEvent;
 	
-	internal class TetrisEvent extends ModuleEvent {
+	internal final class TetrisEvent extends ModuleEvent {
 		
 		// CLASS PROPERTIES
 		internal static const NEW_PIECE:String = "newPiece";
