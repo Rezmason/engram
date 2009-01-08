@@ -3,7 +3,7 @@ package net.rezmason.engram {
 	// IMPORT STATEMENTS
 	
 	
-	public class GameType {
+	public final class GameType {
 		
 		// CLASS PROPERTIES
 		public static const ARCADE:String = "arcade", DRILL:String = "drill";

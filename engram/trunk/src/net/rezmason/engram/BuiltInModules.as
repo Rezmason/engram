@@ -2,7 +2,7 @@ package net.rezmason.engram {
 	
 	// IMPORT STATEMENTS
 	
-	internal class BuiltInModules {
+	internal final class BuiltInModules {
 		
 		// CLASS PROPERTIES
 		internal static const GAME_LIST:Array = 

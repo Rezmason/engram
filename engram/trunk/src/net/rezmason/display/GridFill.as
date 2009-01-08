@@ -1,6 +1,6 @@
 package net.rezmason.display {
 	
-	public class GridFill {
+	public final class GridFill {
 		
 		// CLASS PROPERTIES
 		public static const RIGHT_TO_LEFT:String = "rightToLeft", LEFT_TO_RIGHT:String = "leftToRight";
