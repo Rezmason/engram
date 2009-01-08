@@ -1,4 +1,4 @@
-package net.rezmason.engram {
+package net.rezmason.engram.modules {
 	
 	public final class ModuleKeySet {
 		// CLASS PROPERTIES

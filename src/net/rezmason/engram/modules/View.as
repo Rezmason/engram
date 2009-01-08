@@ -1,4 +1,4 @@
-package net.rezmason.engram {
+package net.rezmason.engram.modules {
 	
 	// IMPORT STATEMENTS
 	import net.rezmason.display.ColorSprite;
