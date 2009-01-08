@@ -1,7 +1,7 @@
 package net.rezmason.engram.menus {
 	
 	// IMPORT STATEMENTS
-
+	import net.rezmason.engram.Main;
 	
 	public class DebugMenu extends MenuBase {
 		
