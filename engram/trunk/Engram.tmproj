@@ -27,6 +27,8 @@
 			<string>easing</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>selected</key>
+			<true/>
 			<key>sourceDirectory</key>
 			<string>src/com/robertpenner/easing</string>
 		</dict>
@@ -187,20 +189,6 @@
 				<integer>31</integer>
 				<key>line</key>
 				<integer>14</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/Alerts.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -389,20 +377,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/ModuleLoader.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>112</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>57</integer>
-		</dict>
 		<key>src/net/rezmason/engram/ModuleLoaderEvent.as</key>
 		<dict>
 			<key>caret</key>
@@ -430,20 +404,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>50</integer>
-		</dict>
-		<key>src/net/rezmason/engram/Prompt.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>40</integer>
-				<key>line</key>
-				<integer>57</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>29</integer>
 		</dict>
 		<key>src/net/rezmason/engram/PromptSurface.as</key>
 		<dict>
@@ -783,20 +743,6 @@
 			<key>firstVisibleLine</key>
 			<integer>13</integer>
 		</dict>
-		<key>src/net/rezmason/gui/AlertGuts.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>47</integer>
-				<key>line</key>
-				<integer>30</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>src/net/rezmason/gui/GUIBasic.as</key>
 		<dict>
 			<key>caret</key>
@@ -932,9 +878,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>79</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -945,7 +891,6 @@
 	<key>openDocuments</key>
 	<array>
 		<string>thoughts/To Do.txt</string>
-		<string>src/net/rezmason/gui/AlertGuts.as</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
