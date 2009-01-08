@@ -1,4 +1,4 @@
-package net.rezmason.engram {
+package net.rezmason.engram.menus {
 	
 	// IMPORT STATEMENTS
 
