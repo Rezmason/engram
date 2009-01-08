@@ -1,4 +1,4 @@
-﻿package net.rezmason.engram.modules.tetris {
+﻿package net.rezmason.engram.games.tetris {
 	
 	// IMPORT STATEMENTS
 	import flash.display.Sprite;
