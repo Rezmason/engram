@@ -3,18 +3,7 @@ Try to separate menus into a different package
 	internal connections between the menus and other engram classes may need to be publicized
 		Quickly pour through engram package for any weirdness
 			Finalize things, look at what's exposed to what
-			
-	14 Potential net.rezmason.engram.menus classes:
-		AboutBox
-		MenuBase
-		*Menu (6)
-		ExhibitionIntro
-		GridMenuElement
-		ScoreInput
-		Scoreboard
-		ScoreboardEntry
-		TraceLogo
-		
+	
 	If this works, create a display package (11 classes):
 		Alert* (4)
 		GamePalette?
