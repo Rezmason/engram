@@ -1,21 +1,3 @@
-Try to separate menus into a different package
-	Most internal classes can now be public
-	internal connections between the menus and other engram classes may need to be publicized
-		Quickly pour through engram package for any weirdness
-			Finalize things, look at what's exposed to what
-	
-	If this works, create a display package (11 classes):
-		Alert* (4)
-		GamePalette?
-		HexSlider
-		Prompt
-		PromptSurface
-		Scribble
-		Startup
-		WindowSurface
-		
-	...leaving 19 other classes
-
 More GUIAbstracts
 	GUIRadioButton
 		up state

@@ -3,7 +3,7 @@ package net.rezmason.engram.menus {
 	// IMPORT STATEMENTS
 	import flash.events.Event;
 	
-	internal class MenuEvent extends Event {
+	internal final class MenuEvent extends Event {
 		
 		// CLASS PROPERTIES
 		internal static const LAST_MENU:String = "lastMenu";

@@ -1,6 +1,6 @@
 package net.rezmason.engram {
 	
-	public class ModuleKeySet {
+	public final class ModuleKeySet {
 		// CLASS PROPERTIES
 		public static const 
 	 		AKEY:String = "akey", BKEY:String = "bkey", 
