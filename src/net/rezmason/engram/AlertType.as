@@ -4,16 +4,16 @@ package net.rezmason.engram {
 	
 	import flash.display.DisplayObject;
 
-	internal class AlertType {
+	public class AlertType {
 		
 		// CLASS PROPERTIES
 		
-		internal static const BUG:AlertType = new AlertType(0, new BugSymbol, 1);
-		internal static const CANNOT_UNDO:AlertType = new AlertType(2, new CannotUndoSymbol, 0.4);
-		internal static const DECISION:AlertType = new AlertType(2, new DecisionSymbol, 0.4);
-		internal static const DEVELOPER:AlertType = new AlertType(1, new DeveloperSymbol, 1);
-		internal static const PROBLEM:AlertType = new AlertType(0, new ProblemSymbol, 1);
-		internal static const WARNING:AlertType = new AlertType(1, new WarningSymbol, 1);
+		public static const BUG:AlertType = new AlertType(0, new BugSymbol, 1);
+		public static const CANNOT_UNDO:AlertType = new AlertType(2, new CannotUndoSymbol, 0.4);
+		public static const DECISION:AlertType = new AlertType(2, new DecisionSymbol, 0.4);
+		public static const DEVELOPER:AlertType = new AlertType(1, new DeveloperSymbol, 1);
+		public static const PROBLEM:AlertType = new AlertType(0, new ProblemSymbol, 1);
+		public static const WARNING:AlertType = new AlertType(1, new WarningSymbol, 1);
 		
 		// INSTANCE PROPERTIES
 		
