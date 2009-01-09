@@ -7,9 +7,10 @@ package net.rezmason.engram.modules {
 		// CLASS PROPERTIES
 		internal static const GAME_LIST:Array = 
 		[
-			// for now
 			//"./modules/tetris.egm",
 			//"./modules/buddy.swf",
+			//"./modules/blank.swf",
+			//"./modules/malicious.swf",
 			"./modules/tetris.egm.swf",
 		];
 	}	

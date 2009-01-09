@@ -6,12 +6,14 @@
 	public class GUIEvent extends Event {
 		
 		// CLASS PROPERTIES & CONSTANTS
-		public static const    CLOSE_WINDOW:String = "closeWindow";
+		public static const CLOSE_WINDOW:String = "closeWindow";
 		public static const MINIMIZE_WINDOW:String = "minimizeWindow";
 		public static const MAXIMIZE_WINDOW:String = "maximizeWindow";
-		public static const     	SUSPEND:String = "suspend";
-		public static const           READY:String = "uiReady";
-		public static const           REREZ:String = "rerez";
+		public static const SUSPEND:String = "suspend";
+		public static const READY:String = "uiReady";
+		public static const REREZ:String = "rerez";
+		public static const RADIO_PUSH:String = "radioPush";
+		public static const BTN_KEY_PUSH:String = "btnKeyPush";
 		
 		private var _suspendImmediately:Boolean;
 		

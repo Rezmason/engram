@@ -20,7 +20,7 @@
 			useHandCursor = true;
 			txtLabel.mouseEnabled = false;
 			
-			uiManager = GUIManager.getInstance();
+			uiManager = GUIManager.INSTANCE;
 			
 			addEventListener(MouseEvent.CLICK, toggle);
 		}
