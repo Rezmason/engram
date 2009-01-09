@@ -1,12 +1,11 @@
-More GUIAbstracts
-	GUIRadioButton
-		up state
-		down state
-	GUIGroup
-		(no appearance)
-	
-		Enables / disables GUI children
-		Makes states of child GUIRadioButtons mutually exclusive
+GUIGroup prevents child GUIBtnKeys from containing identical values, aha!
+Test GUIGroup's methods in SettingsMenu
+	BtnKey stuff
+	Radio button stuff
+
+Ask user nicely before using local storage
+	Security class has the answer
+		
 	GUISlider
 		thumb - can be absolute or relative
 		track

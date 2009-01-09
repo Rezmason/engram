@@ -27,7 +27,7 @@ Speaking of which, the settings menu will need to be redone entirely soon, so th
 
 6/5/08: I've started work at my summer internship, but progress on this project has continued. Last night at FCNY, Tom (the guy in charge I suppose) asked me to present my project at some point, so I'm going to write an outline covering the more interesting design decisions I've made over the past six months. No easy task.
 
-While implementing GUIError this morning (it's thrown when GUI classes are misused), it occurred to me that not all of the module developers will have Strict Mode turned on, and although I'll suggest it, I can't anticipate that they will all use this feature. GUIError's job is actually performed by Strict Mode's compiler errors, but it's still a good idea to implement it.
+While implementing GUIError this morning (it's thrown when GUI classes are misused), it occurred to me that not all of the module developers will have Strict Mode turned on, and although I'll suggest it, I can't anticipate that they will all use this feature. GUIError is actually redundant when using Strict Mode, but it's still a good idea to implement it.
 
 Visio, a Microsoft Office product similar to OmniGraffle, is an industry standard for producing wireframes and prototypes- two powerful UX tools that I'm taking up at work. With no project currently demanding my time, I'm familiarizing myself with Visio by wireframing the new (read: intimidating) settings menu. I'm trying to be careful about how much of my work blends into my project, as this could lead to some hairy consequences. Nothing I can't handle.
 

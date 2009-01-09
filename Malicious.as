@@ -1,0 +1,1 @@
+﻿package {	import flash.display.*;	import flash.net.*;	public class Malicious extends Sprite {				public function Malicious() {			var ldr = loaderInfo.loader;			//trace(ldr.stage.stage.stage);			ldr.load(new URLRequest("http://www.google.com/"));		}	}}
