@@ -1,18 +1,20 @@
-GUIGroup prevents child GUIBtnKeys from containing identical values, aha!
+GUIGroup handles GUIBtnKeys
+SettingsMenu handles a GUIGroup of GUIBtnKeys
+
 Test GUIGroup's methods in SettingsMenu
 	BtnKey stuff
-	Radio button stuff
+	Radio button stuff / tab stuff too
 
 Ask user nicely before using local storage
 	Security class has the answer
 		
-	GUISlider
-		thumb - can be absolute or relative
-		track
-		arrows (if present)
-	GUIDial	
-		minRotation, maxRotation
-		knob
+GUISlider
+	thumb - can be absolute or relative
+	track
+	arrows (if present)
+GUIDial	
+	minRotation, maxRotation
+	knob
 
 Overhaul settings menu
 
