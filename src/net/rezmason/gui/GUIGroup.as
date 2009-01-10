@@ -7,8 +7,8 @@ package net.rezmason.gui {
 		// CLASS PROPERTIES
 		
 		// INSTANCE PROPERTIES
-		protected var _defaultRadioButton:GUIRadioButton;
-		protected var _litRadioButton:GUIRadioButton;
+		protected var _defaultOption:GUIOption;
+		protected var _chosenOption:GUIOption;
 		protected var _guiChildren:Array = [], _radioChildren:Array = [];
 		
 		// CONSTRUCTOR
@@ -39,18 +39,18 @@ package net.rezmason.gui {
 			return _radioChildren.slice();
 		}
 		
-		public function get defaultRadioButton():GUIRadioButton {
-			return _defaultRadioButton;
+		public function get defaultOption():GUIOption {
+			return _defaultOption;
 		}
 		
-		public function set defaultRadioButton(value:GUIRadioButton):void {
+		public function set defaultOption(value:GUIOption):void {
 			addGUIAbstract(value);
-			_defaultRadioButton = value;
-			if (_litRadioButton) {
-				_litRadioButton.lit = false;
+			_defaultOption = value;
+			if (_chosenOption) {
+				_chosenOption.chosen = false;
 			}
-			_litRadioButton = _defaultRadioButton;
-			_defaultRadioButton.lit = true;
+			_chosenOption = _defaultOption;
+			_defaultOption.chosen = true;
 		}
 		
 		// PUBLIC METHODS
@@ -59,9 +59,9 @@ package net.rezmason.gui {
 			if (_guiChildren.indexOf(child) == -1) {
 				_guiChildren.push(child);
 				
-				if (child is GUIRadioButton) {
+				if (child is GUIOption) {
 					_radioChildren.push(child);
-					(child as GUIRadioButton).lit = false;
+					(child as GUIOption).chosen = false;
 					child.addEventListener(GUIEvent.RADIO_PUSH, changeChosenRadio);
 				}
 			}
@@ -73,14 +73,14 @@ package net.rezmason.gui {
 			if (index != -1) {
 				_colorChildren.splice(index, 1);
 				
-				if (child is GUIRadioButton) {
-					if (child is _litRadioButton) {
-						_defaultRadioButton.lit = true;
-						_litRadioButton.lit = false;
-						if (_defaultRadioButton == _litRadioButton) {
-							_defaultRadioButton = null;
+				if (child is GUIOption) {
+					if (child is _chosenOption) {
+						_defaultOption.chosen = true;
+						_chosenOption.chosen = false;
+						if (_defaultOption == _chosenOption) {
+							_defaultOption = null;
 						}
-						_litRadioButton = _defaultRadioButton;
+						_chosenOption = _defaultOption;
 					}
 					child.removeEventListener(GUIEvent.RADIO_PUSH, changeChosenRadio);
 					trace("radio child index:", _radioChildren.indexOf(child));
@@ -96,12 +96,12 @@ package net.rezmason.gui {
 		}
 		
 		private function changeChosenRadio(event:Event):void {
-			var radioChild:GUIRadioButton = event.currentTarget as GUIRadioButton;
-			if (_litRadioButton) {
-				_litRadioButton.lit = false;
+			var radioChild:GUIOption = event.currentTarget as GUIOption;
+			if (_chosenOption) {
+				_chosenOption.chosen = false;
 			}
-			_litRadioButton = radioChild;
-			_litRadioButton.lit = true;
+			_chosenOption = radioChild;
+			_chosenOption.chosen = true;
 		}
 	}
 }
