@@ -1,7 +1,3 @@
-GUIGroup handles GUIBtnKeys
-SettingsMenu handles a GUIGroup of GUIBtnKeys
-Move SettingsMenu call to keyEventToString into GUIGroup
-
 Is GUIGroup turning off the BtnKeyFlags? It should.
 
 Make ColorSprite work dynamically
@@ -66,7 +62,7 @@ Overhaul settings menu
 				The entire module settings list
 					Gets module settings
 	
-	Default button resets current slide
+	Default button on each slide
 	Return button
 
 
