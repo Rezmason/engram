@@ -1,11 +1,6 @@
-Is GUIGroup turning off the BtnKeyFlags? It should.
-
-Make ColorSprite work dynamically
-	added children and guests get colors immediately set
-
 Test GUIGroup's methods in SettingsMenu
-	BtnKey stuff
-	Radio button stuff / tab stuff too
+	Radio button stuff
+	Tab stuff too
 
 Ask user nicely before using local storage
 	Security class has the answer
