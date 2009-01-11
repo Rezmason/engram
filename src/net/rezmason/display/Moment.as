@@ -6,8 +6,11 @@
 	
 	public class Moment extends MovieClip {
 		
+		// CLASS PROPERTIES
+		private static const COMPLETE_EVENT:Event = new Event(Event.COMPLETE);
+		
 		// INSTANCE PROPERTIES
-		private const COMPLETE_EVENT:Event = new Event(Event.COMPLETE);
+		private var _isPlaying:Boolean = false;
 
 		// CONSTRUCTOR
 		public function Moment():void {
@@ -16,11 +19,28 @@
 			visible = false;
 		}
 		
+		// GETTERS & SETTERS
+		
+		public function get isPlaying():Boolean {
+			return _isPlaying;
+		}
+		
+		public function set isPlaying(value:Boolean):void {
+			if (_isPlaying != value) {
+				if (value) {
+					play();
+				} else {
+					stop();
+				}
+			}
+		}
+		
 		// PUBLIC METHODS
 		
 		override public function play():void {
 			visible = true;
 			super.gotoAndPlay(1);
+			_isPlaying = true;
 		}
 		
 		public function playRandom():void {
@@ -32,6 +52,7 @@
 			super.stop();
 			visible = false;
 			dispatchEvent(COMPLETE_EVENT);
+			_isPlaying = false;
 		}	
 	}
 }
