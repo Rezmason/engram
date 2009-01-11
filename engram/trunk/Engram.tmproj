@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/net/rezmason/gui/GUIOption.as</string>
+	<string>src/net/rezmason/engram/menus/SettingsMenu.as</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -175,36 +175,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/Guard.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>49</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>38</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>49</integer>
-			</dict>
-		</dict>
 		<key>src/net/rezmason/engram/IStrategy.as</key>
 		<dict>
 			<key>caret</key>
@@ -224,9 +194,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -282,9 +252,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>117</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -461,20 +431,6 @@
 			<key>firstVisibleLine</key>
 			<integer>19</integer>
 		</dict>
-		<key>src/net/rezmason/engram/menus/Scoreboard.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>15</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>19</integer>
-		</dict>
 		<key>src/net/rezmason/engram/menus/ScoreboardEntry.as</key>
 		<dict>
 			<key>caret</key>
@@ -494,14 +450,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>3</integer>
+				<integer>24</integer>
 				<key>line</key>
-				<integer>145</integer>
+				<integer>214</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>186</integer>
 		</dict>
 		<key>src/net/rezmason/engram/menus/TraceLogo.as</key>
 		<dict>
@@ -539,20 +495,6 @@
 				<integer>93</integer>
 				<key>line</key>
 				<integer>19</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/modules/ModuleKeySet.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -622,58 +564,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>38</integer>
+				<integer>3</integer>
 				<key>line</key>
-				<integer>50</integer>
+				<integer>57</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>7</integer>
+			<integer>11</integer>
 		</dict>
 		<key>src/net/rezmason/gui/GUIGroup.as</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>31</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>103</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/gui/GUIOption.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>27</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>27</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
+			<integer>52</integer>
 		</dict>
 		<key>src/net/rezmason/gui/GUISlider.as</key>
 		<dict>
@@ -708,9 +620,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>56</integer>
 				<key>line</key>
-				<integer>1</integer>
+				<integer>2</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -721,10 +633,9 @@
 	<key>openDocuments</key>
 	<array>
 		<string>src/net/rezmason/gui/GUIBtnKey.as</string>
-		<string>src/net/rezmason/gui/GUIGroup.as</string>
 		<string>src/net/rezmason/engram/menus/SettingsMenu.as</string>
+		<string>src/net/rezmason/gui/GUIGroup.as</string>
 		<string>thoughts/To Do.txt</string>
-		<string>src/net/rezmason/gui/GUIOption.as</string>
 		<string>src/net/rezmason/gui/GUISlider.as</string>
 	</array>
 	<key>shellVariables</key>
@@ -750,27 +661,19 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
+				<key>display</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
 				<key>engram</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
-					<dict>
-						<key>display</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict/>
-						</dict>
-						<key>modules</key>
-						<dict>
-							<key>isExpanded</key>
-							<true/>
-							<key>subItems</key>
-							<dict/>
-						</dict>
-					</dict>
+					<dict/>
 				</dict>
 				<key>gui</key>
 				<dict>
@@ -790,6 +693,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{85, 4}, {1192, 774}}</string>
+	<string>{{31, 4}, {1192, 774}}</string>
 </dict>
 </plist>

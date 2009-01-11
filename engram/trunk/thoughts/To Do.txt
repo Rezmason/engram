@@ -1,5 +1,11 @@
 GUIGroup handles GUIBtnKeys
 SettingsMenu handles a GUIGroup of GUIBtnKeys
+Move SettingsMenu call to keyEventToString into GUIGroup
+
+Is GUIGroup turning off the BtnKeyFlags? It should.
+
+Make ColorSprite work dynamically
+	added children and guests get colors immediately set
 
 Test GUIGroup's methods in SettingsMenu
 	BtnKey stuff
