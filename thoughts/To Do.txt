@@ -1,6 +1,4 @@
-Test GUIGroup's methods in SettingsMenu
-	Radio button stuff
-	Tab stuff too
+Make tabs easier to figure out
 
 Ask user nicely before using local storage
 	Security class has the answer
