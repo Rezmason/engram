@@ -12,7 +12,7 @@
 		public static const SUSPEND:String = "suspend";
 		public static const READY:String = "uiReady";
 		public static const REREZ:String = "rerez";
-		public static const RADIO_PUSH:String = "radioPush";
+		public static const OPTION_PUSH:String = "optionPush";
 		public static const BTN_KEY_PUSH:String = "btnKeyPush";
 		
 		private var _suspendImmediately:Boolean;
