@@ -1,15 +1,25 @@
-Make tabs easier to figure out
-
-Ask user nicely before using local storage
-	Security class has the answer
-		
 GUISlider
 	thumb - can be absolute or relative
 	track
+	
+	scrollSpeed
 	arrows (if present)
+		backArrow#
+		forthArrow#
+	scrollToMouse (optional)
+	
+	Driving functions are protected, not final
+	
+	dispatches change events
+	value
+
+You know, if someone's interacting with something and then hits Return or something, that could be a problem.
+
 GUIDial	
 	minRotation, maxRotation
 	knob
+	
+	Driving functions are protected, not final
 
 Overhaul settings menu
 
