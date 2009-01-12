@@ -1,10 +1,3 @@
-GUIKnob	
-	minAngle, maxAngle
-	angle
-	knob
-	
-	Driving functions are protected, not final
-
 Overhaul settings menu
 
 	"Tabbed" system, skims through slides of options (display object slider)
@@ -51,27 +44,6 @@ Overhaul settings menu
 	
 	Default button on each slide
 	Return button
-
-
-Gamepad Mode
-	net.rezmason.gui.IGamepadTarget.compileGUITable(): 
-		compile an array of gpChildren {gamepad-accessible child, child.getBounds(target)}
-	(Selects current gpChild, tweens the GamepadOutline (scale9) around it)
-		Menus need a default gpChild and a previous gpChild
-	arrow keys direct focus / focal point to the next gpChild
-		If a ray drawn in the indicated direction from the current focal point hits another gpChild, it becomes the next focus
-		Otherwise, the gpChild closest to the current gpChild in the indicated direction gains focus; its center is the new focal point
-	(A is a mouse click on the selected GUIAbstract, B is a mouse click on the default negative target)
-	(Speeds up hex slider and menu sliders)
-	(ScoreInput uses three-letter dial system instead of text box)
-	Prompts user for a sequence of gamepad input
-		Never mind
-	Snipes the cursor (hides it)
-		killMouse, reviveMouse
-	"Guess you won't be needing that cursor anymore."
-	"Let's face it; he was just using you."
-	Gives a blurb about keypad use. Get it?
-		Got it
 
 New module- Bodhi (organizer)
 
@@ -129,14 +101,6 @@ Art system
 	The canvas should fade out and match color when the game state is not 1 or 4
 
 Art file saving system
-
-Make sure everything has proper namespace
-	Internal classes SHOULD use internal namespace inside
-	Don't forget to check Tetris module code
-	net.rezmason.gui library is mostly public
-	Make methods and classes final
-	Make sure everything has just the right properties and import statements
-	Make sure "false, 0, true" only shows up where needed
 	
 Document everything
 	Write an explanatory text file for net.rezmason.gui package
@@ -171,16 +135,35 @@ Deployment (by March 2009):
 		Game as download (badge)
 		*Marketplace
 
+
+
+Later on:
+
+Gamepad Mode
+	net.rezmason.gui.IGamepadTarget.compileGUITable(): 
+		compile an array of gpChildren {gamepad-accessible child, child.getBounds(target)}
+	(Selects current gpChild, tweens the GamepadOutline (scale9) around it)
+		Menus need a default gpChild and a previous gpChild
+	arrow keys direct focus / focal point to the next gpChild
+		If a ray drawn in the indicated direction from the current focal point hits another gpChild, it becomes the next focus
+		Otherwise, the gpChild closest to the current gpChild in the indicated direction gains focus; its center is the new focal point
+	(A is a mouse click on the selected GUIAbstract, B is a mouse click on the default negative target)
+	(Speeds up hex slider and menu sliders)
+	(ScoreInput uses three-letter dial system instead of text box)
+	Prompts user for a sequence of gamepad input
+		Never mind
+	Snipes the cursor (hides it)
+		killMouse, reviveMouse
+	"Guess you won't be needing that cursor anymore."
+	"Let's face it; he was just using you."
+	Gives a blurb about keypad use. Get it?
+		Got it
+
 Ongoing issues: 
 	Are module devs getting useful errors?
 	Remember that the color manager can do stuff besides what it's currently doing
 ___________________________
 Next:
-	
-	Try developing modules with:
-		Flex SDK
-		Flash, timeline code
-		haXe
 	
 	Version checking
 	Module version checking
