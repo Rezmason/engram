@@ -1,22 +1,6 @@
-GUISlider
-	thumb - can be absolute or relative
-	track
-	
-	scrollSpeed
-	arrows (if present)
-		backArrow#
-		forthArrow#
-	scrollToMouse (optional)
-	
-	Driving functions are protected, not final
-	
-	dispatches change events
-	value
-
-You know, if someone's interacting with something and then hits Return or something, that could be a problem.
-
-GUIDial	
-	minRotation, maxRotation
+GUIKnob	
+	minAngle, maxAngle
+	angle
 	knob
 	
 	Driving functions are protected, not final
