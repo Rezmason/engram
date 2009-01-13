@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/net/rezmason/gui/GUIDial.as</string>
+	<string>thoughts/To Do.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>engram-app.xml</string>
 			<key>lastUsed</key>
-			<date>2008-06-04T21:01:22Z</date>
+			<date>2009-01-12T18:38:21Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -23,6 +23,8 @@
 			<string>thoughts</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>easing</string>
 			<key>regexFolderFilter</key>
@@ -51,6 +53,8 @@
 			<string>src/net/rezmason</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>tetris</string>
 			<key>regexFolderFilter</key>
@@ -63,6 +67,34 @@
 	<integer>230</integer>
 	<key>metaData</key>
 	<dict>
+		<key>src/net/rezmason/display/Applicator.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>24</integer>
+				<key>line</key>
+				<integer>46</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/display/DisplayAbstract.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>src/net/rezmason/display/DisplayAbstractEnforcer.as</key>
 		<dict>
 			<key>caret</key>
@@ -104,6 +136,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>101</integer>
+		</dict>
+		<key>src/net/rezmason/display/GridFill.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>src/net/rezmason/display/GrittySurface.as</key>
 		<dict>
@@ -189,6 +235,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>src/net/rezmason/engram/Main.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>107</integer>
+				<key>line</key>
+				<integer>375</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>346</integer>
+		</dict>
 		<key>src/net/rezmason/engram/Strategy.as</key>
 		<dict>
 			<key>caret</key>
@@ -232,6 +292,76 @@
 				<key>line</key>
 				<integer>5</integer>
 			</dict>
+		</dict>
+		<key>src/net/rezmason/engram/games/tetris/BlapManager.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/games/tetris/HoldDisplay.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/games/tetris/NextDisplay.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/games/tetris/Pieces.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/games/tetris/Spins.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>src/net/rezmason/engram/games/tetris/Tetris.as</key>
 		<dict>
@@ -331,50 +461,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/menus/MainMenu.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/menus/MenuBase.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>22</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>22</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>22</integer>
-			</dict>
-		</dict>
 		<key>src/net/rezmason/engram/menus/MenuEvent.as</key>
 		<dict>
 			<key>caret</key>
@@ -383,20 +469,6 @@
 				<integer>21</integer>
 				<key>line</key>
 				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/menus/PausedMenu.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -430,20 +502,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/menus/SettingsMenu.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>85</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>53</integer>
 		</dict>
 		<key>src/net/rezmason/engram/menus/TraceLogo.as</key>
 		<dict>
@@ -506,102 +564,42 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>55</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>94</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>107</integer>
+			<integer>66</integer>
 		</dict>
-		<key>src/net/rezmason/gui/GUIBasic.as</key>
+		<key>src/net/rezmason/gui/AlertData.as</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>105</integer>
 				<key>line</key>
-				<integer>30</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>30</integer>
-			</dict>
-		</dict>
-		<key>src/net/rezmason/gui/GUIDial.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>15</integer>
-		</dict>
-		<key>src/net/rezmason/gui/GUIGroup.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
+				<integer>49</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/gui/GUISlider.as</key>
+		<key>src/net/rezmason/gui/GUIManager.as</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>92</integer>
 				<key>line</key>
-				<integer>185</integer>
+				<integer>174</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>158</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>191</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>185</integer>
-			</dict>
+			<integer>140</integer>
 		</dict>
 		<key>src/net/rezmason/utils/GreenThread.as</key>
 		<dict>
@@ -636,9 +634,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>2</integer>
+				<integer>1</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -649,10 +647,9 @@
 	<key>openDocuments</key>
 	<array>
 		<string>thoughts/To Do.txt</string>
-		<string>src/net/rezmason/gui/GUIGroup.as</string>
-		<string>src/net/rezmason/gui/GUIDial.as</string>
-		<string>src/net/rezmason/gui/GUISlider.as</string>
-		<string>src/net/rezmason/engram/menus/SettingsMenu.as</string>
+		<string>src/net/rezmason/gui/GUIManager.as</string>
+		<string>src/net/rezmason/engram/Main.as</string>
+		<string>src/net/rezmason/engram/modules/ModuleManager.as</string>
 		<string>thoughts/Diary.txt</string>
 	</array>
 	<key>shellVariables</key>
@@ -672,6 +669,13 @@
 	<true/>
 	<key>treeState</key>
 	<dict>
+		<key>easing</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict/>
+		</dict>
 		<key>rezmason</key>
 		<dict>
 			<key>isExpanded</key>
@@ -698,6 +702,13 @@
 							<key>subItems</key>
 							<dict/>
 						</dict>
+						<key>modules</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
 					</dict>
 				</dict>
 				<key>gui</key>
@@ -709,6 +720,13 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>tetris</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict/>
+		</dict>
 		<key>thoughts</key>
 		<dict>
 			<key>isExpanded</key>
@@ -718,6 +736,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{31, 4}, {1192, 774}}</string>
+	<string>{{43, 4}, {1192, 774}}</string>
 </dict>
 </plist>
