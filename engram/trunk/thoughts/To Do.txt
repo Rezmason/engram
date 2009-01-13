@@ -1,3 +1,38 @@
+Extend ModuleManager to be able to load a module on the fly
+	If file has egm or swf extension, it's copied to app-storage/airlock
+		It's given a unique filename that is not its original filename
+	In test mode, it's just loaded from wherever it was, if it's an egm or a swf
+	Failure events:	
+		If it doesn't load, or isn't validated as a module, it's deleted
+		If it's over 5mb, it's deleted
+		If it has the same title as a built-in module, it's deleted
+		If it has the same title as a throw-in module, it's interrupted
+			"The new module has the same name as an existing module. What should I do?"
+				Replace, cancel
+				Replace deletes the old module
+				Cancel deletes the candidate module
+	Success event:
+		It gets appended to the main mix
+		The Modules settings panel gets updated
+
+Debug game type
+	Allows a module to be tested without copying it anywhere
+	Allows it to be easily replayed
+	Advanced error handling
+	Listens for Module Loader timeout and alerts the dev
+	Debug menu
+		Lets you drag in a SWF
+		Tells you if the SWF is valid or not
+		If it is, you get to play it
+		Once you've demonstrated that the module can run for three minutes, it lets you convert it to EGM.
+		When game is over, you go back to the debug menu
+		btnReturn takes you to main menu
+		"Enable debug menu at launch" checkbox
+		
+	Should EGMs be zipped SWFs?
+
+Can GUIManager hand Baddie a DisplayObject from within the Guard?
+			
 Overhaul settings menu
 
 	"Tabbed" system, skims through slides of options (display object slider)
@@ -59,42 +94,6 @@ Make "enabled modules" object on settings object
 	Booleans with String keys
 		Strings match module names
 
-If a module file is double-clicked, dropped onto the app icon in the file system or in the dock,
-	Engram should notice this file, and immediately try to load it from the module settings dialog
-
-Debug game type
-	Allows a module to be tested without copying it anywhere
-	Allows it to be easily replayed
-	Advanced error handling
-	Listens for Module Loader timeout and alerts the dev
-	Debug menu
-		Lets you drag in a SWF
-		Tells you if the SWF is valid or not
-		If it is, you get to play it
-		Once you've demonstrated that the module can run for three minutes, it lets you convert it to EGM.
-		When game is over, you go back to the debug menu
-		btnReturn takes you to main menu
-		"Enable debug menu at launch" checkbox
-
-Extend ModuleManager to be able to load a module on the fly
-	If file has egm or swf extension, it's copied to app-storage/airlock
-		It's given a unique filename that is not its original filename
-	In test mode, it's just loaded from wherever it was, if it's the right file type
-	Failure events:	
-		If it doesn't load, or isn't validated as a module, it's deleted
-		If it's over 5mb, it's deleted
-		What if it's a locked file?
-		If it has the same title as a built-in module, it's deleted
-		If it has the same title as a throw-in module, it's interrupted
-			"The new module has the same name as an existing module. What should I do?"
-				Replace, cancel
-				Replace deletes the old module
-				Cancel deletes the candidate module
-		(Eventually have a version checker)
-	Success event:
-		It gets appended to the main mix
-		The Modules settings panel gets updated
-
 Bitmap buffer
 
 Art system
@@ -105,9 +104,6 @@ Art file saving system
 Document everything
 	Write an explanatory text file for net.rezmason.gui package
 	Update class listings, include column that states whether class is intended for common use
-
-SWCs for module, game and view classes?
-	Auto-completion
 
 Improve audio set
 	Specify Tetris sound channels
@@ -135,7 +131,7 @@ Deployment (by March 2009):
 		Game as download (badge)
 		*Marketplace
 
-
+	Copyleft
 
 Later on:
 
