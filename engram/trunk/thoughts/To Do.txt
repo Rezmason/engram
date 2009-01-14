@@ -1,37 +1,19 @@
-Extend ModuleManager to be able to load a module on the fly
-	If file has egm or swf extension, it's copied to app-storage/airlock
-		It's given a unique filename that is not its original filename
-	In test mode, it's just loaded from wherever it was, if it's an egm or a swf
-	Failure events:	
-		If it doesn't load, or isn't validated as a module, it's deleted
-		If it's over 5mb, it's deleted
-		If it has the same title as a built-in module, it's deleted
-		If it has the same title as a throw-in module, it's interrupted
-			"The new module has the same name as an existing module. What should I do?"
-				Replace, cancel
-				Replace deletes the old module
-				Cancel deletes the candidate module
-	Success event:
-		It gets appended to the main mix
-		The Modules settings panel gets updated
-
-Debug game type
-	Allows a module to be tested without copying it anywhere
-	Allows it to be easily replayed
-	Advanced error handling
-	Listens for Module Loader timeout and alerts the dev
-	Debug menu
-		Lets you drag in a SWF
-		Tells you if the SWF is valid or not
-		If it is, you get to play it
-		Once you've demonstrated that the module can run for three minutes, it lets you convert it to EGM.
-		When game is over, you go back to the debug menu
-		btnReturn takes you to main menu
-		"Enable debug menu at launch" checkbox
-		
-	Should EGMs be zipped SWFs?
-
-Can GUIManager hand Baddie a DisplayObject from within the Guard?
+Debug menu
+	Lets you drag in a SWF
+	Allows SWF to be easily replayed
+	Tells you if the SWF is valid or not
+	If it is, you get to play it
+	This is your module.
+	Once you've demonstrated that the module can run for five minutes, it lets you convert it to EGM.
+		Debug timer in _cell
+	When game is over, you go back to the debug menu
+	
+	Congrats, you've got a module. I'm really proud.
+		Now give it to your friends and let them test it. Iron out the kinks.
+		Don't forget to show your mom. (Shirley Ann in a picture frame)
+	
+	btnReturn takes you to main menu
+	"Enable debug menu at launch" checkbox
 			
 Overhaul settings menu
 
@@ -81,6 +63,36 @@ Overhaul settings menu
 	Return button
 
 New module- Bodhi (organizer)
+
+Leftovers
+
+	Get Main to handle new modules
+		Show prompt
+		Refresh good loader list
+		Refresh strategy, if necessary
+		Refresh grid menu
+		Success event:
+			It gets appended to the main mix
+			The Modules settings panel gets updated
+
+	Test for all module-related situations
+		Coup d'etat situation especially
+
+	Advanced debug error handling
+		If a module doesn't work properly for some reason, a prompt shows up
+			(already exists as a built-in, isn't a Module subclass, too large, too big onscreen)
+			Listens for Module Loader timeout and alerts the dev
+				Jesus Christ, how big is that thing?
+					That's what she said.
+	Plug in the Debug menu
+		Lets you drag in a SWF
+		Tells you if the SWF is valid or not
+		If it is, you get to play it
+		EGM packing
+
+	Should EGMs be zipped SWFs?
+
+Can GUIManager hand Baddie a DisplayObject from within the Guard?
 
 Maybe players should earn game jumps, and only activate them if they want
 	This will allow artists to tell their full story
