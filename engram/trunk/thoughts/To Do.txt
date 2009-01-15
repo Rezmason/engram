@@ -1,8 +1,5 @@
 Overhaul settings menu
-
-	"Tabbed" system, skims through slides of options (display object slider)
-	
-	Slides:
+	Tabbed system
 		Input (looks like an NES controller)
 		Audio (knob for music, knob for effects)
 			Makes feedback sounds as you use it
@@ -15,8 +12,8 @@ Overhaul settings menu
 					1280 x 960
 			Allow GUIManager to rerez in non-fullscreen situations
 			Uses graphic from Windows 95 Display control panel
+		Hard Reset (some kinda serious switch that's hard to flip by mistake)
 		Modules (looks like System 7 prefs)
-			
 			List of modules, alphabetically, with their name, their icon and some toggles
 			Scroll bar
 			Clicking on a module shows its summary text and author text
@@ -25,17 +22,14 @@ Overhaul settings menu
 			Delete button
 				"Are you positive?" dialog, yes, no
 				Grayed out for built-ins, and when game is being played
-				
 				Complete implementing lastMix
 					When a module is deleted, lastMix must also be spliced, saved, etc.
-				
 			Drag&drop modules in
 				"Poke with a stick" dialog
 					If new module has the same name as an old module, bring up an overwrite alert
 					Successful drop, module list is redrawn and new module is selected
 					Unsuccessful drop, "That's not a module" dialog, retry, close
 						Remember to delete failures
-			
 			SettingsMenu grabs data from ModuleManager
 				The entire module list
 					Gets names, icons, versions and info blurbs (and reference to resetSettings())
@@ -45,7 +39,62 @@ Overhaul settings menu
 	Default button on each slide
 	Return button
 
-New module- Bodhi (organizer)
+New module- BusyBodhi (organizer)
+
+Debug menu
+	
+	"Stick around" checkbox
+	Link to online developer resource
+	Animated intro first time
+	
+	Tabbed system
+		Load checker
+			Drag and drop file in, tries to load it
+			Icon, name, version on the left
+			selectable text block on the right, containing output from ModuleLoader
+			Refresh button
+				Resets test chamber, settings panel and module approval state
+			Test Game button
+			Test Settings button
+		Test chamber
+			LED indicator array for keyboard input
+			width, height indicators, transparent box representing max dimensions
+			5-minute timer
+			Pause/Play Stop
+			Score
+			Arcade, Studio, Drill mode
+			Redraw regions?
+			Total memory
+		Settings tester
+			Settings panel on the left, scaled to proper dimensions
+			Selectable text block on the right, containing a description of the resulting settings object
+			Generate button
+		Module Approval
+			Only allowed after module survives five minutes in the test chamber.
+			First time around, congratulatory animation
+				Go show your mom (secret)
+			"Create EGM file" button
+
+
+Maybe players should earn game jumps, and only activate them if they want
+	This will allow artists to tell their full story
+
+Modules might need time to prepare a new game, or to generate game resources while they're sitting idly
+	A module might need to alert the loader once it is ready
+	A module that takes too long to do this should be discarded
+
+New Strategy class
+Make "enabled modules" object on settings object
+	Booleans with String keys
+		Strings match module names
+
+Bitmap buffer
+
+Art system
+	The canvas should fade out and match color when the game state is not 1 or 4
+
+Art file saving system
+
 
 Leftovers
 
@@ -67,34 +116,10 @@ Leftovers
 			Listens for Module Loader timeout and alerts the dev
 				Jesus Christ, how big is that thing?
 					That's what she said.
-	Plug in the Debug menu
-		Lets you drag in a SWF
-		Tells you if the SWF is valid or not
-		If it is, you get to play it
-		EGM packing
 
 	Should EGMs be zipped SWFs?
 
 Can GUIManager hand Baddie a DisplayObject from within the Guard?
-
-Maybe players should earn game jumps, and only activate them if they want
-	This will allow artists to tell their full story
-
-Modules might need time to prepare a new game, or to generate game resources while they're sitting idly
-	A module might need to alert the loader once it is ready
-	A module that takes too long to do this should be discarded
-
-New Strategy class
-Make "enabled modules" object on settings object
-	Booleans with String keys
-		Strings match module names
-
-Bitmap buffer
-
-Art system
-	The canvas should fade out and match color when the game state is not 1 or 4
-
-Art file saving system
 	
 Document everything
 	Write an explanatory text file for net.rezmason.gui package
