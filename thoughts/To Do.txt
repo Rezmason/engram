@@ -1,20 +1,3 @@
-Debug menu
-	Lets you drag in a SWF
-	Allows SWF to be easily replayed
-	Tells you if the SWF is valid or not
-	If it is, you get to play it
-	This is your module.
-	Once you've demonstrated that the module can run for five minutes, it lets you convert it to EGM.
-		Debug timer in _cell
-	When game is over, you go back to the debug menu
-	
-	Congrats, you've got a module. I'm really proud.
-		Now give it to your friends and let them test it. Iron out the kinks.
-		Don't forget to show your mom. (Shirley Ann in a picture frame)
-	
-	btnReturn takes you to main menu
-	"Enable debug menu at launch" checkbox
-			
 Overhaul settings menu
 
 	"Tabbed" system, skims through slides of options (display object slider)
