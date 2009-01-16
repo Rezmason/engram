@@ -10,7 +10,7 @@
 		protected static const SUCCEED_EVENT:ModuleEvent = new ModuleEvent(ModuleEvent.PLAYER_SUCCEED);
 		protected var _game:Game;
 
-		// CONSTRUCTOR
+		
 		public function GameModule():void {
 			super();
 		}

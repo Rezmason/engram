@@ -12,7 +12,7 @@
 		// INSTANCE PROPERTIES
 		private var _isPlaying:Boolean = false;
 
-		// CONSTRUCTOR
+		
 		public function Moment():void {
 			super();
 			super.stop();

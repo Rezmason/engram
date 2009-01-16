@@ -135,7 +135,7 @@ package net.rezmason.engram {
 		private var _cell:Sprite;
 		private var centerSprite:ColorSprite = new ColorSprite;
 		
-		// CONSTRUCTOR
+		
 		public function Main(cell:Sprite):void {
 			
 			_cell = cell;

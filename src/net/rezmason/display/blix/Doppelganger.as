@@ -11,20 +11,9 @@
  * jeremysachs@rezmason.net
  */
 
-
-/* NAME: Doppelganger   PURPOSE: enables crude bilocation of any DisplayObject. Also, an omen of death.
- * parameters of Doppelganger:
- * source- the original DisplayObject being imitated
- * 
- * properties of Doppelganger:
- * bitmapData- a clone of the internal BitmapData object
- *
- * (NOTE: Like Sequence, Doppelganger does not allow you to access its graphics property, despite
- * 	being a subclass of Shape.)
- */
-
-package net.rezmason.display.blix
-{
+package net.rezmason.display.blix {
+	
+	// IMPORT STATEMENTS
 	import flash.display.BitmapData;
 	import flash.display.DisplayObject;
 	import flash.display.Graphics;
@@ -35,41 +24,128 @@ package net.rezmason.display.blix
 	import flash.geom.Rectangle;
 	import flash.utils.Dictionary;
 
-	public class Doppelganger extends Shape
-	{
+	/**
+	* 	Class that crudely draws a DisplayObject in multiple locations at once.
+	*	Also, an omen for death. 
+	*	<p>Like Sequence, Doppelganger does not allow you to access its graphics property, despite
+	* 	being a subclass of Shape.</p>
+	* 
+	*	@author Jeremy Sachs
+	*	@langversion	ActionScript 3.0
+	*	@playerversion	Flash 9
+	*	@tiptext
+	*/
+	public class Doppelganger extends Shape {
+		
+		// CLASS PROPERTIES
 		private static var moochers:Dictionary = new Dictionary(true);
 		private static const POINT:Point = new Point;
 		
+		// INSTANCE PROPERTIES
 		private var updating:Boolean = false;
 		doppelspace var _source:DisplayObject;
 		doppelspace var _frame:BitmapData;
 		doppelspace var _matrix:Matrix = new Matrix;
 		doppelspace var _rect:Rectangle = new Rectangle;
-		public var update:Function;
+		private var _updateFn:Function;
 		private var _mooching:Boolean;
 		private var buddy:Doppelganger;
 		
 		use namespace doppelspace;
-
-		public function Doppelganger(src:DisplayObject=null, mooching:Boolean = true):void
-		{	
-			update = updateBland;
+		
+		/**
+		* Constructor for Doppelganger class.
+		*
+		* @param	src	 The display object to imitate.
+		* @param	mooching	 Determines whether to attempt to recycle Doppelgangers that imitate the source.
+		*/
+		public function Doppelganger(src:DisplayObject=null, mooching:Boolean = true):void {
+			_update = updateBland;
 			_mooching = mooching;
-			if (src){
+			if (src) {
 				source = src;
 			}
 		}
-		private function updateBland(e:Event = null):void
-		{
-			if (!_source){
-				throw new Error("You haven't specified a source DisplayObject for the Doppelganger you're trying to update.")
+		
+		// GETTERS & SETTERS
+		[Exclude(name="graphics", kind="property")]
+		override public function get graphics():Graphics {
+			if (updating) {
+				return super.graphics;
+			} else {
+				return null;
+			}
+		}
+		
+		/**
+		* A copy of the Doppelganger's internal bitmap drawing of the source.
+		*
+		*/
+		public function get bitmapData():BitmapData {
+			use namespace doppelspace;
+			return _frame.clone();
+		}
+		
+		/**
+		* The display object to imitate.
+		*
+		*/
+		public function get source():DisplayObject {
+			return _source;
+		}
+		
+		public function set source(d:DisplayObject):void {
+			
+			if (d == _source) {
+				return;
 			}
 			
+			_update = updateBland;
+			if (_mooching) {
+				if (_source && moochers[_source] == this) {
+					moochers[_source] = undefined;
+				}
+				
+				_source = d;
+				if (moochers[_source]) {
+					buddy = moochers[_source];
+					_update = updateMooching;
+				} else {
+					moochers[_source] = this;
+				}	
+			} else {
+				_source = d;
+			}
+			
+			if (_source) {
+				update();
+			}
+		}
+		
+		// PUBLIC METHODS
+		
+		/**
+		* Refreshes the Doppelganger instance.
+		*
+		* @param	event	 An optional Event param. This allows the method 
+		*	to be passed to addEventListener().
+		*/
+		public function update(event:Event = null):void {
+			_updateFn(event);
+		}
+		
+		// PRIVATE METHODS
+		
+		private function updateBland(event:Event = null):void {
+			if (!_source) {
+				throw new Error("You haven't specified a source DisplayObject for the Doppelganger you're trying to update.");
+			}
+
 			updating = true;
 			graphics.clear();
-			
+
 			_rect = _source.getBounds(_source);
-			
+
 			if (_rect.width && _rect.height) {
 				if (_frame) {
 					_frame.dispose();
@@ -85,10 +161,10 @@ package net.rezmason.display.blix
 			updating = false;
 
 		}
-		private function updateMooching(e:Event = null):void 
-		{
-			if (!_source){
-				throw new Error("You haven't specified a source DisplayObject for the Doppelganger you're trying to update.")
+		
+		private function updateMooching(event:Event = null):void {
+			if (!_source) {
+				throw new Error("You haven't specified a source display object for the Doppelganger you're trying to update.");
 			}
 			if (!buddy || buddy.source != _source) {
 				if (moochers[_source]) {
@@ -96,7 +172,7 @@ package net.rezmason.display.blix
 				} else {
 					moochers[_source] = this;
 					buddy = null;
-					update = updateBland;
+					_update = updateBland;
 					updateBland();
 					return;
 				}
@@ -113,45 +189,6 @@ package net.rezmason.display.blix
 			}
 			
 			updating = false;
-		}
-		public override function get graphics():Graphics
-		{
-			if (updating) {
-				return super.graphics;
-			} else {
-				return null;
-			}
-		}
-		public function get bitmapData():BitmapData
-		{
-			use namespace doppelspace;
-			return _frame.clone();
-		}
-		public function get source():DisplayObject {
-			return _source;
-		}
-		public function set source(d:DisplayObject):void {
-			if (d == _source) {
-				return;
-			}
-			update = updateBland;
-			if (_mooching) {
-				if (_source && moochers[_source] == this) {
-					moochers[_source] = undefined;
-				}
-				_source = d;
-				if (moochers[_source]) {
-					buddy = moochers[_source];
-					update = updateMooching;
-				} else {
-					moochers[_source] = this;
-				}
-			} else {
-				_source = d;
-			}
-			if (_source) {
-				update();
-			}
 		}
 	}
 }

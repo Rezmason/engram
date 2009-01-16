@@ -8,7 +8,7 @@ package net.rezmason.gui {
 		private static const SEG_3:String = "' of type '";
 		private static const SEG_4:String = "'.";
 		
-		// CONSTRUCTOR
+		
 		public function GUIError(className:String, instanceName:String, type:String):void {
 			name = "GUIError";
 			super(SEG_1 + className + SEG_2 + instanceName + SEG_3 + type + SEG_4);

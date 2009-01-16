@@ -6,7 +6,7 @@
 	
 	public final class TetrisScore extends Sprite {
 		
-		// CONSTRUCTOR
+		
 		public function TetrisScore():void {
 			TextField;
 			reset();

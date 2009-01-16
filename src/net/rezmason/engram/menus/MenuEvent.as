@@ -14,14 +14,14 @@ package net.rezmason.engram.menus {
 		internal static const PAUSED_MENU:String = "pausedMenu";
 		internal static const SETTINGS_MENU:String = "settingsMenu";
 		
-		// CONSTRUCTOR
+		
 		public function MenuEvent( type:String, bubbles:Boolean = true, cancelable:Boolean = false ):void {
 			super(type, bubbles, cancelable);
 		}
 		
 		// PUBLIC METHODS
 		
-		override public function clone() : Event {
+		override public function clone():Event {
 			return new MenuEvent(type, bubbles, cancelable);
 		}
 	}
