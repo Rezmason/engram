@@ -72,3 +72,9 @@ What Engram now does is it records the denied request, and remembers not to ask 
 I have two more GUI classes and three GUI elements to create- fun ones- before I finally get around to overhauling the settings menu, which I anticipate will take a week to put together. After that on my list is Gamepad Mode, which I'm not too excited about. I might postpone it, because it's the last item on the list before creating a new module, which I've put off for over a year now.
 
 Maybe this stuff should be on a blog. I wonder if you can backlog a blog.
+
+1/15/09: Tangents will be the end of me. I have two important obstacles between where I am and where I want to be (working on two Engram modules to have them done by the end of March). I need to get the settings menu done ASAP, which I think I can do today if I set my mind to it; then I need to finish implementing the Debug game type, which is a whole different can of worms. Waiting until I have another module to test with, I need to get the canvas system working and the strategy system. Also I'll need to allow the Studio mode to switch modules whenever... I wonder how I'll do that... maybe I'll make a dock on the right side of the game, that contains the icons of the loaded modules, and a "zoom out" button. Also a "Save" button, that'll pop open a dialog box. That should work fine.
+
+Freaking tangents.
+
+Later on, I'll need to patch up some holes that I've left for the sake of saving time, such as the module buffer system. I need to factor time into the project to do user testing as well.

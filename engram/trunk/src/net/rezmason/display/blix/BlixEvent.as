@@ -11,39 +11,54 @@
  * jeremysachs@rezmason.net
  */
 
-
-/* NAME: BlixEvent   PURPOSE: cooler than plain events, because it's got a frame # in it
- * unique properties of BlixEvent:
- * frame- the current frame of the target blix object
- * 
- */
-
- package net.rezmason.display.blix
-{
+ package net.rezmason.display.blix {
+	
+	// IMPORT STATEMENTS
 	import flash.events.Event;
-
-	public class BlixEvent extends Event
-	{
+	
+	/**
+	* 	Event class that contains frame data from a blix-based animation
+	* 
+	*	@author Jeremy Sachs
+	*	@langversion	ActionScript 3.0
+	*	@playerversion	Flash 9
+	*	@tiptext
+	*/
+	public class BlixEvent extends Event {
+		
+		// CLASS PROPERTIES
 		public static  const STOPPED:String = "blixStopped";
 		public static  const ENTER_FRAME:String = "blixEnterFrame";
 		public static  const CALIBRATED:String = "blixCalibrated";
+		
+		// INSTANCE PROPERTIES
 		private var _frame:int;
-
-		public function BlixEvent(type:String, f:int=1):void
-		{
+		
+		/**
+		* Constructor for BlixEvent class.
+		*
+		* @param	type	 The type of event that the instance represents.
+		* @param	frame	 The current frame of the event target.
+		*	
+		*/
+		public function BlixEvent(type:String, frame:int = 1):void {
 			super(type);
-			_frame = f;
+			_frame = frame;
 		}
-		public function get frame():int
-		{
+		
+		/**
+		* The current frame of the event target.
+		*
+		*/
+		public function get frame():int {
 			return _frame;
 		}
 		
-		internal function setFrame(n:int):void {
+		internal function setFrame(value:int):void {
 			_frame = n;
 		}
 		
-		public override function clone() : Event {
+		override public function clone():Event {
 			return new BlixEvent(type, _frame);
 		}
 	}

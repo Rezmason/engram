@@ -11,7 +11,7 @@ package net.rezmason.utils {
 		private var _seed:Number;
 		private var _size:int;
 		
-		// CONSTRUCTOR
+		
 		public function Hat(size:int = 10):void {
 			reset(size);
 		}

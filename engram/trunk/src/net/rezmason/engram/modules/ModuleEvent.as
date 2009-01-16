@@ -12,7 +12,7 @@
 		// INSTANCE PROPERTIES
 		private var _worth:int = 0;
 		
-		// CONSTRUCTOR
+		
 		public function ModuleEvent( type:String, wrth:int = 0, bubbles:Boolean = true, cancelable:Boolean = false ):void {
 			super(type, bubbles, cancelable);
 			_worth = wrth;
@@ -20,7 +20,7 @@
 		
 		// GETTERS & SETTERS
 		
-		public function get worth() : int {
+		public function get worth():int {
 			return _worth;
 		}
 		
@@ -30,7 +30,7 @@
 		
 		// PUBLIC METHODS
 		
-		override public function clone() : Event {
+		override public function clone():Event {
 			return new ModuleEvent(type, worth, bubbles, cancelable);
 		}
 	}

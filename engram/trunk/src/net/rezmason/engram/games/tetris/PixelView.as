@@ -16,7 +16,7 @@
 		private var pieceShape:Shape = new Shape;
 		private var ghostShape:Shape = new Shape;
 		
-		// CONSTRUCTOR
+		
 		public function PixelView():void {
 			
 			board = new BitmapData(12 + 1, 23 + 1, false);
