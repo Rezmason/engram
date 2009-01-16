@@ -80,6 +80,9 @@ package net.rezmason.display.blix {
 			return _loop;
 		}
 		
+		/**
+		*	@private
+		*/
 		public function set loop(value:Boolean):void {
 			_loop = value;
 		}
@@ -104,6 +107,9 @@ package net.rezmason.display.blix {
 			return _timer;
 		}
 		
+		/**
+		*	@private
+		*/
 		public function set timer(value:Timer):void {
 			if (_playing) {
 				_timer.removeEventListener(TimerEvent.TIMER, update);

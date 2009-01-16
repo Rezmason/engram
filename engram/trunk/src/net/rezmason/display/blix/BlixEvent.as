@@ -17,7 +17,7 @@
 	import flash.events.Event;
 	
 	/**
-	* 	Event class that contains frame data from a blix-based animation
+	* 	Event class that contains frame data from a blix-based animation.
 	* 
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
@@ -55,7 +55,7 @@
 		}
 		
 		internal function setFrame(value:int):void {
-			_frame = n;
+			_frame = value;
 		}
 		
 		override public function clone():Event {
