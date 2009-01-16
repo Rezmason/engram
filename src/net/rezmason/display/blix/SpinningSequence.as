@@ -10,23 +10,6 @@
  *
  * jeremysachs@rezmason.net
  */
-
-
-/* NAME: SpinningSequence   PURPOSE: converts an angle to a frame in a rotational sequence
- * unique parameters of SpinningSequence:
- * reflect45- if true, SpinningSequence interprets the source bitmap as angles between 0 and 45
- * 	(rather than those between 0 and 360), and uses matrix transformation to fill in the 
- *	rest of the rotation
- * 
- * unique properties of SpinningSequence:
- * rotation- totally overloaded. Works like standard rotation, just know that it's not.
- *
- * unique functions of SpinningSequence:
- * clone- returns an exact copy of this SpinningSequence
- * 
- * (NOTE: the rectangle you pass to a SpinningSequence will always be made into a square.)
- * 
- */
  
 package net.rezmason.display.blix {
 	
@@ -41,6 +24,8 @@ package net.rezmason.display.blix {
 	
 	/**
 	* 	Sequence that blits based on angle, and overloads the conventional rotation property.
+	*	
+	*	<p>The frame rectangle you pass to a SpinningSequence will always be made into a square.</p>
 	* 
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0

@@ -1,5 +1,7 @@
 Zoomed out to-do:
-	Start commenting everything
+	Start commenting everything (ASDoc's nice)
+		Protected values will need better names, I expect
+		Public variables will need to be reconsidered at the very least
 	Settings menu overhaul
 	BusyBodhi module
 	Arcade game mode & strategy
@@ -76,9 +78,12 @@ Debug menu
 			Arcade, Studio, Drill mode
 			Redraw regions?
 			Total memory
+			World Object
+				Editable Object hierarchy list thing
 		Settings tester
 			Settings panel on the left, scaled to proper dimensions
-			Selectable text block on the right, containing a description of the resulting settings object
+			Settings Object
+				Selectable text block on the right, containing a description of the resulting settings object
 			Generate button
 		Module Approval
 			Only allowed after module survives five minutes in the test chamber.

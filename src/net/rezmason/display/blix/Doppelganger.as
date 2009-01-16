@@ -60,7 +60,7 @@ package net.rezmason.display.blix {
 		* @param	mooching	 Determines whether to attempt to recycle Doppelgangers that imitate the source.
 		*/
 		public function Doppelganger(src:DisplayObject=null, mooching:Boolean = true):void {
-			_update = updateBland;
+			_updateFn = updateBland;
 			_mooching = mooching;
 			if (src) {
 				source = src;
@@ -94,13 +94,16 @@ package net.rezmason.display.blix {
 			return _source;
 		}
 		
+		/**
+		*	@private
+		*/
 		public function set source(d:DisplayObject):void {
 			
 			if (d == _source) {
 				return;
 			}
 			
-			_update = updateBland;
+			_updateFn = updateBland;
 			if (_mooching) {
 				if (_source && moochers[_source] == this) {
 					moochers[_source] = undefined;
@@ -109,7 +112,7 @@ package net.rezmason.display.blix {
 				_source = d;
 				if (moochers[_source]) {
 					buddy = moochers[_source];
-					_update = updateMooching;
+					_updateFn = updateMooching;
 				} else {
 					moochers[_source] = this;
 				}	
@@ -172,7 +175,7 @@ package net.rezmason.display.blix {
 				} else {
 					moochers[_source] = this;
 					buddy = null;
-					_update = updateBland;
+					_updateFn = updateBland;
 					updateBland();
 					return;
 				}
