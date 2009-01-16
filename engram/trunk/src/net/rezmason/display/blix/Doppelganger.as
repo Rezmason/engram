@@ -35,6 +35,7 @@ package net.rezmason.display.blix {
 	*	@playerversion	Flash 9
 	*	@tiptext
 	*/
+	[Exclude(name="graphics", kind="property")]
 	public class Doppelganger extends Shape {
 		
 		// CLASS PROPERTIES
@@ -68,7 +69,6 @@ package net.rezmason.display.blix {
 		}
 		
 		// GETTERS & SETTERS
-		[Exclude(name="graphics", kind="property")]
 		override public function get graphics():Graphics {
 			if (updating) {
 				return super.graphics;
