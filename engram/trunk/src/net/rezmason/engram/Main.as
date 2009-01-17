@@ -395,7 +395,7 @@ package net.rezmason.engram {
 				pausedMenu = new PausedMenu(this),
 				scoreInput = new ScoreInput(this),
 				scoreboard = new Scoreboard(this),
-				]
+				];
 
 			moduleColorManager = new ColorManager(moduleManager);
 
@@ -742,7 +742,7 @@ package net.rezmason.engram {
 				return;
 			}
 
-			var b:Boolean = (event.type == KeyboardEvent.KEY_DOWN);
+			var keyIsDown:Boolean = (event.type == KeyboardEvent.KEY_DOWN);
 			var keyVal:String = keyboardEventToString(event);
 			
 			if (prompt.onscreen) {
@@ -755,27 +755,27 @@ package net.rezmason.engram {
 				case currentModuleLoader :
 				// keyPairs is an Object in the settings.
 				if (keyPairs[keyVal]) {
-					currentModule.inputResponder(keyPairs[keyVal], b);
-				} else if (b && (keyVal == "ESCAPE" || keyVal == "`")) {
+					currentModule.inputResponder(keyPairs[keyVal], keyIsDown);
+				} else if (keyIsDown && (keyVal == "ESCAPE" || keyVal == "`")) {
 					pauseGame();
 				}
 				break;
 
 				case gameMenu :
-				if (b) {
+				if (keyIsDown) {
 					gameMenu.keyResponder(keyVal);
 					handleMenuDefaults(keyVal);
 				}
 				break;
 				
 				case settingsMenu :
-				if (b && !settingsMenu.listening) {
+				if (keyIsDown && !settingsMenu.listening) {
 					handleMenuDefaults(keyVal);
 				}
 				break;
 
 				default :
-				if (b) {
+				if (keyIsDown) {
 					handleMenuDefaults(keyVal);
 				}
 				break;

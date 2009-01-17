@@ -1,11 +1,8 @@
 ============================================================================================
- AS3 Easing Functions
+ Easing Equations v3.0
  June 24, 2008
- Modified by Jeremy Sachs
-============================================================================================
- Easing Equations v2.0
- September 1, 2003
  (c) 2003 Robert Penner, all rights reserved. 
+ Modified by Jeremy Sachs
  This work is subject to the terms in http://www.robertpenner.com/easing_terms_of_use.html.
 ============================================================================================
 
