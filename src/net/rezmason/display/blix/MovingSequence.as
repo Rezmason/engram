@@ -95,6 +95,10 @@ package net.rezmason.display.blix {
 			return _playing;
 		}
 		
+		/**
+		* The current frame of the animation.
+		*
+		*/
 		public function get currentFrame():int {
 			return _currentFrame + 1;
 		}
