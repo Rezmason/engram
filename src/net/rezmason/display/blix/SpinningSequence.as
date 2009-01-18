@@ -23,8 +23,8 @@ package net.rezmason.display.blix {
 	//import fl.motion.MatrixTransformer;
 	
 	/**
-	* 	Sequence that blits based on angle, and overloads the conventional rotation property.
-	*	
+	* Creates a SpinningSequence object that you can use to convert
+	*	a sequence sheet into a rotatable display object.
 	*	<p>The frame rectangle you pass to a SpinningSequence will always be made into a square.</p>
 	* 
 	*	@author Jeremy Sachs

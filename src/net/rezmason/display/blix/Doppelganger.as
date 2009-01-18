@@ -55,7 +55,8 @@ package net.rezmason.display.blix {
 		use namespace doppelspace;
 		
 		/**
-		* Constructor for Doppelganger class.
+		* Creates a Doppelgangers object that you can use
+		*	to draw display objects at multiple locations.
 		*
 		* @param	src	 The display object to imitate.
 		* @param	mooching	 Determines whether to attempt to recycle Doppelgangers that imitate the source.
