@@ -2,6 +2,7 @@ Zoomed out to-do:
 	Start commenting everything (ASDoc's nice)
 		Protected values will need better names, I expect
 		Public variables will need to be reconsidered at the very least
+		Remember to comment public static consts
 	Settings menu overhaul
 	BusyBodhi module
 	Arcade game mode & strategy

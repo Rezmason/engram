@@ -42,7 +42,8 @@ package net.rezmason.display.blix {
 		private var _playing:Boolean = false;
 		
 		/**
-		* Constructor for MovingSequence class.
+		* Creates a MovingSequence object that you can use to convert
+		*	a sequence sheet into an animation.
 		*
 		*	@param	source	 The source sequence sheet.
 		*	@param	rect	 The dimensions of a frame in the sequence sheet.

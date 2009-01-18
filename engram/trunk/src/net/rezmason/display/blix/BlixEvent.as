@@ -35,7 +35,7 @@
 		private var _frame:int;
 		
 		/**
-		* Constructor for BlixEvent class.
+		* Creates a BlixEvent object to pass as a parameter to event listeners.
 		*
 		* @param	type	 The type of event that the instance represents.
 		* @param	frame	 The current frame of the event target.
