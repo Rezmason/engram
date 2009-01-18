@@ -1,8 +1,9 @@
 Zoomed out to-do:
-	Start commenting everything (ASDoc's nice)
+	ASDoc everything
 		Protected values will need better names, I expect
 		Public variables will need to be reconsidered at the very least
 		Remember to comment public static consts
+	Switch everything to resources.swf system
 	Settings menu overhaul
 	BusyBodhi module
 	Arcade game mode & strategy

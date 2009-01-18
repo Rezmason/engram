@@ -18,19 +18,19 @@ package net.rezmason.display {
 		*	
 		*	@see Grid#fill
 		*/
-		public static const RIGHT_TO_LEFT:String = "rightToLeft";S
+		public static const RIGHT_TO_LEFT:String = "rightToLeft";
 		/**
 		*	Constant; adds cells to the Grid from left to right.
 		*	
 		*	@see Grid#fill
 		*/
-		public static const LEFT_TO_RIGHT:String = "leftToRight";S
+		public static const LEFT_TO_RIGHT:String = "leftToRight";
 		/**
 		*	Constant; adds cells to the Grid from top to bottom.
 		*	
 		*	@see Grid#fill
 		*/
-		public static const TOP_TO_BOTTOM:String = "topToBottom";S
+		public static const TOP_TO_BOTTOM:String = "topToBottom";
 		/**
 		*	Constant; adds cells to the Grid from bottom to top.
 		*	
