@@ -236,7 +236,7 @@ function setInheritedVisible(show, selectorText)
 
 function setRowColors(show, selectorText)
 {
-	var rowColor = "#F2F2F2";
+	var rowColor = "#EEEEDD";
 	var table = findObject("summaryTable" + selectorText);
 	if (table != null)
 	{
