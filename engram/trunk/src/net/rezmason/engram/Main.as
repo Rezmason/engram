@@ -9,7 +9,7 @@ package net.rezmason.engram {
 			while (numContents) {
 				stage.addChild(getChildAt(0));
 			}
-			stage.addChild(new Guard(new Controller().view););
+			stage.addChild(new Guard(new Controller().view));
 		}
 	}
 }
