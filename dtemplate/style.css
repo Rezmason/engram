@@ -59,9 +59,7 @@
 	font-size: 12px;
 }
 .titleTableRow3 {
-	height: 5px;
-	background-image: url(images/titleTableBottom.jpg);
-	background-repeat: repeat-x;
+	height: 0px;
 }
 .logoImage {
 	width: 76px;
@@ -105,12 +103,14 @@
 	border: 0;
 }
 .classFrameContent {
+	background-color: #F0EDE0;
 	margin-right: 5px;
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 .classFrameContent td {
+	background-color: #F0EDE0;
 	white-space: nowrap;
 	padding-right: 5px;
 }
@@ -133,12 +133,12 @@ img {
 }
 
 .label {
-	color: #444444;
+	color: #58441D;
 	font-weight: bold;
 }
 
 strong {
-	color: #444444;
+	color: #58441D;
 }
 
 .summarySection {
@@ -166,11 +166,10 @@ html>body .summaryTable {
 }
 .summaryTable th {
 	color: #FFFFFF;
-	background-color: #627C9D;
+	background-color: #807750;
 	white-space: nowrap;
 }
 .summaryTable td {
-	border-top: #999999 1px solid;
 	vertical-align: top;
 }
 .summaryTablePaddingCol {
@@ -207,7 +206,7 @@ html>body .summaryTable {
 	font-weight: bold;
 }
 .summaryTableDescription {
-	color: #333333;
+	color: #884433;
 }
 .summaryTableLastCol {
 	padding-right: 10px;
@@ -280,7 +279,7 @@ html>body .summaryTable {
 
 
 .detailSectionHeader {
-	color: #434343;
+	color: #444400;
 	font-size: 18px;
 	padding-left: 10px;
 	padding-top: 4px;
@@ -409,7 +408,7 @@ table.withBorder {
 
 /* Custom Classes */
 .row0 {
-	background-color: #F2F2F2;
+	background-color: #F1EDDD;
 }
 
 .row1 {
@@ -417,7 +416,7 @@ table.withBorder {
 }
 
 .prow0 {
-	background-color: #F2F2F2;
+	background-color: #F1EDDD;
 }
 
 .prow1 {
@@ -443,23 +442,23 @@ table.withBorder {
 
 /* Links */
 a:link {
-	color: #0000CC;
+	color: #705000;
 	text-decoration: none;
 }
 
 a:visited {
-    color: #0000CC;
+    color: #705000;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #0000CC;
+	color: #705000;
 }
 
 a:active {
 	text-decoration: none;
-	color: #CC0000;
+	color: #803810;
 }
 
 /* Headings */
