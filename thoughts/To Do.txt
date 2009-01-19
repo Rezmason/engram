@@ -119,7 +119,7 @@ Canvas system
 
 Leftovers
 
-	Get Main to handle new modules
+	Get Controller to handle new modules
 		Show prompt
 		Refresh good loader list
 		Refresh strategy, if necessary

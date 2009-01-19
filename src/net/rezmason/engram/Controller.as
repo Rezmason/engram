@@ -48,7 +48,7 @@ package net.rezmason.engram {
 	import net.rezmason.utils.isMac;
 	import net.rezmason.utils.keyboardEventToString;
 	
-	public final class Main {
+	public final class Controller {
 
 		// CLASS PROPERTIES
 		private static  const
@@ -136,7 +136,7 @@ package net.rezmason.engram {
 		private var centerSprite:ColorSprite = new ColorSprite;
 		
 		
-		public function Main(cell:Sprite):void {
+		public function Controller(cell:Sprite):void {
 			
 			_cell = cell;
 			
