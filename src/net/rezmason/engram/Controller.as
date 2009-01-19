@@ -23,6 +23,7 @@ package net.rezmason.engram {
 	import net.rezmason.display.ColorManager;
 	import net.rezmason.display.ColorSprite;
 	import net.rezmason.engram.display.*;
+	/*
 	import net.rezmason.engram.menus.AboutBox;
 	import net.rezmason.engram.menus.DebugMenu;
 	import net.rezmason.engram.menus.ExhibitionIntro;
@@ -34,6 +35,7 @@ package net.rezmason.engram {
 	import net.rezmason.engram.menus.Scoreboard;
 	import net.rezmason.engram.menus.ScoreInput;
 	import net.rezmason.engram.menus.SettingsMenu;
+	*/
 	import net.rezmason.engram.modules.GameType;
 	import net.rezmason.engram.modules.ModuleDefinition;
 	import net.rezmason.engram.modules.ModuleEvent;
@@ -136,23 +138,15 @@ package net.rezmason.engram {
 		private var centerSprite:ColorSprite = new ColorSprite;
 		
 		
-		public function Controller(cell:Sprite):void {
-			
-			_cell = cell;
-			
-			_cell.mouseEnabled = false;
-			
-			_stage = cell.stage;
-			
-			stage.scaleMode = StageScaleMode.SHOW_ALL;
-			stage.tabChildren = stage.stageFocusRect = false;
-			stage.showDefaultContextMenu = false;
-			
-			centerSprite.mouseEnabled = false;
-			centerSprite.x = stage.stageWidth / 2;
-			centerSprite.y = stage.stageHeight / 2;
-
-			_cell.loaderInfo.addEventListener(Event.INIT, init);
+		public function Controller():void {
+			_cell = new Sprite; // change to View soon
+			_cell.addEventListener(Event.ADDED_TO_STAGE, loadResources);
+		}
+		
+		// GETTERS & SETTERS
+		
+		public function get view():Sprite {
+			return _cell;
 		}
 		
 		// PUBLIC METHODS
@@ -359,13 +353,26 @@ package net.rezmason.engram {
 
 		// PRIVATE METHODS
 
-		private function init(event:Event):void {
+		private function loadResources(event:Event):void {
 			
-			_cell.loaderInfo.removeEventListener(Event.INIT, init);
+			_cell.removeEventListener(Event.ADDED_TO_STAGE, loadResources);
+			
+			
+			
+			_cell.mouseEnabled = false;
+			_stage = cell.stage;
+			stage.scaleMode = StageScaleMode.SHOW_ALL;
+			stage.tabChildren = stage.stageFocusRect = false;
+			stage.showDefaultContextMenu = false;
+			
+			centerSprite.mouseEnabled = false;
+			centerSprite.x = stage.stageWidth / 2;
+			centerSprite.y = stage.stageHeight / 2;
 			
 			SettingsManager.appVersion = APP_VERSION;
 			moduleManager = new ModuleManager;
-			moduleManager.grid = startup = new Startup;
+			startup = new Startup(new (Syphon.library.StartupDialog as Class) as DisplayObject);
+			moduleManager.grid = startup;
 			
 			guiManager = GUIManager.INSTANCE;
 			guiManager.stage = stage;
@@ -385,17 +392,17 @@ package net.rezmason.engram {
 			canvas.blendMode = BlendMode.MULTIPLY;
 
 			menus = [
-				mainMenu = new MainMenu(this),
-				gameMenu = new GameMenu(this),
-				gridMenu = new GridMenu(this),
-				debugMenu = new DebugMenu(this),
-				intro = new ExhibitionIntro(this),
-				settingsMenu = new SettingsMenu(this),
-				aboutBox = new AboutBox(this),
-				pausedMenu = new PausedMenu(this),
-				scoreInput = new ScoreInput(this),
-				scoreboard = new Scoreboard(this),
-				];
+				mainMenu = new (Syphon.library.MainMenu as Class)(this),
+				gameMenu = new (Syphon.library.GameMenu as Class)(this),
+				gridMenu = new (Syphon.library.GridMenu as Class)(this),
+				debugMenu = new (Syphon.library.DebugMenu as Class)(this),
+				intro = new (Syphon.library.ExhibitionIntro as Class)(this),
+				settingsMenu = new (Syphon.library.SettingsMenu as Class)(this),
+				aboutBox = new (Syphon.library.AboutBox as Class)(this),
+				pausedMenu = new (Syphon.library.PausedMenu as Class)(this),
+				scoreInput = new (Syphon.library.ScoreInput as Class)(this),
+				scoreboard = new (Syphon.library.Scoreboard as Class)(this),
+			];
 
 			moduleColorManager = new ColorManager(moduleManager);
 
