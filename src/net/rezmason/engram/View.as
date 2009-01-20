@@ -1,26 +1,1 @@
-package net.rezmason.engram {
-	
-	// IMPORT STATEMENTS
-	import flash.display.Sprite;
-
-	public class View extends Sprite {
-		
-		// INSTANCE PROPERTIES
-		private var _controller:Controller;
-		
-		public function View():void {
-			super();
-		}
-		
-		// GETTERS & SETTERS
-		
-		internal function get controller():Controller {
-			return _controller;
-		}
-		
-		internal function set controller(value:Controller):void {
-			_controller = value;
-		}
-	}
-}
-
+﻿package net.rezmason.engram {		// IMPORT STATEMENTS	import flash.display.BlendMode;	import flash.display.DisplayObject;	import flash.display.Shape;	import flash.display.Sprite;	import flash.display.Stage;	import flash.display.StageScaleMode;	import flash.display.StageQuality;	import flash.events.Event;	import flash.events.EventDispatcher;	import flash.events.KeyboardEvent;	import flash.events.MouseEvent;	import flash.events.TimerEvent;	import flash.geom.Point;	import flash.filters.BlurFilter;	import flash.filters.ColorMatrixFilter;	import flash.media.Sound;	import flash.media.SoundMixer;	import flash.media.SoundTransform;	import flash.utils.Timer;		import net.rezmason.display.ColorManager;	import net.rezmason.display.ColorSprite;	import net.rezmason.display.Moment;	import net.rezmason.engram.display.*;	import net.rezmason.engram.menus.MenuBase;	import net.rezmason.engram.modules.GameType;	import net.rezmason.engram.modules.ModuleDefinition;	import net.rezmason.engram.modules.ModuleEvent;	import net.rezmason.engram.modules.ModuleLoader;	import net.rezmason.engram.modules.ModuleManager;	import net.rezmason.gui.AlertData;	import net.rezmason.gui.GUIEvent;	import net.rezmason.gui.GUIManager;	import net.rezmason.gui.GUIWindowWidget;	import net.rezmason.media.SoundManager;	import net.rezmason.net.Syphon;	import net.rezmason.utils.isAIR;	import net.rezmason.utils.isMac;	import net.rezmason.utils.keyboardEventToString;	public class View extends Sprite {				// INSTANCE PROPERTIES		private var _controller:Controller;				public function View():void {			super();		}				// GETTERS & SETTERS				internal function get controller():Controller {			return _controller;		}				internal function set controller(value:Controller):void {			_controller = value;		}				// PUBLIC METHODS		public function showPrompt(event:Event, alert:AlertData, type:AlertType = null, nearClick:Boolean = false):void {		}		public function showMainMenu(event:Event = null):void {		}		public function showGameMenu(event:Event = null):void {		}		public function showGridMenu(allowMultipleSelections:Boolean = true, blurb:String = ""):void {		}		public function showDebugMenu(event:Event = null):void {		}		public function showSettings(event:Event = null):void {		}		public function showAboutBox(event:Event = null):void {		}		public function showDebugButton(event:Event = null):void {		}		public function showScoreboard(event:Event = null):void {		}		public function showLast(event:Event = null):void {		}		public function chooseGame(event:Event = null):void {		}		public function startGame(mix:Array):void {		}		public function endGame(event:Event = null):void {		}		public function resumeGame(event:Event = null):void {		}		public function addScore(event:Event = null, playerName:String = null):void {		}		public function interpretSettings(event:Event = null):void {		}		public function zap(event:Event = null):void {		}	}}
