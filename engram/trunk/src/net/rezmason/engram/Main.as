@@ -10,7 +10,10 @@ package net.rezmason.engram {
 			while (numChildren) {
 				stage.addChild(getChildAt(0));
 			}
-			stage.addChild(new Guard(new Controller().view));
+			
+			var view:View = new View();
+			stage.addChild(new Guard(view));
+			new Controller(view);
 		}
 	}
 }
