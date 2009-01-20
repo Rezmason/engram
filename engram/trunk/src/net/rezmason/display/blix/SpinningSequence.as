@@ -36,7 +36,7 @@ package net.rezmason.display.blix {
 		
 		// CLASS PROPERTIES
 		// Who likes matrices? Whoo hoo! Hee! Hum. hurr.
-		private static  const MATRICES:Array = [
+		private static const MATRICES:Array = [
 		 new Matrix( 1,  0,  0,  1, 0, 0),
 		 new Matrix( 0,  1,  1,  0, 0, 0),
 		 new Matrix( 0,  1, -1,  0, 2, 0),

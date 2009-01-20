@@ -27,9 +27,9 @@
 	public class BlixEvent extends Event {
 		
 		// CLASS PROPERTIES
-		public static  const STOPPED:String = "blixStopped";
-		public static  const ENTER_FRAME:String = "blixEnterFrame";
-		public static  const CALIBRATED:String = "blixCalibrated";
+		public static const STOPPED:String = "blixStopped";
+		public static const ENTER_FRAME:String = "blixEnterFrame";
+		public static const CALIBRATED:String = "blixCalibrated";
 		
 		// INSTANCE PROPERTIES
 		private var _frame:int;
