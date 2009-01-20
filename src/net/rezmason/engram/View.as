@@ -41,10 +41,23 @@ package net.rezmason.engram {
 	import net.rezmason.utils.isMac;
 	import net.rezmason.utils.keyboardEventToString;
 
-	public class View extends Sprite {
+	public final class View extends Sprite {
+
+		// INSTANCE PROPERTIES
+		private function _controller:Controller;
 
 		public function View():void {
 			super();
+		}
+		
+		// GETTERS & SETTERS
+		
+		public function get controller():Controller {
+			return _controller;
+		}
+		
+		public function set controller(value:Controller):void {
+			_controller = value || _controller;
 		}
 	}
 }
