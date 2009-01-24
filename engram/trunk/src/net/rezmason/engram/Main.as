@@ -4,6 +4,8 @@ package net.rezmason.engram {
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.media.Sound;
+	import flash.media.SoundMixer;
+	import flash.media.SoundTransform;
 	
 	import net.rezmason.utils.ActiveGraph;
 	
@@ -13,11 +15,11 @@ package net.rezmason.engram {
 		// CLASS PROPERTIES
 		[Embed(source="startup.mp3")]
 		private static const Bonggg:Class;
+		private static const ON:SoundTransform = new SoundTransform();
 		
 		// INSTANCE PROPERTIES
 		private var guard:Guard;
 		private var bonggg:Sound;
-		private var graph:ActiveGraph = new ActiveGraph(0, true, true, 2);
 		
 		
 		public function Main():void {
@@ -26,32 +28,17 @@ package net.rezmason.engram {
 				stage.addChild(getChildAt(0));
 			}
 			
-			bonggg = new Bonggg() as Sound;
-			
-			bootUp();
-			
-			//showRedrawRegions(true, 0xFFFFFF);
-		}
-		
-		// INTERNAL METHODS
-		
-		internal function bootUp(event:Event = null):void {
-			
-			if (guard) {
-				stage.removeChild(guard);
-				guard.dissolve();
-				guard = null;
-			}
-			
 			var view:View = new View();
 			stage.addChild(guard = new Guard(view));
-			(new Controller(view)).addEventListener("reboot", bootUp, false, 0, true);
+			new Controller(view);
+			//stage.addChild(new ActiveGraph(0, false, true, 2));
+			//showRedrawRegions(true, 0xFFFFFF);
 			
+			bonggg = new Bonggg() as Sound;
 			if (bonggg) {
+				SoundMixer.soundTransform = ON;
 				bonggg.play();
 			}
-			
-			stage.addChild(graph);
 		}
 	}
 }
