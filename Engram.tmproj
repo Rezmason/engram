@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>src/net/rezmason/engram/menus/MenuBase.as</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -143,6 +145,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>src/net/rezmason/engram/menus/GridMenu.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>48</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>21</integer>
+		</dict>
 		<key>src/net/rezmason/engram/menus/GridMenuElement.as</key>
 		<dict>
 			<key>caret</key>
@@ -162,30 +178,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>119</integer>
+				<integer>0</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>91</integer>
-			<key>selectFrom</key>
+			<integer>67</integer>
+		</dict>
+		<key>src/net/rezmason/engram/menus/OldSettingsMenu.as</key>
+		<dict>
+			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>29</integer>
 				<key>line</key>
-				<integer>119</integer>
+				<integer>44</integer>
 			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>119</integer>
-			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>src/net/rezmason/engram/menus/ScoreboardEntry.as</key>
 		<dict>
@@ -200,6 +214,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/menus/SettingsMenu.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>62</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>36</integer>
 		</dict>
 		<key>src/net/rezmason/engram/menus/TraceLogo.as</key>
 		<dict>
@@ -370,6 +398,13 @@
 			<integer>93</integer>
 		</dict>
 	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>src/net/rezmason/engram/menus/SettingsMenu.as</string>
+		<string>src/net/rezmason/engram/menus/MenuBase.as</string>
+		<string>src/net/rezmason/engram/menus/GridMenu.as</string>
+		<string>src/net/rezmason/engram/menus/OldSettingsMenu.as</string>
+	</array>
 	<key>shellVariables</key>
 	<array>
 		<dict>
@@ -401,6 +436,21 @@
 					<dict/>
 				</dict>
 				<key>engram</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
+						<key>menus</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
+					</dict>
+				</dict>
+				<key>gui</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
