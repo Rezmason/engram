@@ -138,7 +138,7 @@ package net.rezmason.display.blix {
 			_updateFn(event);
 		}
 		
-		// PRIVATE METHODS
+		// PRIVATE & PROTECTED METHODS
 		
 		private function updateBland(event:Event = null):void {
 			if (!_source) {
