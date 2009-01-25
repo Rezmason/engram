@@ -111,7 +111,7 @@
 			ghostShape.x = ghost.x + 1, ghostShape.y = ghost.y + 1;
 		}
 		
-		// PRIVATE METHODS
+		// PRIVATE & PROTECTED METHODS
 		
 		private function tenToColor(b:int):uint {
 			var hue:uint;

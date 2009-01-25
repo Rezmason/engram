@@ -241,7 +241,7 @@ package net.rezmason.display.blix {
 			return returnVal;
 		}
 		
-		// PRIVATE METHODS
+		// PRIVATE & PROTECTED METHODS
 		
 		private function safety(event:BlixEvent):void {
 			_currentFrame = 0;

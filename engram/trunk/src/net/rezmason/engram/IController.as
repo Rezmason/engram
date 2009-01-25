@@ -20,6 +20,7 @@ package net.rezmason.engram {
 		function addScore(event:Event = null, playerName:String = null):void;
 		function interpretSettings(event:Event = null):void;
 		function exit(event:Event = null):void;
+		function resetSystem(event:Event):void;
 	}
 }
 
