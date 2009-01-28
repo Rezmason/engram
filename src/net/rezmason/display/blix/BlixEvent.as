@@ -1,9 +1,6 @@
 ﻿/**
- * blix Library 1.0: bitmap augmentation
- * by Jeremy Sachs 9/30/2007
- *
- * I have no blog, yet. When I have one, visit it. 
- * Maybe by then I'll have a new blix library.
+ * blix Library 1.1: bitmap augmentation
+ * by Jeremy Sachs 12/15/2008
  *
  * You may distribute this class freely, provided it is not modified in any way (including
  * removing this header or changing the package path).
@@ -11,14 +8,14 @@
  * jeremysachs@rezmason.net
  */
 
- package net.rezmason.display.blix {
+package net.rezmason.display.blix {
 	
 	// IMPORT STATEMENTS
 	import flash.events.Event;
 	
 	/**
-	* 	Event class that contains frame data from a blix-based animation.
-	* 
+	*	Event class that contains frame data from a blix-based animation.
+	*	
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
 	*	@playerversion	Flash 9
@@ -35,10 +32,10 @@
 		private var _frame:int;
 		
 		/**
-		* Creates a BlixEvent object to pass as a parameter to event listeners.
+		*	Creates a BlixEvent object to pass as a parameter to event listeners.
 		*
-		* @param	type	 The type of event that the instance represents.
-		* @param	frame	 The current frame of the event target.
+		*	@param	type	 The type of event that the instance represents.
+		*	@param	frame	 The current frame of the event target.
 		*	
 		*/
 		public function BlixEvent(type:String, frame:int = 1):void {
@@ -47,7 +44,7 @@
 		}
 		
 		/**
-		* The current frame of the event target.
+		*	The current frame of the event target.
 		*
 		*/
 		public function get frame():int {

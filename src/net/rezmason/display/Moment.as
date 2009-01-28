@@ -5,9 +5,9 @@
 	import flash.events.Event;
 	
 	/**
-	* 	A self-handling movie clip that automatically hides itself when complete.
+	*	A self-handling movie clip that automatically hides itself when complete.
 	*	<p>Intended for use with animated game elements.</p>
-	* 
+	*	
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
 	*	@playerversion	Flash 9
@@ -22,7 +22,7 @@
 		private var _isPlaying:Boolean = false;
 
 		/**
-		* Creates a Moment instance.
+		*	Creates a Moment instance.
 		*	
 		*/
 		public function Moment():void {
@@ -34,7 +34,7 @@
 		// GETTERS & SETTERS
 		
 		/**
-		* Determines whether the Moment is currently playing.
+		*	Determines whether the Moment is currently playing.
 		*
 		*/
 		public function get isPlaying():Boolean {
@@ -42,7 +42,7 @@
 		}
 		
 		/**
-		* @private
+		*	@private
 		*
 		*/
 		public function set isPlaying(value:Boolean):void {
@@ -58,7 +58,7 @@
 		// PUBLIC METHODS
 		
 		/**
-		* Rewinds and begins the timeline of the movie clip.
+		*	Rewinds and begins the timeline of the movie clip.
 		*
 		*/
 		override public function play():void {
@@ -68,7 +68,7 @@
 		}
 		
 		/**
-		* Plays the movie clip from a random point in its timeline.
+		*	Plays the movie clip from a random point in its timeline.
 		*
 		*/
 		public function playRandom():void {
@@ -77,7 +77,7 @@
 		}
 		
 		/**
-		* Stops the playhead in the movie clip and hides the Moment.
+		*	Stops the playhead in the movie clip and hides the Moment.
 		*
 		*/
 		override public function stop():void {

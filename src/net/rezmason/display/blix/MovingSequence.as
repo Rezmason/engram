@@ -1,9 +1,6 @@
 ﻿/**
- * blix Library 1.0: bitmap augmentation
- * by Jeremy Sachs 9/30/2007
- *
- * I have no blog, yet. When I have one, visit it. 
- * Maybe by then I'll have a new blix library.
+ * blix Library 1.1: bitmap augmentation
+ * by Jeremy Sachs 12/15/2008
  *
  * You may distribute this class freely, provided it is not modified in any way (including
  * removing this header or changing the package path).
@@ -22,8 +19,8 @@ package net.rezmason.display.blix {
 	import flash.utils.Timer;
 	
 	/**
-	* 	Sequence that blits over time, and uses the conventional timeline paradigm.
-	* 
+	*	Sequence that blits over time, and uses the conventional timeline paradigm.
+	*	
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
 	*	@playerversion	Flash 9
@@ -42,7 +39,7 @@ package net.rezmason.display.blix {
 		private var _playing:Boolean = false;
 		
 		/**
-		* Creates a MovingSequence object that you can use to convert
+		*	Creates a MovingSequence object that you can use to convert
 		*	a sequence sheet into an animation.
 		*
 		*	@param	source	 The source sequence sheet.
@@ -74,7 +71,7 @@ package net.rezmason.display.blix {
 		// GETTERS & SETTERS
 		
 		/**
-		* Whether the animation is set to loop.
+		*	Whether the animation is set to loop.
 		*
 		*/
 		public function get loop():Boolean {
@@ -89,7 +86,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Whether the animation is currently playing.
+		*	Whether the animation is currently playing.
 		*
 		*/
 		public function get playing():Boolean {
@@ -97,7 +94,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* The current frame of the animation.
+		*	The current frame of the animation.
 		*
 		*/
 		public function get currentFrame():int {
@@ -105,7 +102,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* The Timer object that is "driving" the animation.
+		*	The Timer object that is "driving" the animation.
 		*
 		*/
 		public function get timer():Timer {
@@ -126,7 +123,7 @@ package net.rezmason.display.blix {
 		// PUBLIC METHODS
 		
 		/**
-		* Plays the animation, starting at the current frame.
+		*	Plays the animation, starting at the current frame.
 		*
 		*/
 		public function play():void {
@@ -138,7 +135,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Plays the animation backwards, starting at the current frame.
+		*	Plays the animation backwards, starting at the current frame.
 		*
 		*/
 		public function yalp():void {
@@ -150,7 +147,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Pauses the animation at the current frame.
+		*	Pauses the animation at the current frame.
 		*
 		*/
 		public function stop():void {	
@@ -165,7 +162,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Plays the animation, starting at the specified frame.
+		*	Plays the animation, starting at the specified frame.
 		*
 		*	@param	offset	 The frame to begin the animation.
 		*/
@@ -177,7 +174,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Stops the animation at the specified frame.
+		*	Stops the animation at the specified frame.
 		*
 		*	@param	offset	 The frame to stop the animation.
 		*/
@@ -189,7 +186,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Plays the animation backwards, starting at the specified frame.
+		*	Plays the animation backwards, starting at the specified frame.
 		*
 		*	@param	offset	 The frame to begin the animation.
 		*/
@@ -201,7 +198,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Steps the animation forward one frame.
+		*	Steps the animation forward one frame.
 		*
 		*/
 		public function nextFrame():void {
@@ -212,7 +209,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Steps the animation backward one frame.
+		*	Steps the animation backward one frame.
 		*
 		*/
 		public function prevFrame():void {
@@ -223,7 +220,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* Creates a new MovingSequence object with identical values.
+		*	Creates a new MovingSequence object with identical values.
 		*
 		*	@return		A new MovingSequence object that is identical to the original.
 		*/

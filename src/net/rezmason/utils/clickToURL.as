@@ -7,7 +7,7 @@ package net.rezmason.utils {
 	import flash.net.navigateToURL;
 	
 	/**
-	* Coverts an interactive object to a web link.
+	*	Coverts an interactive object to a web link.
 	*	
 	*	@param	target	The display object that, when clicked, should activate the link.
 	*	@param	request	A <code>URLRequest</code> representing the web location to navigate to.

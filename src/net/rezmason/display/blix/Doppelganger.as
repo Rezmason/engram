@@ -1,9 +1,6 @@
 ﻿/**
- * blix Library 1.0: bitmap augmentation
- * by Jeremy Sachs 9/30/2007
- *
- * I have no blog, yet. When I have one, visit it. 
- * Maybe by then I'll have a new blix library.
+ * blix Library 1.1: bitmap augmentation
+ * by Jeremy Sachs 12/15/2008
  *
  * You may distribute this class freely, provided it is not modified in any way (including
  * removing this header or changing the package path).
@@ -25,17 +22,15 @@ package net.rezmason.display.blix {
 	import flash.utils.Dictionary;
 
 	/**
-	* 	Class that crudely draws a DisplayObject in multiple locations at once.
-	*	Also, an omen for death. 
-	*	<p>Like Sequence, Doppelganger does not allow you to access its graphics property, despite
-	* 	being a subclass of Shape.</p>
-	* 
+	*	Class that crudely draws a DisplayObject in multiple locations at once. 
+	*	Also, an omen for death. <p>Like Sequence, Doppelganger does not allow you 
+	*	to access its graphics property, despite being a subclass of Shape.</p>
+	*	
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
 	*	@playerversion	Flash 9
 	*	@tiptext
 	*/
-	[Exclude(name="graphics", kind="property")]
 	public class Doppelganger extends Shape {
 		
 		// CLASS PROPERTIES
@@ -55,11 +50,11 @@ package net.rezmason.display.blix {
 		use namespace doppelspace;
 		
 		/**
-		* Creates a Doppelgangers object that you can use
+		*	Creates a Doppelgangers object that you can use
 		*	to draw display objects at multiple locations.
 		*
-		* @param	src	 The display object to imitate.
-		* @param	mooching	 Determines whether to attempt to recycle Doppelgangers that imitate the source.
+		*	@param	src	 The display object to imitate.
+		*	@param	mooching	 Determines whether to attempt to recycle Doppelgangers that imitate the source.
 		*/
 		public function Doppelganger(src:DisplayObject=null, mooching:Boolean = true):void {
 			_updateFn = updateBland;
@@ -70,6 +65,11 @@ package net.rezmason.display.blix {
 		}
 		
 		// GETTERS & SETTERS
+		
+		[Exclude(name="graphics", kind="property")]
+		/**
+		*	@private
+		*/
 		override public function get graphics():Graphics {
 			if (updating) {
 				return super.graphics;
@@ -79,7 +79,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* A copy of the Doppelganger's internal bitmap drawing of the source.
+		*	A copy of the Doppelganger's internal bitmap drawing of the source.
 		*
 		*/
 		public function get bitmapData():BitmapData {
@@ -88,7 +88,7 @@ package net.rezmason.display.blix {
 		}
 		
 		/**
-		* The display object to imitate.
+		*	The display object to imitate.
 		*
 		*/
 		public function get source():DisplayObject {
@@ -129,9 +129,9 @@ package net.rezmason.display.blix {
 		// PUBLIC METHODS
 		
 		/**
-		* Refreshes the Doppelganger instance.
+		*	Refreshes the Doppelganger instance.
 		*
-		* @param	event	 An optional Event param. This allows the method 
+		*	@param	event	 An optional Event param. This allows the method 
 		*	to be passed to addEventListener().
 		*/
 		public function update(event:Event = null):void {

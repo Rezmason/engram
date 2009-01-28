@@ -1,8 +1,8 @@
 package net.rezmason.display {
 	
 	/**
-	* 	The GridFill class provides values for fill rules in the Grid class.
-	* 
+	*	The GridFill class provides values for fill rules in the Grid class.
+	*	
 	*	@see Grid
 	*	
 	*	@author Jeremy Sachs
@@ -39,7 +39,7 @@ package net.rezmason.display {
 		public static const BOTTOM_TO_TOP:String = "bottomToTop";
 		
 		/**
-		* 	Returns <code>true</code> if the value is not a valid GridFill type.
+		*	Returns <code>true</code> if the value is not a valid GridFill type.
 		*	
 		*	@param	candidate	The <code>String</code> to evaluate.
 		*	@return	If the <code>candidate</code> is not a proper GridFill type,
