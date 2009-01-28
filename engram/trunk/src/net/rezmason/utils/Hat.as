@@ -4,9 +4,9 @@ package net.rezmason.utils {
 	import de.polygonal.math.PM_PRNG;
 	
 	/**
-	* 	Utility for drawing and discarding random, 
+	*	Utility for drawing and discarding random, 
 	*	potentially seeded numbers from a set.
-	* 
+	*	
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
 	*	@playerversion	Flash 9
@@ -21,7 +21,7 @@ package net.rezmason.utils {
 		private var _size:int;
 		
 		/**
-		* Creates a new Hat instance.
+		*	Creates a new Hat instance.
 		*	
 		*	@param	size	The number of unique elements in the Hat.
 		*/
@@ -43,7 +43,7 @@ package net.rezmason.utils {
 		// PUBLIC METHODS
 		
 		/**
-		* Reinitializes the Hat, resizing and refilling it.
+		*	Reinitializes the Hat, resizing and refilling it.
 		*
 		*	@param	size	The number of unique elements in the Hat.
 		*	@param	seed	The value used to initialize the random numbers
@@ -66,7 +66,7 @@ package net.rezmason.utils {
 		}
 		
 		/**
-		* Selects and discards one element from the Hat.
+		*	Selects and discards one element from the Hat.
 		*	<p>If the Hat is empty, it is automatically refilled.</p>
 		*
 		*	@return	 The unique element picked from that Hat.

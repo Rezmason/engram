@@ -3,7 +3,7 @@ package net.rezmason.utils {
 	import flash.system.Capabilities;
 	
 	/**
-	* 	Returns <code>true</code> if the currently running Flash instance
+	*	Returns <code>true</code> if the currently running Flash instance
 	*	is running on a Macintosh.
 	*	
 	*	@return	If the running Flash instance is running on a Macintosh,

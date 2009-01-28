@@ -1,9 +1,6 @@
 ﻿/*
- * blix Library 1.0: bitmap augmentation
- * by Jeremy Sachs 9/30/2007
- *
- * I have no blog, yet. When I have one, visit it. 
- * Maybe by then I'll have a new blix library.
+ * blix Library 1.1: bitmap augmentation
+ * by Jeremy Sachs 12/15/2008
  *
  * You may distribute this class freely, provided it is not modified in any way (including
  * removing this header or changing the package path).
@@ -23,10 +20,10 @@ package net.rezmason.display.blix {
 	//import fl.motion.MatrixTransformer;
 	
 	/**
-	* Creates a SpinningSequence object that you can use to convert
+	*	Creates a SpinningSequence object that you can use to convert
 	*	a sequence sheet into a rotatable display object.
 	*	<p>The frame rectangle you pass to a SpinningSequence will always be made into a square.</p>
-	* 
+	*	
 	*	@author Jeremy Sachs
 	*	@langversion	ActionScript 3.0
 	*	@playerversion	Flash 9
@@ -54,7 +51,7 @@ package net.rezmason.display.blix {
 		private var _reflect45:Boolean = false;
 
 		/**
-		* Constructor for MovingSequence class.
+		*	Constructor for MovingSequence class.
 		*
 		*	@param	source	 The source sequence sheet.
 		*	@param	rect	 The dimensions of a frame in the sequence sheet.
@@ -116,7 +113,7 @@ package net.rezmason.display.blix {
 		// PUBLIC METHODS
 		
 		/**
-		* Creates a new SpinningSequence object with identical values.
+		*	Creates a new SpinningSequence object with identical values.
 		*
 		*	@return		A new SpinningSequence object that is identical to the original.
 		*/
