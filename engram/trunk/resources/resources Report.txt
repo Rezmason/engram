@@ -1,0 +1,183 @@
+resources.swf Movie Report
+---------------------------
+
+Metadata
+--------
+Bytes    Value
+-----    -----
+ 1241    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-28T14:42:28-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-28T14:42:28-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:BBC1CB270F2068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:44E0A3BA252068119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:44E0A3BA252068119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1        2730735        2730735    Scene 1 (AS 3.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                 84478
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Baddie                                 0             0                     0
+name                                   0             0                     0
+T                                      0             0                     0
+J                                      0             0                     0
+OldLogo                                0             0                     0
+BigKnobDial                            0             0                     0
+BigKnob                                0             0                     0
+CardTabBar                            59             0                     0
+PromptGuts                             0            70                     0
+GridMenuMark                         132             0                     0
+BigArrowButtonBack                   418             0                     0
+BigArrowButton                       136             0                     0
+BigButtonBack                        114             0                     0
+BigButton                             75            34                     0
+BtnKey_Up                              0             0                     0
+BtnKey_Pending                        92             0                     0
+BtnKey                                69            39                     0
+Spike                                 35             0                     0
+MovingSpike                            0             0                     0
+Spikes                                73             0                     0
+BtnKeyFlag                             0             0                     0
+GameTypeButtonBack                   116             0                     0
+FumigateButton                      1005            34                     0
+WindowButton                         126             0                     0
+MacWindowWidget                      274             0                     0
+PauseWidgetBack                        0             0                     0
+PauseWidget                           71            64                     0
+PeeCeeWindowMaximizeImage             74             0                     0
+PeeCeeWindowReduceImage              162             0                     0
+PeeCeeWindowWidget                   411             0                     0
+ArcadeButton                         898            34                     0
+RadioButton_Up                        61             0                     0
+RadioButton_Down                     106             0                     0
+RadioButton                           61             0                     0
+CardTab_Up                           160             0                     0
+CardTab_Down                         148             0                     0
+CardTab                               76            44                     0
+LargeCheckBox_False                  114             0                     0
+LargeCheckBox_True                   169             0                     0
+CheckBoxCheck                        138             0                     0
+LargeCheckBox                          0             0                     0
+LongSmallButtonBack                  192             0                     0
+LongSmallButton                       80            34                     0
+DrillButton                          368            34                     0
+SmallButtonBack                       55             0                     0
+SmallButton                           72            33                     0
+AlertButtonBack                      256             0                     0
+AlertButton                            0            33                     0
+StudioButton                        2869            34                     0
+TraceTarget1                          55             0                     0
+TraceTarget2                         100             0                     0
+TraceTarget3                          57             0                     0
+TraceTarget4                         127             0                     0
+TraceTarget5                          52             0                     0
+TraceTargetTotal                     263             0                     0
+TraceTargetX                          41             0                     0
+TraceLogo                            280             0                     0
+CheckBoxBack                           0             0                     0
+FullScreenSwitchBack                   0             0                     0
+LEDLight                               0             0                     0
+EngramLogo                           106             0                     0
+BadOmen                                0             0                     0
+LogoType                             342             0                     0
+RezmasonLogo                         102             0                     0
+static                                 0             0                     0
+ErrorStatic                            0             0                     0
+DefaultArtIcon                       306             0                     0
+DefaultIcon                          461             0                     0
+FailArtIcon                          367             0                     0
+FailIcon                             456             0                     0
+CannotUndoSymbol                     499             0                     0
+BugSymbol                           1013             0                     0
+DeveloperSymbol                      367             0                     0
+WarningSymbol                        529             0                     0
+DecisionSymbol                       339             0                     0
+ProblemSymbol                        362             0                     0
+ScoreboardEntry                        0            60                     0
+NameInput                            118           139                     0
+RMLinkButton                          34             0                     0
+StartupDialog                        944             0                     0
+AboutBox                             157          2135                     0
+GameMenu                               0           104                     0
+MainMenu                             747             0                     0
+PausedMenu                             0            71                     0
+GridMenu                               0           115                     0
+DebugMenu                              0           133                     0
+Scoreboard                             0           188                     0
+SettingsMenu                           0            34                     0
+ScoreInput                             0           140                     0
+OldSettingsMenu                      461           335                     0
+ExhibitionIntro                        0          1809                     0
+ModuleSliderTrack                   9175             0                     0
+OpenCaseText                           0             0                     0
+OpenCaseInside                        99             0                     0
+OpenCaseBitmap                      2251             0                     0
+ClosedCaseBitmap                     492             0                     0
+ClosedCase                           571             0                     0
+ModuleBorder                         323             0                     0
+ModuleSliderThumb                     50             0                     0
+ModuleUpArrowButton                  168             0                     0
+ModuleDownArrowButton                157             0                     0
+ResetButtonFlash                    1023             0                     0
+ResetButton                          573             0                     0
+OpenCase                            1223             0                     0
+ResetCase                              0             0                     0
+LittleScreen                        3103             0                     0
+LittleWallpaper                      155             0                     0
+LittleGameWindow                     960             0                     0
+ImageMonitor                           0             0                     0
+KeySubmenu                             0             0                     0
+ImageSubmenu                           0             0                     0
+ModuleSubmenu                          0             0                     0
+SoundSubmenu                         578             0                     0
+ResetSubmenu                           0             0                     0
+Canvas                                 0             0                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+ProFont   9 pts               24182     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont Bold  16 pts           4009    ',-./0123456789;=ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]
+ProFont Bold                  11300     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript Bytes    Location
+------------------    --------
+             84478    Scene 1:Frame 1
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+Stripes                          328       65536   Lossless
+ChairCaning                  1412951     2458272   Lossless
+ClosedCaseImage               165919      612020   Lossless
+OpenCaseImage                 231283     1251624   Lossless
+OpenCaseTextImage              27948      562000   Lossless
+RedResetButtonImage             5156       15860   Lossless
+SoundDialImage                 12953     1000000   JPEG Quality=80
+key menu.png                  272976     1200192   Lossless
+static1.png                   114436      480000   JPEG Quality=80
+static2.png                   111179      480000   JPEG Quality=80
+static3.png                   110079      480000   JPEG Quality=80
+
+Event Sounds: 11KHz Mono 16 kbps MP3
+
+
+Sound name                 Bytes        Format    
+-----------------------    ---------    ----------
+TypeSound                     743        11KHz Mono 16 kbps MP3
+StickerSound                 1783        11KHz Mono 16 kbps MP3
+SettingSound                  847        11KHz Mono 16 kbps MP3
+ScoresSound                 19567        11KHz Mono 16 kbps MP3
+PromptSound                  2407        11KHz Mono 16 kbps MP3
+PeelSound                    1263        11KHz Mono 16 kbps MP3
+PanicSound                   1991        11KHz Mono 16 kbps MP3
+MispressSound                 743        11KHz Mono 16 kbps MP3
+HarumphSound                 4175        11KHz Mono 16 kbps MP3
+ErrorSound                   3672        11KHz Mono 16 kbps MP3
+EntrySound                    639        11KHz Mono 16 kbps MP3
+ButtonSound                   743        11KHz Mono 16 kbps MP3
+BadDiskSound                23519        11KHz Mono 16 kbps MP3
+AboutSound                   8127        11KHz Mono 16 kbps MP3
+Button_C-J_Fairba-8443.wav    743        11KHz Mono 16 kbps MP3
+
+
+
+
