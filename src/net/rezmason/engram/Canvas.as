@@ -5,10 +5,8 @@ package net.rezmason.engram {
 	
 	public final class Canvas extends Sprite {
 		
-		public function Canvas()
-		{
+		public function Canvas():void {
 			super();
 		}
-		
 	}
 }

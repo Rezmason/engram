@@ -29,12 +29,10 @@ package net.rezmason.engram.menus {
 		// PRIVATE & PROTECTED METHODS
 		
 		override protected function prepare(event:Event = null):void {
-			trace("prepare:", event);
 			resetCase.switchOff();
 		}
 		
 		override protected function reset(event:Event = null):void {
-			trace("reset:", event);
 			resetCase.switchOff();
 		}
 		
