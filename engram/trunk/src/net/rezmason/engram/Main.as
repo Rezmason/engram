@@ -13,7 +13,7 @@ package net.rezmason.engram {
 	public final class Main extends Sprite {
 		
 		// CLASS PROPERTIES
-		[Embed(source="startup.mp3")]
+		[Embed(source="../../../../resources/startup.mp3")]
 		private static const Bonggg:Class;
 		private static const ON:SoundTransform = new SoundTransform();
 		
