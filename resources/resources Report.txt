@@ -5,15 +5,15 @@ Metadata
 --------
 Bytes    Value
 -----    -----
- 1180    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-28T16:17:24-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-28T16:17:24-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:BBC1CB270F2068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:94BA34F6322068119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:94BA34F6322068119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+ 1180    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-28T21:05:01-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-28T21:05:01-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:BBC1CB270F2068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:95BA34F6322068119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:95BA34F6322068119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
 
 Frame #    Frame Bytes    Total Bytes    Scene
 -------    -----------    -----------    ----------------
-      1        1167268        1167268    Scene 1 (AS 3.0 Classes Export Frame)
+      1        1167632        1167632    Scene 1 (AS 3.0 Classes Export Frame)
 
 Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
-Scene 1                                0             0                 80325
+Scene 1                                0             0                 80313
 
 Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
@@ -65,7 +65,7 @@ SmallButtonBack                       53             0                     0
 SmallButton                           68            32                     0
 AlertButtonBack                      245             0                     0
 AlertButton                            0            32                     0
-StudioButton                        2727            32                     0
+StudioButton                        2729            32                     0
 TraceTarget1                          53             0                     0
 TraceTarget2                          95             0                     0
 TraceTarget3                          54             0                     0
@@ -96,7 +96,7 @@ ProblemSymbol                        344             0                     0
 ScoreboardEntry                        0            57                     0
 NameInput                            112           133                     0
 RMLinkButton                          32             0                     0
-AboutBox                             150          3950                     0
+AboutBox                             150          2030                     0
 GameMenu                               0            98                     0
 MainMenu                             710             0                     0
 PausedMenu                             0            67                     0
@@ -107,23 +107,23 @@ SettingsMenu                           0            32                     0
 ScoreInput                             0           133                     0
 OldSettingsMenu                      439           319                     0
 ExhibitionIntro                        0          1720                     0
-ModuleSliderTrack                   8723             0                     0
+ModuleSliderTrack                   8724             0                     0
 OpenCaseText                           0             0                     0
 OpenCaseInside                        94             0                     0
-OpenCaseBitmap                      2140             0                     0
+OpenCaseBitmap                      2139             0                     0
 ClosedCaseBitmap                     468             0                     0
 ClosedCase                           543             0                     0
-ModuleBorder                         307             0                     0
-ModuleSliderThumb                     48             0                     0
-ModuleUpArrowButton                  160             0                     0
+ModuleBorder                         306             0                     0
+ModuleSliderThumb                     49             0                     0
+ModuleUpArrowButton                  171             0                     0
 ModuleDownArrowButton                150             0                     0
 ResetButtonFlash                     973             0                     0
 ResetButton                          546             0                     0
 OpenCase                            1163             0                     0
 ResetCase                              0             0                     0
-LittleScreen                        2951             0                     0
+LittleScreen                        2949             0                     0
 LittleWallpaper                      148             0                     0
-LittleGameWindow                     913             0                     0
+LittleGameWindow                     908             0                     0
 ImageMonitor                           0             0                     0
 KeySubmenu                             0             0                     0
 ImageSubmenu                           0             0                     0
@@ -134,27 +134,27 @@ Canvas                                 0             0                     0
 
 Font Name                 Bytes        Characters    
 ----------------------    ---------    --------------
-ProFont   9 pts               22992     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont   9 pts               22994     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
 ProFont Bold  16 pts           3812    ',-./0123456789;=ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]
-ProFont Bold                  10744     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont Bold                  10745     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
 
 ActionScript Bytes    Location
 ------------------    --------
-             80325    Scene 1:Frame 1
+             80313    Scene 1:Frame 1
 
 Bitmap                     Compressed    Compression
 -----------------------    ----------  --------  -----------
 Stripes                          311       65536   Lossless
-ChairCaning                   222840     2458272   JPEG Quality=80
-ClosedCaseImage                77079      612020   JPEG Quality=80
-OpenCaseImage                 136922     1251624   JPEG Quality=80
-OpenCaseTextImage              28904      562000   JPEG Quality=80
-RedResetButtonImage             2664       15860   JPEG Quality=80
-SoundDialImage                 12316     1000000   JPEG Quality=80
-key menu.png                  115841     1200192   JPEG Quality=80
-static1.png                   108808      480000   JPEG Quality=80
-static2.png                   105711      480000   JPEG Quality=80
-static3.png                   104665      480000   JPEG Quality=80
+ChairCaning                   222851     2458272   JPEG Quality=80
+ClosedCaseImage                77083      612020   JPEG Quality=80
+OpenCaseImage                 136929     1251624   JPEG Quality=80
+OpenCaseTextImage              28906      562000   JPEG Quality=80
+RedResetButtonImage             2665       15860   JPEG Quality=80
+SoundDialImage                 12317     1000000   JPEG Quality=80
+key menu.png                  115847     1200192   JPEG Quality=80
+static1.png                   108813      480000   JPEG Quality=80
+static2.png                   105716      480000   JPEG Quality=80
+static3.png                   104671      480000   JPEG Quality=80
 
 Event Sounds: 11KHz Mono 16 kbps MP3
 
