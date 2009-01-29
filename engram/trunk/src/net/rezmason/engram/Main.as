@@ -24,21 +24,25 @@ package net.rezmason.engram {
 		
 		public function Main():void {
 			
+			bonggg = new Bonggg() as Sound;
+			if (bonggg) {
+				SoundMixer.soundTransform = ON;
+				bonggg.play().addEventListener(Event.SOUND_COMPLETE, begin, false, 0, true);
+			} else {
+				begin();
+			}
+		}
+		
+		private function begin(event:Event = null):void {
 			while (numChildren) {
 				stage.addChild(getChildAt(0));
 			}
-			
+
 			var view:View = new View();
 			stage.addChild(guard = new Guard(view));
 			new Controller(view);
 			//stage.addChild(new ActiveGraph(0, false, true, 2));
 			//showRedrawRegions(true, 0xFFFFFF);
-			
-			bonggg = new Bonggg() as Sound;
-			if (bonggg) {
-				SoundMixer.soundTransform = ON;
-				bonggg.play();
-			}
 		}
 	}
 }
