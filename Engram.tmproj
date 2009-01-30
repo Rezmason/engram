@@ -13,6 +13,8 @@
 			<date>2009-01-19T20:23:22Z</date>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>thoughts</string>
 			<key>regexFolderFilter</key>
@@ -47,6 +49,20 @@
 	<integer>230</integer>
 	<key>metaData</key>
 	<dict>
+		<key>src/net/rezmason/engram/SettingsManager.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>138</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>111</integer>
+		</dict>
 		<key>src/net/rezmason/engram/Strategy.as</key>
 		<dict>
 			<key>caret</key>
@@ -150,14 +166,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>4</integer>
+				<integer>3</integer>
 				<key>line</key>
-				<integer>152</integer>
+				<integer>240</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+			<integer>213</integer>
+		</dict>
+		<key>src/net/rezmason/engram/menus/Submenu.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
 			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>53</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
 		</dict>
 		<key>src/net/rezmason/engram/menus/TraceLogo.as</key>
 		<dict>
@@ -318,19 +364,22 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>11</integer>
 				<key>line</key>
-				<integer>121</integer>
+				<integer>16</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>93</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>src/net/rezmason/engram/menus/SettingsMenu.as</string>
+		<string>src/net/rezmason/engram/SettingsManager.as</string>
+		<string>thoughts/To Do.txt</string>
+		<string>src/net/rezmason/engram/menus/Submenu.as</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -370,7 +419,21 @@
 						</dict>
 					</dict>
 				</dict>
+				<key>gui</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
 			</dict>
+		</dict>
+		<key>thoughts</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict/>
 		</dict>
 	</dict>
 	<key>windowFrame</key>

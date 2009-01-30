@@ -12,7 +12,8 @@ package net.rezmason.engram.menus {
 		
 		
 		
-		public function ResetSubmenu():void {
+		public function ResetSubmenu(__settingsMenu:SettingsMenu):void {
+			super(__settingsMenu);
 			resetCase.addEventListener("crashDump", ditto);
 			resetCase.addEventListener("reset", ditto);
 			addColorChild(resetCase.openCase.getChildAt(1));
