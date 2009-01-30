@@ -14,13 +14,8 @@ Zoomed out to-do:
 
 Overhaul settings menu
 	Tabbed system
-		Video (screen size, Effects, Smoothing)
-			Allow GUIManager to rerez in non-fullscreen situations
-			Smoothing on/off
-			Buffer on/off
 		Audio (knob for music, knob for effects)
 			Makes feedback sounds as you use it
-		Hard Reset (some kinda serious switch that's hard to flip by mistake)
 		Modules (looks like System 7 prefs)
 			List of modules, alphabetically, with their name, their icon and some toggles
 			Scroll bar
