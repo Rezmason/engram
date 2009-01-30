@@ -23,7 +23,7 @@ package net.rezmason.engram.menus {
 		
 		// PUBLIC METHODS
 		
-		override public function trigger(event:Event = null):void {
+		override internal function trigger(event:Event = null):void {
 			resetCase.switchOn();
 		}
 		

@@ -5,15 +5,15 @@ Metadata
 --------
 Bytes    Value
 -----    -----
- 1177    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-29T21:57:18-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-29T21:57:18-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:688CBA7D752068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:688CBA7D752068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:AC952A63F52068119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:AC952A63F52068119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+ 1177    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-30T00:14:45-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-30T00:14:45-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:688CBA7D752068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:688CBA7D752068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:3E285D14002168119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:3E285D14002168119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
 
 Frame #    Frame Bytes    Total Bytes    Scene
 -------    -----------    -----------    ----------------
-      1        1178178        1178178    Scene 1 (AS 3.0 Classes Export Frame)
+      1        1178251        1178251    Scene 1 (AS 3.0 Classes Export Frame)
 
 Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
-Scene 1                                0             0                 81004
+Scene 1                                0             0                 81091
 
 Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
@@ -163,21 +163,21 @@ ProFont Bold  16 pts           3804    ',-./0123456789;=ABCDEFGHIJKLMNOPQRSTUVWX
 
 ActionScript Bytes    Location
 ------------------    --------
-             81004    Scene 1:Frame 1
+             81091    Scene 1:Frame 1
 
 Bitmap                     Compressed    Compression
 -----------------------    ----------  --------  -----------
 Stripes                          311       65536   Lossless
-ChairCaning                   222384     2458272   JPEG Quality=80
-ClosedCaseImage                76921      612020   JPEG Quality=80
-OpenCaseImage                 136642     1251624   JPEG Quality=80
+ChairCaning                   222381     2458272   JPEG Quality=80
+ClosedCaseImage                76920      612020   JPEG Quality=80
+OpenCaseImage                 136640     1251624   JPEG Quality=80
 OpenCaseTextImage              28845      562000   JPEG Quality=80
 RedResetButtonImage             2659       15860   JPEG Quality=80
 SoundDialImage                 12291     1000000   JPEG Quality=80
-static1.png                   108585      480000   JPEG Quality=80
-static2.png                   105495      480000   JPEG Quality=80
-static3.png                   104451      480000   JPEG Quality=80
-key menu.png                  115604     1200192   JPEG Quality=80
+static1.png                   108584      480000   JPEG Quality=80
+static2.png                   105493      480000   JPEG Quality=80
+static3.png                   104450      480000   JPEG Quality=80
+key menu.png                  115603     1200192   JPEG Quality=80
 
 Event Sounds: 11KHz Mono 16 kbps MP3
 
