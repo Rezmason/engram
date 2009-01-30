@@ -1,21 +1,19 @@
+Continue documenting
+Keep an eye out for messed up stuff
+
 Zoomed out to-do:
-	ASDoc everything
-		Protected values will need better names, I expect
-		Public variables will need to be reconsidered at the very least
-		Remember to comment public static consts
-	Switch everything to resources.swf system
 	Settings menu overhaul
-	BusyBodhi module
+	BusyBodhi module (game)
 	Arcade game mode & strategy
 	Studio game mode & canvas system
-	Debug menu
-	Filling in holes
+	Meanwhile, the debug menu
+	One other game (game)
+	Revisit Tetris game
 
 
 
 Overhaul settings menu
 	Tabbed system
-		Input (looks like an NES controller)
 		Audio (knob for music, knob for effects)
 			Makes feedback sounds as you use it
 		Video (screen size, Effects, Smoothing)

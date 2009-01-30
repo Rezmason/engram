@@ -12,8 +12,8 @@ package net.rezmason.engram.menus {
 		
 		
 		
-		public function SoundSubmenu():void {
-			
+		public function SoundSubmenu(__settingsMenu:SettingsMenu):void {
+			super(__settingsMenu);
 		}
 		
 		// PUBLIC METHODS

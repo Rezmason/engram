@@ -12,8 +12,8 @@ package net.rezmason.engram.menus {
 		
 		
 		
-		public function ImageSubmenu():void {
-			
+		public function ImageSubmenu(__settingsMenu:SettingsMenu):void {
+			super(__settingsMenu);
 		}
 		
 		// PUBLIC METHODS
