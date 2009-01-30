@@ -5,15 +5,15 @@ Metadata
 --------
 Bytes    Value
 -----    -----
- 1176    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-30T04:13:05-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-30T04:13:05-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:688CBA7D752068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:688CBA7D752068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:4948DBA2232168119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:4948DBA2232168119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+ 1175    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-01-30T04:43:43-05:00</xmp:MetadataDate> <xmp:ModifyDate>2009-01-30T04:43:43-05:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:688CBA7D752068119109B979A2F5CF4A</stRef:instanceID> <stRef:documentID>xmp.did:688CBA7D752068119109B979A2F5CF4A</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:DBA4D069292168119109B979A2F5CF4A</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:DBA4D069292168119109B979A2F5CF4A</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
 
 Frame #    Frame Bytes    Total Bytes    Scene
 -------    -----------    -----------    ----------------
-      1        1180211        1180211    Scene 1 (AS 3.0 Classes Export Frame)
+      1        1180343        1180343    Scene 1 (AS 3.0 Classes Export Frame)
 
 Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
-Scene 1                                0             0                 84747
+Scene 1                                0             0                 84998
 
 Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
@@ -127,7 +127,7 @@ Scoreboard                             0           178                     0
 SettingsMenu                           0            94                     0
 ScoreInput                             0           133                     0
 ExhibitionIntro                        0          1715                     0
-ModuleSliderTrack                   7089             0                     0
+ModuleSliderTrack                   7088             0                     0
 OpenCaseText                           0             0                     0
 OpenCaseInside                        93             0                     0
 OpenCaseBitmap                      2133             0                     0
@@ -137,7 +137,7 @@ ModuleBorder                         307             0                     0
 ModuleSliderThumb                     48             0                     0
 ModuleUpArrowButton                  295             0                     0
 ModuleDownArrowButton                324             0                     0
-ResetButtonFlash                     970             0                     0
+ResetButtonFlash                     969             0                     0
 ResetButton                          319             0                     0
 OpenCase                            1159             0                     0
 ResetCase                              0             0                     0
@@ -157,27 +157,27 @@ SquareSpikes                          75             0                     0
 
 Font Name                 Bytes        Characters    
 ----------------------    ---------    --------------
-ProFont   9 pts               22913     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
-ProFont Bold                  10707     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont   9 pts               22910     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont Bold                  10706     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
 ProFont Bold  16 pts           3798    ',-./0123456789;=ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]
 
 ActionScript Bytes    Location
 ------------------    --------
-             84747    Scene 1:Frame 1
+             84998    Scene 1:Frame 1
 
 Bitmap                     Compressed    Compression
 -----------------------    ----------  --------  -----------
 Stripes                          310       65536   Lossless
-ChairCaning                   222066     2458272   JPEG Quality=80
-ClosedCaseImage                76811      612020   JPEG Quality=80
-OpenCaseImage                 136446     1251624   JPEG Quality=80
-OpenCaseTextImage              28804      562000   JPEG Quality=80
+ChairCaning                   222042     2458272   JPEG Quality=80
+ClosedCaseImage                76803      612020   JPEG Quality=80
+OpenCaseImage                 136432     1251624   JPEG Quality=80
+OpenCaseTextImage              28801      562000   JPEG Quality=80
 RedResetButtonImage             2655       15860   JPEG Quality=80
-SoundDialImage                 12273     1000000   JPEG Quality=80
-static1.png                   108430      480000   JPEG Quality=80
-static2.png                   105344      480000   JPEG Quality=80
-static3.png                   104302      480000   JPEG Quality=80
-key menu.png                  115439     1200192   JPEG Quality=80
+SoundDialImage                 12272     1000000   JPEG Quality=80
+static1.png                   108418      480000   JPEG Quality=80
+static2.png                   105333      480000   JPEG Quality=80
+static3.png                   104291      480000   JPEG Quality=80
+key menu.png                  115426     1200192   JPEG Quality=80
 
 Event Sounds: 11KHz Mono 16 kbps MP3
 
