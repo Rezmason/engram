@@ -16,6 +16,12 @@ package net.rezmason.engram.menus {
 			super(__settingsMenu);
 		}
 		
+		// GETTERS & SETTERS
+		
+		override internal function get description():String {
+			return "Crank the overall volume up or down with this knob here.";
+		}
+		
 		// PUBLIC METHODS
 		
 		override internal function trigger(event:Event = null):void {

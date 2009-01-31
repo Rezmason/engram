@@ -29,7 +29,7 @@ package net.rezmason.engram.menus {
 			child = target.getChildAt(ike);
 			if (child is GUIBtnKey || child is GUIButton || child is GUITab || child.name.indexOf("btn") == 0) {
 				child.addEventListener(MouseEvent.MOUSE_DOWN, playButtonSound);
-			} else if (child is GUICheckBox || child is GridMenuElement) {
+			} else if (child is GUICheckBox) {
 				child.addEventListener(MouseEvent.CLICK, playCheckBoxSound);
 			} else if (child is GUIOption) {
 				child.addEventListener(MouseEvent.MOUSE_DOWN, playButtonSound);

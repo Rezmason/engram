@@ -16,6 +16,12 @@ package net.rezmason.engram.menus {
 			super(__settingsMenu);
 		}
 		
+		// GETTERS & SETTERS
+		
+		override internal function get description():String {
+			return "Sometimes a module will have its own settings. You can access those here.";
+		}
+		
 		// PUBLIC METHODS
 		
 		override internal function trigger(event:Event = null):void {
