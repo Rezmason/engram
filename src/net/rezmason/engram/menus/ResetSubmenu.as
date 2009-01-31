@@ -21,6 +21,12 @@ package net.rezmason.engram.menus {
 			addColorChild(resetCase.closedCase.getChildAt(1));
 		}
 		
+		// GETTERS & SETTERS
+		
+		override internal function get description():String {
+			return " ";
+		}
+		
 		// PUBLIC METHODS
 		
 		override internal function trigger(event:Event = null):void {
