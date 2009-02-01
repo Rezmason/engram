@@ -1,0 +1,31 @@
+sanctum
+	engram
+	
+	candidates:
+	
+		pompom - kids' games
+		redrum - violent games
+		
+		anthem - games involving nationality
+		asylum - crazy games
+			autism - games that support autism
+			balsam - light fluffy games
+				bantam - a kind of chicken
+		bedlam - confusing, anarchic games
+		bellum - games involving war
+		dictum - educational games
+				digram - programming games
+				emblem - promotional games (ad games)
+				fathom - games involving the ocean
+				logjam - hypermasculine games
+		magnum - long, large games
+				mayhem - guerrilla games
+			megohm - physics games
+			phylum - biology games
+			quorum - social games
+				ransom - crime games
+		rhythm - music games
+				schism - games about religion
+		tandem - multiplayer games
+			truism - brain games
+			vacuum - space games
