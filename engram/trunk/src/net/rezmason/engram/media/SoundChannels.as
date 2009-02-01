@@ -1,0 +1,1 @@
+﻿package net.rezmason.engram.media {		public final class SoundChannels {				// CLASS PROPERTIES		public static const TYPE:int = 1;		public static const PEEL:int = 2;		public static const MENUS:int = 3;		public static const AMP:int = 4;	}	}
