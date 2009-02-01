@@ -1,15 +1,17 @@
-Continue documenting
-Keep an eye out for messed up stuff
-
 Zoomed out to-do:
-	Settings menu overhaul
+	Settings
 	BusyBodhi module (game)
-	Arcade game mode & strategy
+	Arcade game mode
 	Studio game mode & canvas system
-	Meanwhile, the debug menu
+	Debug menu
+	Module installation / deletion
 	One other game (game)
 	Revisit Tetris game
+	Tie games together
+		Bitmap buffer
+		Shared info
 	Video DVD
+	Deploy
 
 
 Modules settings tab
@@ -40,6 +42,27 @@ Modules settings tab
 
 
 New module- BusyBodhi (organizer)
+
+Arcade Mode
+	Succeeding in a certain game type should pause that game and begin another
+	Use the Hat to pick out which game
+	Maybe players should earn game jumps, and only activate them if they want
+		This will allow module artists to tell their full story, uninterrupted
+	Modules might need time to prepare a new game, or to generate game resources while they're sitting idly
+		A module might need to alert the loader once it is ready
+		A module that takes too long to do this should be discarded
+
+Studio Mode
+	Toolbar containing the icons of the games
+		Also some other controls: color, clear, undo/redo
+		File saving (menu similar to ScoreInput)
+			Signature
+			Drag'n'drop
+	Ability to place a module over the canvas
+		position (drag), rotation and isotropic scaling (scale border scale9grid)
+		play button (circle) in the center
+			Zoom in, play
+			Escape, losing takes you back out
 
 Debug menu
 	
@@ -78,52 +101,22 @@ Debug menu
 				Go show your mom (secret)
 			"Create EGM file" button
 
+Get Controller to handle new modules
+	Show prompt
+	Refresh good loader list
+	Refresh strategy, if necessary
+	Refresh grid menu
+	Success event:
+		It gets appended to the main mix
+		The Modules settings panel gets updated
 
-Maybe players should earn game jumps, and only activate them if they want
-	This will allow artists to tell their full story
+Advanced debug error handling
+	If a module doesn't work properly for some reason, a prompt shows up
+		(already exists as a built-in, isn't a Module subclass, too large, too big onscreen)
+		Listens for Module Loader timeout and alerts the dev
+			Jesus Christ, how big is that thing?
+				That's what she said.
 
-Modules might need time to prepare a new game, or to generate game resources while they're sitting idly
-	A module might need to alert the loader once it is ready
-	A module that takes too long to do this should be discarded
-
-New Strategy class
-Make "enabled modules" object on settings object
-	Booleans with String keys
-		Strings match module names
-
-Bitmap buffer
-Municipal object
-
-Canvas system
-	The canvas should fade out and match color when the game state is not 1 or 4
-	Art file saving system
-
-
-Leftovers
-
-	Get Controller to handle new modules
-		Show prompt
-		Refresh good loader list
-		Refresh strategy, if necessary
-		Refresh grid menu
-		Success event:
-			It gets appended to the main mix
-			The Modules settings panel gets updated
-
-	Test for all module-related situations
-		Coup d'etat situation especially
-
-	Advanced debug error handling
-		If a module doesn't work properly for some reason, a prompt shows up
-			(already exists as a built-in, isn't a Module subclass, too large, too big onscreen)
-			Listens for Module Loader timeout and alerts the dev
-				Jesus Christ, how big is that thing?
-					That's what she said.
-
-	Should EGMs be zipped SWFs?
-
-Can GUIManager hand Baddie a DisplayObject from within the Guard?
-	
 Document everything
 	Write an explanatory text file for net.rezmason.gui package
 	Update class listings, include column that states whether class is intended for common use
@@ -156,7 +149,8 @@ Deployment (by March 2009):
 
 	Copyleft
 
-Later on:
+___________________________
+Next:
 
 Gamepad Mode
 	net.rezmason.gui.IGamepadTarget.compileGUITable(): 
@@ -177,12 +171,7 @@ Gamepad Mode
 	"Let's face it; he was just using you."
 	Gives a blurb about keypad use. Get it?
 		Got it
-
-Ongoing issues: 
-	Are module devs getting useful errors?
-	Remember that the color manager can do stuff besides what it's currently doing
-___________________________
-Next:
+	
 	
 	Version checking
 	Module version checking

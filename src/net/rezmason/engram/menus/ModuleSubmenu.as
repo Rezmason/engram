@@ -14,6 +14,22 @@ package net.rezmason.engram.menus {
 		
 		public function ModuleSubmenu(__settingsMenu:SettingsMenu):void {
 			super(__settingsMenu);
+			
+			addColorChild(window);
+			addColorChild(background, 1);
+			addColorChild(toolbar, 1);
+			addColorChild(btnDelete, 1);
+			addColorChild(btnUpdate, 1);
+			addColorChild(btnUpdate, 1);
+			addColorChild(slider);
+			addColorChild(disabledSlider, 1);
+			
+			btnUpdate.visible = false;
+			
+			disabledSlider.visible = false;
+			
+			slider.scrollToMouse = true;
+			slider.encloseThumb = true;
 		}
 		
 		// GETTERS & SETTERS
