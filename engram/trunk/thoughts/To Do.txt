@@ -12,37 +12,32 @@ Zoomed out to-do:
 	Video DVD
 
 
-Overhaul settings menu
-	Tabbed system
-		Audio (knob for music, knob for effects)
-			Continuous motion, but it clicks at different volumes
-			Amp fuzz
-				Maybe the guys down the hall have something
-		Modules (looks like System 7 prefs)
-			List of modules, alphabetically, with their name, their icon and some toggles
-			Scroll bar
-			Clicking on a module shows its summary text and author text
-				Possibly also shows module-specific settings
-					Make TetrisSettingsView for Tetris module
-			Delete button
-				"Are you positive?" dialog, yes, no
-				Grayed out for built-ins, and when game is being played
-				Complete implementing lastMix
-					When a module is deleted, lastMix must also be spliced, saved, etc.
-			Drag&drop modules in
-				"Poke with a stick" dialog
-					If new module has the same name as an old module, bring up an overwrite alert
-					Successful drop, module list is redrawn and new module is selected
-					Unsuccessful drop, "That's not a module" dialog, retry, close
-						Remember to delete failures
-			SettingsMenu grabs data from ModuleManager
-				The entire module list
-					Gets names, icons, versions and info blurbs (and reference to resetSettings())
-				The entire module settings list
-					Gets module settings
+Modules settings tab
+	List of modules, alphabetically, with their name, their icon and some toggles
+	Scroll bar
+	Clicking on a module shows its summary text and author text
+		Possibly also shows module-specific settings
+			Make TetrisSettingsView for Tetris module
+	Delete button
+		"Are you positive?" dialog, yes, no
+		Grayed out for built-ins, and when game is being played
+		Complete implementing lastMix
+			When a module is deleted, lastMix must also be spliced, saved, etc.
+	Drag&drop modules in
+		"Poke with a stick" dialog
+			If new module has the same name as an old module, bring up an overwrite alert
+			Successful drop, module list is redrawn and new module is selected
+			Unsuccessful drop, "That's not a module" dialog, retry, close
+				Remember to delete failures
+	SettingsMenu gets data from ModuleManager (similar to GridMenu)
+		The entire module list
+			Gets names, icons, versions and info blurbs (and reference to resetSettings())
+		The entire module settings list
+			Gets module settings
 	
 	Default button on each slide
 	Return button
+
 
 New module- BusyBodhi (organizer)
 
