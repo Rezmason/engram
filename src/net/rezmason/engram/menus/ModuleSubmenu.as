@@ -28,6 +28,7 @@ package net.rezmason.engram.menus {
 			
 			disabledSlider.visible = false;
 			
+			slider.defaultPosition = 0;
 			slider.scrollToMouse = true;
 			slider.encloseThumb = true;
 		}
@@ -47,7 +48,7 @@ package net.rezmason.engram.menus {
 		// PRIVATE & PROTECTED METHODS
 		
 		override protected function prepare(event:Event = null):void {
-			
+			slider.position = slider.defaultPosition;
 		}
 		
 		override protected function reset(event:Event = null):void {
