@@ -1,62 +1,1 @@
-package net.rezmason.engram.menus {
-	
-	// IMPORT STATEMENTS
-	import flash.events.Event;
-
-	public final class ModuleSubmenu extends Submenu {
-		
-		// CLASS PROPERTIES
-		
-		
-		// INSTANCE PROPERTIES
-		
-		
-		
-		public function ModuleSubmenu(__settingsMenu:SettingsMenu):void {
-			super(__settingsMenu);
-			
-			addColorChild(window);
-			addColorChild(background, 1);
-			addColorChild(toolbar, 1);
-			addColorChild(btnDelete, 1);
-			addColorChild(btnUpdate, 1);
-			addColorChild(btnUpdate, 1);
-			addColorChild(slider);
-			addColorChild(disabledSlider, 1);
-			
-			btnUpdate.visible = false;
-			
-			disabledSlider.visible = false;
-			
-			slider.defaultPosition = 0;
-			slider.scrollToMouse = true;
-			slider.encloseThumb = true;
-		}
-		
-		// GETTERS & SETTERS
-		
-		override internal function get description():String {
-			return "Sometimes a module will have its own settings. You can access those here.";
-		}
-		
-		// PUBLIC METHODS
-		
-		override internal function trigger(event:Event = null):void {
-			
-		}
-		
-		// PRIVATE & PROTECTED METHODS
-		
-		override protected function prepare(event:Event = null):void {
-			slider.position = slider.defaultPosition;
-		}
-		
-		override protected function reset(event:Event = null):void {
-			
-		}
-		
-		private function ditto(event:Event):void {
-			dispatchEvent(event);
-		}
-	}
-}
+﻿package net.rezmason.engram.menus {		// IMPORT STATEMENTS	import flash.events.Event;		import net.rezmason.engram.modules.ModuleLoader;	import net.rezmason.display.Grid;	public final class ModuleSubmenu extends Submenu {				// CLASS PROPERTIES						// INSTANCE PROPERTIES		private var _list:Array;		private var selectedLoader:ModuleLoader;		private var listGrid:Grid = new Grid;				public function ModuleSubmenu(__settingsMenu:SettingsMenu):void {			super(__settingsMenu);						addColorChild(window);			addColorChild(background, 1);			addColorChild(toolbar, 1);			addColorChild(btnDelete, 1);			addColorChild(btnUpdate, 1);			addColorChild(btnUpdate, 1);			addColorChild(slider);			addColorChild(disabledSlider, 1);						btnUpdate.visible = false;						disabledSlider.visible = false;						slider.defaultPosition = 0;			slider.scrollToMouse = true;			slider.encloseThumb = true;		}				// GETTERS & SETTERS				override internal function get description():String {			return "Sometimes a module will have its own settings. You can access those here.";		}				internal function set list(value:Array):void {			_list = value.splice();					}				// PUBLIC METHODS				override internal function trigger(event:Event = null):void {					}				// PRIVATE & PROTECTED METHODS				override protected function prepare(event:Event = null):void {			slider.position = slider.defaultPosition;			if (_list) {							}		}				override protected function reset(event:Event = null):void {					}				private function ditto(event:Event):void {			dispatchEvent(event);		}	}}
