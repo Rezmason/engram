@@ -40,7 +40,6 @@ Modules settings tab
 	Default button on each slide
 	Return button
 
-
 New module- BusyBodhi (organizer)
 
 Arcade Mode
@@ -63,6 +62,8 @@ Studio Mode
 		play button (circle) in the center
 			Zoom in, play
 			Escape, losing takes you back out
+
+Migrate module definition system to describeType
 
 Debug menu
 	

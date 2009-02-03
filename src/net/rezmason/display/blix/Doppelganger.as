@@ -157,7 +157,7 @@ package net.rezmason.display.blix {
 				_frame = new BitmapData(_rect.width, _rect.height, true, 0);
 				_matrix.tx = -_rect.x, _matrix.ty = -_rect.y;
 				_frame.draw(_source, _matrix);
-				_matrix.tx *= -1, _matrix.ty *= -1;
+				_matrix.tx = -_matrix.tx, _matrix.ty *= -_matrix.ty;
 				graphics.beginBitmapFill(_frame, _matrix);
 				graphics.drawRect(_rect.x, _rect.y, _rect.width, _rect.height);
 				graphics.endFill();
