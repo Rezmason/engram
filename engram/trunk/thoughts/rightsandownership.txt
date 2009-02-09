@@ -3,18 +3,11 @@ Erin & Thesis project:
 Experimental Game Design – ask Ruiz about idea and independent study
 
 How to keep the Bigwigs from ceasing Engram distribution
-	- Come to an agreement beforehand with game makers
-		- Engram is a recognition of their games' impact on society
 
-How to keep RPI from mishandling Engram
-	
-	- Engram is an art project and a community project
-	- If RPI claims ownership, I should have the right to update the module and distribute it and its source code freely
-	- If RPI claims ownership of a module, I should have the right to update the module and distribute it and its source code freely
+- Engram should cost no money and is intended to be open source and freely distributed
+- Engram uses appropriation, which artists can get by with, but perhaps not colleges
+- Presumably, the Engram community will need to be regularly moderated by a dedicated staff
 
-	Points:
-		- Engram should cost no money and is intended to be open source and freely distributed
-		- Engram uses appropriation, which artists can get by with, but perhaps not colleges
-		- Presumably, the Engram community will need to be regularly moderated by a dedicated staff
+- Keep the source code and materials
 
-	- Keep the source code and materials
+- RPI IP Policy for thesis projects: it's tradition to give me all the rights, thank you very much.
