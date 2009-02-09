@@ -1,5 +1,11 @@
+Code structure should tell the story
+	If a pattern exists among encapsulated entities, then it may be worth considering breaking encapsulation to reveal the pattern.
+	
+Make scribble horizontal
+	You wouldn't want to upset Dad would you?
+
 Zoomed out to-do:
-	Settings
+	
 	BusyBodhi module (game)
 	Arcade game mode
 	Studio game mode & canvas system
@@ -12,19 +18,19 @@ Zoomed out to-do:
 		Shared info
 	Video DVD
 	Deploy
+	Fix loading scheme to use manifest
 
-
-Modules settings tab
-	List of modules, alphabetically, with their name, their icon and some toggles
-	Scroll bar
+Module settings tab
 	Clicking on a module shows its summary text and author text
 		Possibly also shows module-specific settings
 			Make TetrisSettingsView for Tetris module
 	Delete button
 		"Are you positive?" dialog, yes, no
+			Give them the option to move the module file to the Desktop
 		Grayed out for built-ins, and when game is being played
 		Complete implementing lastMix
 			When a module is deleted, lastMix must also be spliced, saved, etc.
+		
 	Drag&drop modules in
 		"Poke with a stick" dialog
 			If new module has the same name as an old module, bring up an overwrite alert

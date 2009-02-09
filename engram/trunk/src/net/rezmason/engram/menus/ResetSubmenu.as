@@ -2,8 +2,9 @@ package net.rezmason.engram.menus {
 	
 	// IMPORT STATEMENTS
 	import flash.events.Event;
-
-	public final class ResetSubmenu extends Submenu {
+	
+	
+	public final class ResetSubmenu extends SubmenuBase {
 		
 		// CLASS PROPERTIES
 		
@@ -14,8 +15,6 @@ package net.rezmason.engram.menus {
 		
 		public function ResetSubmenu(__settingsMenu:SettingsMenu):void {
 			super(__settingsMenu);
-			resetCase.addEventListener("crashDump", ditto);
-			resetCase.addEventListener("reset", ditto);
 			addColorChild(resetCase.openCase.getChildAt(1));
 			addColorChild(resetCase.openCase.getChildAt(2), 1);
 			addColorChild(resetCase.closedCase.getChildAt(1));
@@ -41,10 +40,6 @@ package net.rezmason.engram.menus {
 		
 		override protected function reset(event:Event = null):void {
 			resetCase.switchOff();
-		}
-		
-		private function ditto(event:Event):void {
-			dispatchEvent(event);
 		}
 	}
 }
