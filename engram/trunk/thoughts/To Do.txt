@@ -1,6 +1,3 @@
-Code structure should tell the story
-	If a pattern exists among encapsulated entities, then it may be worth considering breaking encapsulation to reveal the pattern.
-	
 Make scribble horizontal
 	You wouldn't want to upset Dad would you?
 
