@@ -78,3 +78,7 @@ Maybe this stuff should be on a blog. I wonder if you can backlog a blog.
 Freaking tangents.
 
 Later on, I'll need to patch up some holes that I've left for the sake of saving time, such as the module buffer system. I need to factor time into the project to do user testing as well.
+
+2/9/09:	I've finally reached a point in the system's development where I can stop and work on a module again! YES. The new settings menu is almost entirely implemented- there're things that are module-specific that I won't be working on just yet- and I've made changes to the GUI classes, and I've cleaned up the View implementation so that events bubble up to the View from menus and submenus. That way, the Controller can just listen for events from View. AWESOME.
+
+Anyway, module time!
