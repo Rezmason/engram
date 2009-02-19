@@ -1,49 +1,65 @@
-Make scribble horizontal
-	You wouldn't want to upset Dad would you?
-
 Zoomed out to-do:
-	
+	Just go ahead and fix the Tetris sounds
 	BusyBodhi module (game)
 	Arcade game mode
 	Studio game mode & canvas system
 	Debug menu
 	Module installation / deletion
+		Migrate module definition system to describeType
+		Fix loading scheme to use manifest
 	One other game (game)
 	Revisit Tetris game
 	Tie games together
 		Bitmap buffer
 		Shared info
 	Video DVD
+	Split out audio from resource SWFs
 	Deploy
-	Fix loading scheme to use manifest
-
-Module settings tab
-	Clicking on a module shows its summary text and author text
-		Possibly also shows module-specific settings
-			Make TetrisSettingsView for Tetris module
-	Delete button
-		"Are you positive?" dialog, yes, no
-			Give them the option to move the module file to the Desktop
-		Grayed out for built-ins, and when game is being played
-		Complete implementing lastMix
-			When a module is deleted, lastMix must also be spliced, saved, etc.
-		
-	Drag&drop modules in
-		"Poke with a stick" dialog
-			If new module has the same name as an old module, bring up an overwrite alert
-			Successful drop, module list is redrawn and new module is selected
-			Unsuccessful drop, "That's not a module" dialog, retry, close
-				Remember to delete failures
-	SettingsMenu gets data from ModuleManager (similar to GridMenu)
-		The entire module list
-			Gets names, icons, versions and info blurbs (and reference to resetSettings())
-		The entire module settings list
-			Gets module settings
-	
-	Default button on each slide
-	Return button
 
 New module- BusyBodhi (organizer)
+	Sync system
+		Detects increase in tempo
+		Plays metronome
+		Different buttons in different categories play different notes on different instruments
+		Get matching to work
+			Base it off of strings
+	Tile system
+		Falling from right side into left
+		Stack on top of each other
+		Can be cleared before they land
+		Continue to fall when blocks beneath them are cleared
+		Categories
+			Arrow
+	Stress detector
+		Stress indicator, too
+	Difficulty ramp
+		Combos get longer
+	Weirdos
+		Implement roundWorm
+		Weirdo frequency increases when 
+	Speed ramp
+	Game over state
+	Themes
+		Organizer
+		Lively
+			Moving Wires
+			RoundWorms everywhere
+			Blurred categories - smooth
+				Proximity = points magnifier
+		Esteemed
+			Parthenon with ivy and golden sunbeams
+			Plaques & certificates
+				Dollar-note style
+			Slows down
+		Weathered
+			Yellowing journal
+			Crinkled post-its
+			Simpler combos
+		Balanced
+			VERTICAL TURN
+			Tree on pond
+			Falling fruit
+			Glistening everywhere
 
 Arcade Mode
 	Succeeding in a certain game type should pause that game and begin another
@@ -66,7 +82,28 @@ Studio Mode
 			Zoom in, play
 			Escape, losing takes you back out
 
-Migrate module definition system to describeType
+Module settings tab
+	Clicking on a module shows its summary text and author text
+		Possibly also shows module-specific settings
+			Make TetrisSettingsView for Tetris module
+	Delete button
+		"Are you positive?" dialog, yes, no
+			Give them the option to move the module file to the Desktop
+		Grayed out for built-ins, and when game is being played
+		Complete implementing lastMix
+			When a module is deleted, lastMix must also be spliced, saved, etc.
+			
+	Drag&drop modules in
+		"Poke with a stick" dialog
+			If new module has the same name as an old module, bring up an overwrite alert
+			Successful drop, module list is redrawn and new module is selected
+			Unsuccessful drop, "That's not a module" dialog, retry, close
+				Remember to delete failures
+	SettingsMenu gets data from ModuleManager (similar to GridMenu)
+		The entire module list
+			Gets names, icons, versions and info blurbs (and reference to resetSettings())
+		The entire module settings list
+			Gets module settings
 
 Debug menu
 	
@@ -126,7 +163,6 @@ Document everything
 	Update class listings, include column that states whether class is intended for common use
 
 Improve audio set
-	Specify Tetris sound channels
 
 Deployment (by March 2009):
 	Engram (AIR app)

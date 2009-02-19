@@ -13,7 +13,7 @@
 		<visible>true</visible>
 	<width>800</width><height>600</height><x>100</x><y>100</y><maximizable>true</maximizable><minimizable>true</minimizable><resizable>true</resizable></initialWindow>
 	<customUpdateUI>false</customUpdateUI>
-	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<allowBrowserInvocation>true</allowBrowserInvocation>
 	<icon>
 		<image16x16>icons/EngramApp_16.png</image16x16>
 		<image32x32>icons/EngramApp_32.png</image32x32>
