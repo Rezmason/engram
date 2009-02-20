@@ -18,17 +18,23 @@ Zoomed out to-do:
 
 New module- BusyBodhi (organizer)
 	Sync system
-		Detects increase in tempo
-		Plays metronome
+		Detects increase, decrease in tempo
+			Fast metronome, actual tick period is multiplied
+			Increase detection: Have the past four beats had half the current period?
+			Decrease detection: "		"		"		"	 double the current period?
+			If period changes, look backwards in history for beats compatible with new period
+				Feed matches through model
 		Different buttons in different categories play different notes on different instruments
 		Get matching to work
-			Base it off of strings
+			Push compatible beats to model
+				Model keeps a string tree
 	Tile system
 		Falling from right side into left
 		Stack on top of each other
 		Can be cleared before they land
 		Continue to fall when blocks beneath them are cleared
 		Categories
+			Multiple match trees in model
 			Arrow
 	Stress detector
 		Stress indicator, too
