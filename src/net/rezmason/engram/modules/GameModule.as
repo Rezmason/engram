@@ -70,43 +70,45 @@
 			super.handleInput(inputType, keyDown);
 		}
 		
-		public function handleKeyA(keyDown:Boolean):void {
+		// PRIVATE & PROTECTED METHODS
+		
+		protected function handleKeyA(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyB(keyDown:Boolean):void {
+		protected function handleKeyB(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyX(keyDown:Boolean):void {
+		protected function handleKeyX(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyY(keyDown:Boolean):void {
+		protected function handleKeyY(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyU(keyDown:Boolean):void {
+		protected function handleKeyU(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyD(keyDown:Boolean):void {
+		protected function handleKeyD(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyL(keyDown:Boolean):void {
+		protected function handleKeyL(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyR(keyDown:Boolean):void {
+		protected function handleKeyR(keyDown:Boolean):void {
 			
 		}
 		
-		public function handleKeyDown(inputType:String):void {
+		protected function handleKeyDown(inputType:String):void {
 			
 		}
 		
-		public function handleKeyUp(inputType:String):void {
+		protected function handleKeyUp(inputType:String):void {
 
 		}
 	}
