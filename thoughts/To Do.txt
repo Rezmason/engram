@@ -43,7 +43,7 @@ New module- BusyBodhi (organizer)
 		Organizer
 		Lively
 			Moving Wires
-			RoundWorms everywhere
+			Pastas everywhere
 			Blurred categories - smooth
 				Proximity = points magnifier
 		Esteemed
