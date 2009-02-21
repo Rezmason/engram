@@ -17,17 +17,11 @@ Zoomed out to-do:
 	Deploy
 
 New module- BusyBodhi (organizer)
-	Sync system
-		Detects increase, decrease in tempo
-			Fast metronome, actual tick period is multiplied
-			Increase detection: Have the past four beats had half the current period?
-			Decrease detection: "		"		"		"	 double the current period?
-			If period changes, look backwards in history for beats compatible with new period
-				Feed matches through model
+	Key system
+		Note speed of each successful combo
 		Different buttons in different categories play different notes on different instruments
 		Get matching to work
-			Push compatible beats to model
-				Model keeps a string tree
+			Model keeps a string tree
 	Tile system
 		Falling from right side into left
 		Stack on top of each other
