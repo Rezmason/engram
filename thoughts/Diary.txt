@@ -82,3 +82,5 @@ Later on, I'll need to patch up some holes that I've left for the sake of saving
 2/9/09:	I've finally reached a point in the system's development where I can stop and work on a module again! YES. The new settings menu is almost entirely implemented- there're things that are module-specific that I won't be working on just yet- and I've made changes to the GUI classes, and I've cleaned up the View implementation so that events bubble up to the View from menus and submenus. That way, the Controller can just listen for events from View. AWESOME.
 
 Anyway, module time!
+
+2/21/09: God dammit! The BusyBodhi module has received hardly ANY attention over the past two weeks. I need to get it playable and nice-looking in a week, and that's that. I've laid out my plan of attack, though, so as long as I keep at it, I should make some serious headway.

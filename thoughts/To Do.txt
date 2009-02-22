@@ -18,10 +18,13 @@ Zoomed out to-do:
 
 New module- BusyBodhi (organizer)
 	Key system
-		Note speed of each successful combo
+		Each key-time pair is sent to Game
+			Game keeps a node tree
+			If there's a match, the match's total speed is computed
+			Any combo bits that currently match are lit up simultaneously
+			When all the bits of a combo are lit, it's cleared and the other bits are unlit
+			If there is no match, all bits are unlit
 		Different buttons in different categories play different notes on different instruments
-		Get matching to work
-			Model keeps a string tree
 	Tile system
 		Falling from right side into left
 		Stack on top of each other
