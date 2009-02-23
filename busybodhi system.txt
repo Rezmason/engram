@@ -1,0 +1,68 @@
+Each track
+	Y has a combo tree
+	Y has a tile set
+	Y has a primary falling tile
+	Y has a falling speed
+	Y has a difficulty level
+
+
+game loop
+	for each track,
+		move the tiles that can fall
+			crazy track's tiles can always fall
+			if a crazy tile has disappeared,
+				remove it (no points)
+				check for current combos again (don't reset window)
+		if the track can fit another tile and has no primary falling tile
+			add a primary tile to the track
+		if the track's primary tile has come to rest,
+			the track has no primary tile
+		adjust panic meter
+		if a track is full,
+			if there are other tracks,
+				remove it
+				update the track arrow
+			otherwise,
+				game over
+	if the current combo has any matches in the current track or crazy track,
+		light up the matching tiles
+		if there is only one match,
+			if there is an exact match,
+				clear the exact match
+				if the match was crazy,
+					increase the craziness frequency
+				add points to score
+				adjust track's difficulty
+				adjust track's speed
+				if the progress threshold has been reached,
+					switch out
+	if the overall game speed has reached the peak value,
+		pick an ending
+			worms
+				stop adding tiles to non-crazy tracks
+				start crazifying existing tiles
+				as normal tracks empty out, remove them
+				if there are no normal tracks left,
+					make the track arrow continuous
+				start adding really crazy tiles to crazy track
+			plaques
+				stop adding tiles to crazy track
+				give new tiles plaque appearance
+				slow the tracks down gradually
+				unlock super-difficult combos
+			stickies
+				stop adding tiles to crazy track
+				give new tiles post-it appearance
+				lower the ceiling on combo difficulty
+			fruits
+				stop adding tiles to non-crazy tracks
+				gradually rotate the gameboard
+				if the gameboard is fully rotated,
+					start adding vine tiles to crazy track
+					gradually move the gameboard downward, transition to the Bodhi image
+					if any tile has disappeared,
+						remove it (no points)
+						check for current combos again (don't reset window)
+		gradually slow speed to a standstill
+			if speed has completely stopped,
+				reset game and switch out
