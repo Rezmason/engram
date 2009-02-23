@@ -5,6 +5,9 @@ Each track
 	Y has a falling speed
 	Y has a difficulty level
 
+Game has background
+	Starts off with elementary composition book
+	Fades to moleskine
 
 game loop
 	for each track,
@@ -39,6 +42,7 @@ game loop
 	if the overall game speed has reached the peak value,
 		pick an ending
 			worms
+				gradual background transition to nothing
 				stop adding tiles to non-crazy tracks
 				start crazifying existing tiles
 				as normal tracks empty out, remove them
@@ -46,11 +50,13 @@ game loop
 					make the track arrow continuous
 				start adding really crazy tiles to crazy track
 			plaques
+				gradual background transition to bank facade
 				stop adding tiles to crazy track
 				give new tiles plaque appearance
 				slow the tracks down gradually
 				unlock super-difficult combos
 			stickies
+				gradual background transition to weathered book
 				stop adding tiles to crazy track
 				give new tiles post-it appearance
 				lower the ceiling on combo difficulty
@@ -59,7 +65,7 @@ game loop
 				gradually rotate the gameboard
 				if the gameboard is fully rotated,
 					start adding vine tiles to crazy track
-					gradually move the gameboard downward, transition to the Bodhi image
+					gradually move the gameboard downward, fade out, transition to the Bodhi image
 					if any tile has disappeared,
 						remove it (no points)
 						check for current combos again (don't reset window)
