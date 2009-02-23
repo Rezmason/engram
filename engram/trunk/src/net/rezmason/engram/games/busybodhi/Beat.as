@@ -1,0 +1,1 @@
+﻿package net.rezmason.engram.games.busybodhi {	internal class Beat {				// INSTANCE PROPERTIES		public var key:int;		public var time:int;		public function Beat(__key:int = -1, __time:int = 0):void {			key = __key;			time = __time;		}				public function toString():String {			return "# " +  key.toString() + " " + time.toString() + " #";		}	}}

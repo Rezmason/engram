@@ -17,28 +17,45 @@ Zoomed out to-do:
 	Deploy
 
 New module- BusyBodhi (organizer)
-	Key system
-		Each key-time pair is sent to Game
-			Game keeps a node tree
+	Beat combo system
+		Each beat-time pair is sent to Game
+			Game keeps a node tree, a "track"
+				
+			
+			Combo class
 			If there's a match, the match's total speed is computed
-			Any combo bits that currently match are lit up simultaneously
-			When all the bits of a combo are lit, it's cleared and the other bits are unlit
-			If there is no match, all bits are unlit
+			Any tiles that currently match are lit up simultaneously
+			When all the beats of a combo are lit, it's cleared and the other beats are unlit
+			If there is no match, all beats are unlit
+			If time exceeds a certain window, beat history is cleared and beats are unlit
+			Time window and tile fall speed are affected by match speed
 		Different buttons in different categories play different notes on different instruments
 	Tile system
-		Falling from right side into left
+		Tile class
+			combo getter, setter
+			move(x);
+			light(...indices);
+			unlight();
+			clear();
+		Falls from right side into left
 		Stack on top of each other
 		Can be cleared before they land
 		Continue to fall when blocks beneath them are cleared
 		Categories
 			Multiple match trees in model
 			Arrow
-	Stress detector
+			If a category fills up, it gets flushed out
+			Categories are added to increase difficulty
+				Min is one (beginning)
+				Max is five
+				Yellow, Blue, Red, Green, Orange
+				Losing all categories loses the game
+	Stress detector - out of the total time played, how much time has been spent with any tile stacked into the panic region?
 		Stress indicator, too
-	Difficulty ramp
-		Combos get longer
+	Difficulty ramp - determined by combo speed
+		Combos get longer and fall time slows a little
 	Weirdos
-		Implement roundWorm
+		Implement pasta
 		Weirdo frequency increases when 
 	Speed ramp
 	Game over state
