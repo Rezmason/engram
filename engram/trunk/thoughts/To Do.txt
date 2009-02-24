@@ -17,17 +17,9 @@ Zoomed out to-do:
 	Deploy
 
 New module- BusyBodhi (organizer)
-	Beat combo system
-		Each beat-time pair is sent to Game
-			If there's a match, the match's total speed is computed
-			Any tiles that currently match are lit up simultaneously
-			When all the beats of a combo are lit, it's cleared and the other beats are unlit
-			If there is no match, all beats are unlit
-			If time exceeds a certain window, beat history is cleared and beats are unlit
-			Time window and tile fall speed are affected by match speed
-		Different buttons in different categories play different notes on different instruments
 	Tile system
-		Tile class
+		TrackSprite class
+		TileSprite class	
 			combo getter, setter
 			move(x);
 			light(...indices);
@@ -46,18 +38,21 @@ New module- BusyBodhi (organizer)
 				Max is five
 				Yellow, Blue, Red, Green, Orange
 				Losing all categories loses the game
+		weirdos
+			pasta
+			yellowed paper
+			plaques
+			vines
+			
 	Stress detector - out of the total time played, how much time has been spent with any tile stacked into the panic region?
 		Stress indicator, too
-	Difficulty ramp - determined by combo speed
-		Combos get longer and fall time slows a little
-	Weirdos
-		Implement pasta
-		Weirdo frequency increases when 
+	Difficulty ramp
+	Craziness frequency
 	Speed ramp
-	Game over state
+	
 	Themes
 		Organizer
-		Lively
+		Loopy
 			Moving Wires
 			Pastas everywhere
 			Blurred categories - smooth
