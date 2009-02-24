@@ -8,5 +8,13 @@ package net.rezmason.engram.games.busybodhi {
 		public function TileSprite():void {
 			
 		}
+
+		internal function appear():void {
+			trace("I have appeared!");
+		}
+
+		internal function clear():void {
+			trace("I am cleared!");
+		}
 	}
 }
