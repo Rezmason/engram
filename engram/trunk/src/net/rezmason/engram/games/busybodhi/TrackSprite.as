@@ -1,12 +1,1 @@
-package net.rezmason.engram.games.busybodhi {
-
-	// IMPORT STATEMENTS
-	import flash.display.Sprite;
-
-	public class TrackSprite extends Sprite {
-
-		public function TrackSprite():void {
-			
-		}
-	}
-}
+﻿package net.rezmason.engram.games.busybodhi {	// IMPORT STATEMENTS	import flash.display.Sprite;	public class TrackSprite extends Sprite {		public function TrackSprite():void {					}				internal function land():void {			trace("I have landed!");		}				internal function die():void {			trace("I am dead!");		}	}}
