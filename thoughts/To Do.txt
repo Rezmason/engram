@@ -1,6 +1,7 @@
 Zoomed out to-do:
-	Just go ahead and fix the Tetris sounds
 	BusyBodhi module (game)
+	Make cursing at the user dependent on whether the files are local or on the network
+		Network = not necessarily their fault
 	Arcade game mode
 	Studio game mode & canvas system
 	Debug menu
@@ -17,38 +18,41 @@ Zoomed out to-do:
 	Deploy
 
 New module- BusyBodhi (organizer)
+	Track creation
+		When a track is made, a spot in the current track sprite is decided on
+		A split is made; the tracks past the split move down
+		The whole track sprite stays centered
+		When it's done opening up, the new track animates in
+		When it's done animating in, the track is initiated
+	Track death
+		When a track dies, it darkens
+		While it's darkened, it cannot be selected
+		When it's completely dark, it animates out
+		When it's done animating out, the other tracks push together
+			The tracks past the dead track move up
+			The whole track sprite stays centered
+			The arrow rests on its current track
+			The arrow tween uses a value-update pair so that the arrow can animate while its target changes position
+	Game logic
+		What determines when a new track is made?
+		What determines the speed of a track?
+		What determines the length of a track's combos?
+		Stress detector - out of the total time played, how much time has been spent with any tile stacked into the panic region?
+			Stress indicator, too
+		Craziness frequency
+		Speed ramp - goes up with user speed, down with track additions, down to the end
+	Beat audio (part of the view)
+		Goes up and down the arpeggio-chord-thingy with A-B-X-Y
+		Different instruments for different tracks
 	Tile system
-		TrackSprite class
-		TileSprite class	
-			combo getter, setter
-			move(x);
-			light(...indices);
-			unlight();
-			clear();
-		Falls from right side into left
-		Stack on top of each other
-		Can be cleared before they land
-		Continue to fall when blocks beneath them are cleared
-		Categories
-			Multiple match trees in model
-			Arrow
-			If a category fills up, it gets flushed out
-			Categories are added to increase difficulty
-				Min is one (beginning)
-				Max is five
-				Yellow, Blue, Red, Green, Orange
-				Losing all categories loses the game
-		weirdos
+		Categories have colors
+			Yellow, Blue, Red, Green, Orange
+		Tile subclasses
 			pasta
 			yellowed paper
 			plaques
 			vines
-			
-	Stress detector - out of the total time played, how much time has been spent with any tile stacked into the panic region?
-		Stress indicator, too
-	Difficulty ramp
-	Craziness frequency
-	Speed ramp
+		Backgrounds
 	
 	Themes
 		Organizer

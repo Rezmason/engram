@@ -8,7 +8,7 @@ package net.rezmason.engram {
 	import flash.media.SoundTransform;
 	import flash.system.System;
 	
-	import net.rezmason.engram.CommonEvents;
+	import net.rezmason.engram.CommonSignals;
 	import net.rezmason.utils.ActiveGraph;
 	
 	[SWF(width='800', height='600', backgroundColor='#000000', frameRate='60')]
@@ -65,7 +65,7 @@ package net.rezmason.engram {
 			_view = new View();
 			stage.addChild(_guard = new Guard(_view));
 			_controller = new Controller(_view);
-			_controller.addEventListener(CommonEvents.RESET_SYSTEM, reset, false, 0, true);
+			_controller.addEventListener(CommonSignals.RESET_SYSTEM, reset, false, 0, true);
 			System.gc();
 			
 			if (_graph) {
