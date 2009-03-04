@@ -68,12 +68,20 @@
 		}
 		
 		/**
+		*	Begins the timeline of the movie clip at the specified frame.
+		*	
+		*/
+		override public function gotoAndPlay(frame:Object, scene:String = null):void {
+			visible = true;
+			super.gotoAndPlay(frame);
+		}
+		
+		/**
 		*	Plays the movie clip from a random point in its timeline.
 		*
 		*/
 		public function playRandom():void {
-			visible = true;
-			super.gotoAndPlay(int(Math.random() * (totalFrames - 1) + 1));
+			gotoAndPlay(int(Math.random() * (totalFrames - 1) + 1));
 		}
 		
 		/**

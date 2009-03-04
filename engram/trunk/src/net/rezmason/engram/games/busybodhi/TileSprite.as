@@ -1,20 +1,1 @@
-package net.rezmason.engram.games.busybodhi {
-
-	// IMPORT STATEMENTS
-	import flash.display.Sprite;
-
-	public class TileSprite extends Sprite {
-
-		public function TileSprite():void {
-			
-		}
-
-		internal function appear():void {
-			trace("I have appeared!");
-		}
-
-		internal function clear():void {
-			trace("I am cleared!");
-		}
-	}
-}
+﻿package net.rezmason.engram.games.busybodhi {	// IMPORT STATEMENTS	import flash.display.Sprite;	import flash.events.Event;	import flash.filters.GlowFilter;	import flash.geom.ColorTransform;		import com.robertpenner.easing.Linear;	import com.robertpenner.easing.Quadratic;	import gs.TweenLite;	public class TileSprite extends Sprite {				private static const COMPLETE_EVENT:Event = new Event(Event.COMPLETE);				private var size:int;		private var beats:Array = [];		private var body:Sprite = new Sprite;		private var glow:GlowFilter = new GlowFilter(0xFFFFFF, 1, 4, 4);		private var tweenTarget:Object = {value:0};		public function TileSprite(combo:String):void {			size = combo.length;						addChild(body);			drawBody();						for (var ike:int = 0; ike < size; ike++) {				addBeat(combo.charAt(ike), ike);			}						placeBeats();		}				internal function appear():void {			TweenLite.killTweensOf(this);			filters = [];			alpha = 0;			TweenLite.to(this, 0.3, {alpha:1, ease:Linear.easeNone});		}		internal function clear():void {			TweenLite.killTweensOf(this);			glow.blurX = glow.blurY = 0;			filters = [glow];			tweenTarget.value = 0;			TweenLite.to(tweenTarget, 0.1, {value:1, onUpdate:updateClear, onComplete:clear2, ease:Quadratic.easeOut});		}				internal function fade():void {			TweenLite.killTweensOf(this);			alpha = 1;			TweenLite.to(this, 2.0, {alpha:0, ease:Quadratic.easeIn});		}				private function updateClear():void {			glow.blurX = glow.blurY = tweenTarget.value * 40;			glow.strength = tweenTarget.value * 2;			filters = [glow];			var brightness:Number = tweenTarget.value * 255;			transform.colorTransform = new ColorTransform(1, 1, 1, 1, brightness, brightness, brightness);		}				private function clear2():void {			alpha = 1;			TweenLite.to(this, 1.0, {alpha:0, onComplete:doneFading, ease:Quadratic.easeOut});		}				private function doneFading():void {			dispatchEvent(COMPLETE_EVENT);		}				private function addBeat(beatType:String, offset:int):void {			var beat:BeatSprite = new BeatSprite(beatType);			addChild(beat);			beat.x = offset * 50;			beats.push(beat);		}				internal function placeBeats():void {			for (var ike:int = 0; ike < size; ike++) {				beats[ike].x = (ike + 0.5) * (beats[ike].width + 10);			}		}				internal function light(length:int):void {			for (var ike:int = 0; ike < length && ike < beats.length; ike++) {				beats[ike].light();			}		}				internal function drawBody():void {			with (body.graphics) {				clear();				beginFill(Math.random() * 0xFFFFFF);				drawRect(0, -0.5 * 50, size * 50, 50);				endFill();			}		}				override public function set x(value:Number):void {			super.x = value;		}				internal function set beatAngle(value:Number):void {			for (var ike:int = 0; ike < size; ike++) {				beats[ike].angle = value;			}		}	}}

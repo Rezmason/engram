@@ -1,0 +1,1 @@
+﻿package net.rezmason.engram.games.busybodhi {	internal class Tile {		// INSTANCE PROPERTIES		internal var altitude:Number = 0;		internal var shift:Number = 0;		internal var size:Number = 1;		internal var address:String = "";		internal var outSpeed:Number = 0;				public function toString():String {			return "[TILE " + address + "]";		}	}}

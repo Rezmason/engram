@@ -9,7 +9,7 @@
 		protected static const GAME_OVER_EVENT:ModuleEvent = new ModuleEvent(ModuleEvent.PLAYER_FAIL);
 		protected static const SUCCEED_EVENT:ModuleEvent = new ModuleEvent(ModuleEvent.PLAYER_SUCCEED);
 		protected var _game:Game;
-		protected var keys:Object = {}
+		protected var keys:Object = {};
 		private var keyHandlers:Object;
 
 		
@@ -58,9 +58,16 @@
 		}
 		
 		override final public function handleInput(inputType:String, keyDown:Boolean = true):void {
+			if (!isPlaying || isPaused) {
+				return;
+			}
+			
 			keys[inputType] = keyDown;
 			if (isPlaying && !isPaused) {
-				keyHandlers[inputType](keyDown);
+				if (keyHandlers[inputType]) {
+					keyHandlers[inputType](keyDown);
+				}
+				
 				if (keyDown) {
 					handleKeyDown(inputType);
 				} else {
