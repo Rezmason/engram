@@ -183,7 +183,7 @@ Document everything
 
 Improve audio set
 
-Deployment (by March 2009):
+Deployment:
 	Engram (AIR app)
 		Buy a certificate later
 			Get it from the Adobe marketplace!
