@@ -12,7 +12,7 @@ package net.rezmason.engram.modules {
 			//"./modules/blank.swf",
 			//"./modules/malicious.swf",
 			"./modules/tetris.egm.swf",
-			"./modules/busybodhi.egm.swf",
+			//"./modules/busybodhi.egm.swf",
 		];
 	}	
 }
