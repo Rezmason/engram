@@ -1,3 +1,7 @@
+Bug list:
+	Grid mixup that one time in Drill menu
+	Debug menu isn't showing up
+
 Zoomed out to-do:
 	BusyBodhi module (game)
 	Make cursing at the user dependent on whether the files are local or on the network
@@ -18,9 +22,17 @@ Zoomed out to-do:
 	Deploy
 
 New module- BusyBodhi (organizer)
+	Game logic
+		What determines when a new track is made?
+		What determines the speed of a track?
+		What determines the length of a track's combos?
+		Stress detector - out of the total time played, how much time has been spent with any tile stacked into the panic region?
+			Stress indicator, too
+		Craziness frequency
+		Speed ramp - goes up with user speed, down with track additions, down to the end
+		What determines success (module jump)?
 	Track creation
-		When a track is made, a spot in the current track sprite is decided on
-		A split is made; the tracks past the split move down
+		A split is made at the new track's insertion point; the tracks past the split move down
 		The whole track sprite stays centered
 		When it's done opening up, the new track animates in
 		When it's done animating in, the track is initiated
@@ -31,16 +43,8 @@ New module- BusyBodhi (organizer)
 		When it's done animating out, the other tracks push together
 			The tracks past the dead track move up
 			The whole track sprite stays centered
-			The arrow rests on its current track
+			The arrow moves with its current track, or with the nearest track
 			The arrow tween uses a value-update pair so that the arrow can animate while its target changes position
-	Game logic
-		What determines when a new track is made?
-		What determines the speed of a track?
-		What determines the length of a track's combos?
-		Stress detector - out of the total time played, how much time has been spent with any tile stacked into the panic region?
-			Stress indicator, too
-		Craziness frequency
-		Speed ramp - goes up with user speed, down with track additions, down to the end
 	Beat audio (part of the view)
 		Goes up and down the arpeggio-chord-thingy with A-B-X-Y
 		Different instruments for different tracks
@@ -239,3 +243,5 @@ Gamepad Mode
 		AIR package and source
 		In-browser playable demo
 		Community (UX Summer 2008)
+		
+	Donations: "baksheesh"

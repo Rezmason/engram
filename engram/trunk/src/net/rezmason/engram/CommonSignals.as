@@ -12,6 +12,7 @@ package net.rezmason.engram {
 		public static const REVEAL_DEBUG_BUTTON:String = "revealDebugButton";
 		public static const SHOW_GAME_GRID:String = "showGameGrid";
 		public static const START_GAME:String = "startGame";
+		public static const PAUSE_GAME:String = "resumeGame";
 		public static const RESUME_GAME:String = "resumeGame";
 		public static const END_GAME:String = "endGame";
 		public static const ADD_SCORE:String = "addScore";
