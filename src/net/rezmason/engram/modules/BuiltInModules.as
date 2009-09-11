@@ -4,6 +4,9 @@ package net.rezmason.engram.modules {
 	
 	internal final class BuiltInModules {
 		
+		// This is an enumeration and not a text file, because I want these defaults baked into the SWF, 
+		// to keep it out of the hands of Anarchists.
+		
 		// CLASS PROPERTIES
 		internal static const GAME_LIST:Array = 
 		[
