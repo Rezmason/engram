@@ -1,6 +1,24 @@
-Bug list:
-	Grid mixup that one time in Drill menu
-	Debug menu isn't showing up
+Things to do in Engram
+	Sync all Syphon versions
+	Maybe allow Syphon to have definition registries indexed by source URL
+	Replace getClass with getDef
+		Doesn't type the return value (it could be a function or namespace)
+	
+	Sync all Syphon versions again
+
+
+Set up shared library system for resources
+	Menus in one SWF, GUI subclasses in another
+	
+
+Noodle, Engram to-do:
+	Improve the Doppelganger's handling of situations where the bounds of the source object have not changed
+		This would allow it to mirror a loader, or the main timeline
+
+
+
+
+
 
 Zoomed out to-do:
 	BusyBodhi module (game)
