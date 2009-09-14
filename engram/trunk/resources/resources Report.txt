@@ -5,15 +5,15 @@ Metadata
 --------
 Bytes    Value
 -----    -----
- 1161    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-09-11T08:04:20-04:00</xmp:MetadataDate> <xmp:ModifyDate>2009-09-11T08:04:20-04:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:5DB4847F07206811A2DC832FFD97D113</stRef:instanceID> <stRef:documentID>xmp.did:5DB4847F07206811A2DC832FFD97D113</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:914C1636822068119109885877E6604E</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:914C1636822068119109885877E6604E</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+ 1161    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2009-01-28T14:40:59-05:00</xmp:CreateDate> <xmp:MetadataDate>2009-09-12T10:41:03-04:00</xmp:MetadataDate> <xmp:ModifyDate>2009-09-12T10:41:03-04:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:5DB4847F07206811A2DC832FFD97D113</stRef:instanceID> <stRef:documentID>xmp.did:5DB4847F07206811A2DC832FFD97D113</stRef:documentID> <stRef:originalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:C25175D6752068119109C8D35C5B9202</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:C25175D6752068119109C8D35C5B9202</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:BBC1CB270F2068119109B979A2F5CF4A</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
 
 Frame #    Frame Bytes    Total Bytes    Scene
 -------    -----------    -----------    ----------------
-      1        1872279        1872279    Scene 1 (AS 3.0 Classes Export Frame)
+      1        1872208        1872208    Scene 1 (AS 3.0 Classes Export Frame)
 
 Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
-Scene 1                                0             0                 99615
+Scene 1                                0             0                 99610
 
 Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
 -------------------------    -----------    ----------    ------------------
@@ -142,7 +142,7 @@ ResetButtonFlash                     958             0                     0
 ResetButton                          315             0                     0
 OpenCase                            1145             0                     0
 ResetCase                              0             0                     0
-LittleScreen                        2902             0                     0
+LittleScreen                        2900             0                     0
 LittleWallpaper                      145             0                     0
 LittleGameWindow                     414             0                     0
 ImageMonitor                           0             0                     0
@@ -170,37 +170,37 @@ BigButtonRightButton                  70             0                     0
 BigButtonMiddle                        0             0                     0
 BigButtonLeft                         38             0                     0
 BigButtonRight                        37             0                     0
-AlertButtonRightButton               225             0                     0
-AlertButtonMiddleButton              201             0                     0
-AlertButtonLeftButton                285             0                     0
+AlertButtonRightButton               220             0                     0
+AlertButtonMiddleButton              191             0                     0
+AlertButtonLeftButton                279             0                     0
 AlertButtonRight                       0             0                     0
 AlertButtonMiddle                      0             0                     0
 AlertButtonLeft                        0             0                     0
 
 Font Name                 Bytes        Characters    
 ----------------------    ---------    --------------
-ProFont   9 pts               22636     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
-ProFont Bold                  10578     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
-ProFont Bold  16 pts           3753    ',-./0123456789;=ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]
+ProFont   9 pts               22635     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont Bold                  10577     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ProFont Bold  16 pts           3752    ',-./0123456789;=ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]
 
 ActionScript Bytes    Location
 ------------------    --------
-             99615    Scene 1:Frame 1
+             99610    Scene 1:Frame 1
 
 Bitmap                     Compressed    Compression
 -----------------------    ----------  --------  -----------
 Stripes                          307       65536   Lossless
-ChairCaning                   219383     2458272   JPEG Quality=80
-ClosedCaseImage                75883      612020   JPEG Quality=80
-OpenCaseImage                 134798     1251624   JPEG Quality=80
-OpenCaseTextImage              28456      562000   JPEG Quality=80
+ChairCaning                   219377     2458272   JPEG Quality=80
+ClosedCaseImage                75881      612020   JPEG Quality=80
+OpenCaseImage                 134794     1251624   JPEG Quality=80
+OpenCaseTextImage              28455      562000   JPEG Quality=80
 RedResetButtonImage             2623       15860   JPEG Quality=80
 SoundDialImage                 12125     1000000   JPEG Quality=80
-static1.png                   107120      480000   JPEG Quality=80
-static2.png                   104071      480000   JPEG Quality=80
-static3.png                   103042      480000   JPEG Quality=80
-key menu.png                  114044     1200192   JPEG Quality=80
-whitewash.png                 213521     1047200   Lossless
+static1.png                   107117      480000   JPEG Quality=80
+static2.png                   104068      480000   JPEG Quality=80
+static3.png                   103039      480000   JPEG Quality=80
+key menu.png                  114041     1200192   JPEG Quality=80
+whitewash.png                 213516     1047200   Lossless
 
 Event Sounds: 44KHz Mono 16 kbps MP3
 
