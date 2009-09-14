@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/net/rezmason/gui/AlertGuts.as</string>
+	<string>thoughts/To Do.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -77,50 +77,6 @@
 			<key>firstVisibleLine</key>
 			<integer>220</integer>
 		</dict>
-		<key>src/net/rezmason/engram/Alerts.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>96</integer>
-				<key>line</key>
-				<integer>34</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>4</integer>
-		</dict>
-		<key>src/net/rezmason/engram/Controller.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>33</integer>
-				<key>line</key>
-				<integer>407</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>368</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>407</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>33</integer>
-				<key>line</key>
-				<integer>407</integer>
-			</dict>
-		</dict>
 		<key>src/net/rezmason/engram/CrashDump.as</key>
 		<dict>
 			<key>caret</key>
@@ -191,66 +147,6 @@
 				<integer>31</integer>
 				<key>line</key>
 				<integer>13</integer>
-			</dict>
-		</dict>
-		<key>src/net/rezmason/engram/display/Prompt.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>15</integer>
-				<key>line</key>
-				<integer>66</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>43</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>66</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>15</integer>
-				<key>line</key>
-				<integer>66</integer>
-			</dict>
-		</dict>
-		<key>src/net/rezmason/engram/display/PromptSurface.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>34</integer>
-				<key>line</key>
-				<integer>55</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>32</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>55</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>34</integer>
-				<key>line</key>
-				<integer>55</integer>
 			</dict>
 		</dict>
 		<key>src/net/rezmason/engram/games/busybodhi/BBSettingsView.as</key>
@@ -353,20 +249,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/menus/MenuBase.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>25</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>2</integer>
-		</dict>
 		<key>src/net/rezmason/engram/menus/PausedMenu.as</key>
 		<dict>
 			<key>caret</key>
@@ -409,36 +291,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>src/net/rezmason/engram/menus/SettingsMenu.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>74</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>60</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>74</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>74</integer>
-			</dict>
-		</dict>
 		<key>src/net/rezmason/engram/menus/TraceLogo.as</key>
 		<dict>
 			<key>caret</key>
@@ -447,20 +299,6 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>src/net/rezmason/engram/modules/BuiltInModules.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>16</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -553,20 +391,6 @@
 				<integer>265</integer>
 			</dict>
 		</dict>
-		<key>src/net/rezmason/gui/AlertGuts.as</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>59</integer>
-				<key>line</key>
-				<integer>349</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>315</integer>
-		</dict>
 		<key>src/net/rezmason/gui/GUIBasic.as</key>
 		<dict>
 			<key>caret</key>
@@ -623,6 +447,20 @@
 			<key>firstVisibleLine</key>
 			<integer>191</integer>
 		</dict>
+		<key>src/net/rezmason/net/Syphon.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>134</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>115</integer>
+		</dict>
 		<key>src/net/rezmason/utils/ActiveGraph.as</key>
 		<dict>
 			<key>caret</key>
@@ -642,9 +480,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>6</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -654,16 +492,8 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>src/net/rezmason/engram/menus/SettingsMenu.as</string>
-		<string>src/net/rezmason/engram/menus/MenuBase.as</string>
 		<string>thoughts/To Do.txt</string>
-		<string>src/net/rezmason/engram/Alerts.as</string>
-		<string>src/net/rezmason/engram/display/Prompt.as</string>
-		<string>src/net/rezmason/engram/display/PromptSurface.as</string>
-		<string>src/net/rezmason/gui/AlertGuts.as</string>
-		<string>src/net/rezmason/engram/modules/BuiltInModules.as</string>
-		<string>src/net/rezmason/engram/modules/ModuleManager.as</string>
-		<string>src/net/rezmason/engram/Controller.as</string>
+		<string>src/net/rezmason/net/Syphon.as</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
