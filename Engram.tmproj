@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/net/rezmason/engram/menus/SoundSubmenu.as</string>
+	<string>src/net/rezmason/engram/modules/ModuleLoader.as</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -68,14 +68,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>11</integer>
+				<integer>21</integer>
 				<key>line</key>
-				<integer>244</integer>
+				<integer>41</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>12</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>41</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>41</integer>
+			</dict>
+		</dict>
+		<key>src/net/rezmason/engram/Controller.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>220</integer>
+			<integer>132</integer>
 		</dict>
 		<key>src/net/rezmason/engram/CrashDump.as</key>
 		<dict>
@@ -90,6 +120,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/Main.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>49</integer>
+				<key>line</key>
+				<integer>46</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>5</integer>
 		</dict>
 		<key>src/net/rezmason/engram/Strategy.as</key>
 		<dict>
@@ -249,6 +293,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>src/net/rezmason/engram/menus/GridMenu.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>88</integer>
+		</dict>
 		<key>src/net/rezmason/engram/menus/PausedMenu.as</key>
 		<dict>
 			<key>caret</key>
@@ -360,6 +418,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>src/net/rezmason/engram/modules/ModuleLoader.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>141</integer>
 		</dict>
 		<key>src/net/rezmason/engram/modules/ModuleLoaderEvent.as</key>
 		<dict>
@@ -494,20 +566,25 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>266</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>101</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>thoughts/To Do.txt</string>
 		<string>src/net/rezmason/engram/menus/SoundSubmenu.as</string>
+		<string>thoughts/To Do.txt</string>
+		<string>src/net/rezmason/engram/Controller.as</string>
+		<string>src/net/rezmason/engram/modules/ModuleLoader.as</string>
+		<string>src/net/rezmason/engram/menus/GridMenu.as</string>
+		<string>src/net/rezmason/display/Grid.as</string>
+		<string>src/net/rezmason/engram/Main.as</string>
 		<string>src/net/rezmason/net/Syphon.as</string>
 	</array>
 	<key>shellVariables</key>
@@ -533,12 +610,26 @@
 			<true/>
 			<key>subItems</key>
 			<dict>
+				<key>display</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
 				<key>engram</key>
 				<dict>
 					<key>isExpanded</key>
 					<true/>
 					<key>subItems</key>
 					<dict>
+						<key>display</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
 						<key>games</key>
 						<dict>
 							<key>isExpanded</key>
@@ -547,6 +638,13 @@
 							<dict/>
 						</dict>
 						<key>menus</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict/>
+						</dict>
+						<key>modules</key>
 						<dict>
 							<key>isExpanded</key>
 							<true/>
