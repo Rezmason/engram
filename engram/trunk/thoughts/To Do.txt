@@ -263,3 +263,5 @@ Gamepad Mode
 		Community (UX Summer 2008)
 		
 	Donations: "baksheesh"
+	
+Nice AS3 Zip API: http://nochump.com/blog/?p=15
